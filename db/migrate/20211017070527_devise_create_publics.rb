@@ -6,6 +6,14 @@ class DeviseCreatePublics < ActiveRecord::Migration[5.2]
       ## Database authenticatable
       t.string :email,              null: false, default: ""
       t.string :encrypted_password, null: false, default: ""
+      t.string :last_name, null: false
+      t.string :first_name, null: false
+      t.string :last_kana_name, null: false
+      t.string :first_kana_name, null: false
+      t.string :address, null: false
+      t.string :postalcode, null: false
+      t.string :telephone, null: false
+      t.boolean :user_status, null: false, default: "FALSE"
 
       ## Recoverable
       t.string   :reset_password_token
