@@ -5,8 +5,9 @@ Rails.application.routes.draw do
     sessions: 'public/sessions'
   }
   
+  root 'public/homes#top'
+  
   namespace :public do
-    root 'public/homes#top'
     get 'public/homes/about',to: "homes#about"
     
     resources :customers, only: [:show, :edit, :update]
