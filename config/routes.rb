@@ -4,7 +4,7 @@ Rails.application.routes.draw do
     registrations: "public/registrations",
     sessions: 'public/sessions'
   }
-
+ #変更
   root 'public/homes#top'
 
   namespace :public do
