@@ -46,6 +46,8 @@ Rails.application.routes.draw do
     resources :orders, only: [:show, :update]
 
     resources :order_items, only: [:update]
+     
+    get 'top2'
 
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
