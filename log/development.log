@@ -146,3 +146,2342 @@ Processing by Rails::WelcomeController#index as HTML
 Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 153.246.254.136 at 2021-10-19 04:42:47 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 1292ms (Views: 1286.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 04:42:51 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 65ms (Views: 63.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 04:43:10 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  Rendered admin/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 59ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 04:43:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  Rendered admin/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 55ms (Views: 54.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:43:25 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.7ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:24: syntax error, unexpected tLABEL
+..., category.all, prompt: prompt: "-- 選択してください...
+...                        ^~~~~~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/admin/items/new.html.erb:24: syntax error, unexpected tLABEL
+app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:44:04 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end
+Started GET "/" for 153.246.254.136 at 2021-10-19 04:45:12 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 257ms (Views: 251.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 04:45:15 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 56.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:45:27 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 44ms (ActiveRecord: 0.7ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:45:29 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/admin/items/new.html.erb:38: syntax error, unexpected end-of-input, expecting end
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:46:27 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (196.5ms)
+Completed 500 Internal Server Error in 202ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `ture' for #<#<Class:0x00007f2eb09a1c68>:0x00007f2eb81058e0>
+Did you mean?  true):
+    1: <%= form_with model: @item, local: ture do |f| %>
+    2: <div>
+    3:  <%= f.label :"商品名" %>
+    4:  <%= f.text_field :name %>
+  
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__1461003697013403179_69919316652240'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:46:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (164.8ms)
+Completed 500 Internal Server Error in 170ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `items_path' for #<#<Class:0x00007f2eb09a1c68>:0x00007f2eb1aea2e0>
+Did you mean?  image_path):
+    1: <%= form_with model: @item, local: true do |f| %>
+    2: <div>
+    3:  <%= f.label :"商品名" %>
+    4:  <%= f.text_field :name %>
+  
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__1461003697013403179_69919263118740'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:51:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (102.1ms)
+Completed 500 Internal Server Error in 116ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `items_path' for #<#<Class:0x00007f2eb1437ad8>:0x00007f2eb143f760>
+Did you mean?  image_path):
+    1: <%= form_with model: @item, local: true do |f| %>
+    2: <div>
+    3:  <%= f.label :"商品名" %>
+    4:  <%= f.text_field :name %>
+  
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__1461003697013403179_69919259592340'
+Started GET "/" for 153.246.254.136 at 2021-10-19 04:51:40 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 253ms (Views: 248.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 04:51:42 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 55ms (Views: 53.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:51:52 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (101.3ms)
+Completed 500 Internal Server Error in 159ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (undefined method `items_path' for #<#<Class:0x00007f56449a9a88>:0x00007f56449ada20>
+Did you mean?  image_path):
+    1: <%= form_with model: @item, local: true do |f| %>
+    2: <div>
+    3:  <%= f.label :"商品名" %>
+    4:  <%= f.text_field :name %>
+  
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__875681326841739123_70004247451220'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:51:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (113.5ms)
+Completed 500 Internal Server Error in 120ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `items_path' for #<#<Class:0x00007f56449a9a88>:0x00007f564525a8a8>
+Did you mean?  image_path):
+    1: <%= form_with model: @item, local: true do |f| %>
+    2: <div>
+    3:  <%= f.label :"商品名" %>
+    4:  <%= f.text_field :name %>
+  
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__875681326841739123_70004252008140'
+Started GET "/" for 153.246.254.136 at 2021-10-19 04:57:27 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 249ms (Views: 244.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:57:37 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (180.6ms)
+Completed 500 Internal Server Error in 198ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (undefined method `attachment_field' for #<ActionView::Helpers::FormBuilder:0x00007fe1dc119688>):
+     7: 
+     8: <div>
+     9:  <%= f.label :"商品画像" %>
+    10:  <%= f.attachment_field :image %>
+    11: </div>
+    12: 
+    13: <div>
+  
+app/views/admin/items/new.html.erb:10:in `block in _app_views_admin_items_new_html_erb___3173376243647444157_70304018196840'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb___3173376243647444157_70304018196840'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:57:40 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (126.2ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `attachment_field' for #<ActionView::Helpers::FormBuilder:0x00007fe1dc37dd48>):
+     7: 
+     8: <div>
+     9:  <%= f.label :"商品画像" %>
+    10:  <%= f.attachment_field :image %>
+    11: </div>
+    12: 
+    13: <div>
+  
+app/views/admin/items/new.html.erb:10:in `block in _app_views_admin_items_new_html_erb___3173376243647444157_70304019183740'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb___3173376243647444157_70304019183740'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 04:59:29 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `attachment' for #<Class:0x00007fe1d52b6240>):
+  
+app/models/item.rb:2:in `<class:Item>'
+app/models/item.rb:1:in `<main>'
+app/controllers/admin/items_controller.rb:3:in `new'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:00:04 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (136.5ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `attachment_field' for #<ActionView::Helpers::FormBuilder:0x00007fe1d56685c8>):
+     7: 
+     8: <div>
+     9:  <%= f.label :"商品画像" %>
+    10:  <%= f.attachment_field :image %>
+    11: </div>
+    12: 
+    13: <div>
+  
+app/views/admin/items/new.html.erb:10:in `block in _app_views_admin_items_new_html_erb___3173376243647444157_70303962267600'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb___3173376243647444157_70303962267600'
+Started GET "/" for 153.246.254.136 at 2021-10-19 05:05:27 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 333ms (Views: 327.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 05:07:14 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 296ms (Views: 290.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:07:37 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 2.3ms)
+
+
+  
+NoMethodError (undefined method `attachment' for #<Class:0x00007f3e280480b8>):
+  
+app/models/item.rb:2:in `<class:Item>'
+app/models/item.rb:1:in `<main>'
+app/controllers/admin/items_controller.rb:3:in `new'
+Started GET "/" for 153.246.254.136 at 2021-10-19 05:10:38 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 580ms (Views: 571.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:10:48 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (54.3ms)
+Completed 500 Internal Server Error in 70ms (ActiveRecord: 0.7ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :category_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb___3711354369244002692_69927582243700'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb___3711354369244002692_69927582243700'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:10:51 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.2ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :category_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb___3711354369244002692_69927604142560'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb___3711354369244002692_69927604142560'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:17:15 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (4.0ms)
+Completed 500 Internal Server Error in 37ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :category_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb___3711354369244002692_69927585445660'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb___3711354369244002692_69927585445660'
+Started GET "/" for 153.246.254.136 at 2021-10-19 05:17:37 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 368ms (Views: 362.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:17:49 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 29ms (ActiveRecord: 0.6ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :category_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb__2338236448036059408_69817153153200'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__2338236448036059408_69817153153200'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:17:52 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :category_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb__2338236448036059408_69817176517760'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__2338236448036059408_69817176517760'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:20:19 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :category_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb__2338236448036059408_69817148987800'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__2338236448036059408_69817148987800'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:23:18 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :categories_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb__2338236448036059408_69817214055740'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__2338236448036059408_69817214055740'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:23:22 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.0ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 4..6)):
+    22: 
+    23: <div>
+    24:  <%= f.label :"ジャンル" %>
+    25:  <%= f.collection_select :categories_id %>
+    26: </div>
+    27: 
+    28: <div>
+  
+app/views/admin/items/new.html.erb:25:in `block in _app_views_admin_items_new_html_erb__2338236448036059408_69817179931800'
+app/views/admin/items/new.html.erb:1:in `_app_views_admin_items_new_html_erb__2338236448036059408_69817179931800'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:25:04 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 69ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:25:09 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 60ms (Views: 58.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:25:56 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bAAaw937g9DrrgcZfRO3OucU7FJT78lfWCrwfcbsbxlhYCQ6lCLUzmQDkHQQ8DFke0VM2Euoh7PRUCa6bHpixQ==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"１０００", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 81ms (Views: 59.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:31:26 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gfHZpiABQYg2HLUONzSJb7keLwQGFnLcgFZxP25aeRqMkedfadgWlrmxImNa1w8xJU+Pjh5RPDAJLKf4xMx0xg==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 96ms (Views: 90.8ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:31:30 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"diyKjKNl0cGCwtGPD0SVydooIMK6/xU8RSqal+UtJN97TLR16ryG3w1vRuJipxOXRnmASKK4W9DMUExQT7spAw==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 64ms (Views: 58.7ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:31:31 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OR69QyiuY8ERdToQvsjPbVfV4aJ+IH/L78BIURQx0A40foO6YXc0357YrX3TK0kzy4RBKGZnMSdmup6Wvqfd0g==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 61ms (Views: 54.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:31:32 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aKx7UpsFjEiS8qYrES8K23kdiN2kVNEy2Rc+o+U3/kZlzEWr0tzbVh1fMUZ8zIyF5UwoV7wTn95QbehkT6Hzmg==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 65ms (Views: 59.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:31:33 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"e0IiBDjaWGYJvomsYHGM/+hCiI3xO0+MwItaPotfdF12Ihz9cQMPeIYTHsENkgqhdBMoB+l8AWBJ8Yz5Icl5gQ==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 63ms (Views: 59.9ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:31:34 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DLBXepCfWgCeQQz6yUU1hq2MBwWvkSm1aZJVbdLoC58B0GmD2UYNHhHsm5ekprPYMd2nj7fWZ1ng6IOqeH4GQw==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 74ms (Views: 68.0ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:31:47 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VpzhkyC48fPNqB+jKAbgrHwc86oEpcJ7cNVH31M6Ofdb/N9qaWGm7UIFiM5F5Wby4E1TIBzijJf5r5EY+aw0Kw==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"ケーキ", "tax_excluded_price"=>"1000", "sale_status"=>"false"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 67ms (Views: 61.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:32:05 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 82ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:32:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SfD0HLKVc9ul99J7UohoT+ZS8GutRObesedBwwuPC05EkMrl+0wkxSpaRRY/a+4RegNQ4bUDqDI4nZcEoRkGkg==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:9
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 70ms (Views: 64.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 05:32:52 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  Rendered admin/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 57ms (Views: 52.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:33:00 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 67ms (Views: 56.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 05:33:02 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 05:33:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"n2EBXIdifx0dgO7pTPv3lpFW6wOD3g5zomiQwJAdv5eSAT+lzrsoA5IteYQhGHHIDQdLiZuZQJ8rEkYHOouySw==", "item"=>{"name"=>"ケーキ", "image"=>"{}", "explanation"=>"", "tax_excluded_price"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 10ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 05:33:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  Rendered admin/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 74ms (Views: 73.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 05:45:10 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  Rendered admin/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 58ms (Views: 53.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 05:45:12 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  Rendered admin/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 69ms (Views: 68.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 06:01:23 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 345ms (Views: 340.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:01:34 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 66ms (Views: 63.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:01:36 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:02:16 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 125ms (Views: 114.4ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:02:48 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1mZdPrs+UOse49fyWUl35vpmcB0PCVIQc1fHm2QlQxjbBmPH8ucH9ZFOQJ80qvG4ZjfQlxdOHPz6LRFczrNOxA==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fa3e052f4a0 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-20891-1q9yf7m.jpg>, @original_filename="applePie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"applePie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"ケーキ", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 18ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:02:48 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:05:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 64ms (Views: 60.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:05:30 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 117ms (Views: 111.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:05:37 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 68ms (Views: 59.6ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:05:52 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"nxWpLqC8OmQHV+oCjGTGlnQCeLmNkC5MInRWqrYPNzmSdZfX6WVteoj6fW/hh0DI6FPYM5XXYKCrDoBtHJk65Q==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fa3d47ddbe0 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-20891-1xxzjoc.jpg>, @original_filename="applePie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"applePie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 23ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:05:53 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:06:45 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 68ms (Views: 58.5ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:06:58 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UWokhbcrqZkxatOym1ZeA3YhC/qWU7nkFg9Qq6vovSZcChp8/vL+h77HRN/2tdhd6nCrcI4U9wifdYZsAX6w+g==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fa3d4827d08 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-20891-1gysz8g.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionController::UrlGenerationError (No route matches {:action=>"show", :controller=>"admin/items", :id=>nil}, missing required keys: [:id]):
+  
+app/controllers/admin/items_controller.rb:9:in `create'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:14:52 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:15:08 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 106ms (Views: 92.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:15:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 56ms (Views: 55.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:15:29 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"csP/IJ0UG36hUk9+3wpAg+kljpT6dqnIl+z5T8o7pdJ/o8HZ1M1MYC7/2BOy6cbddXQuHuIx5yQeli+IYK2oDg==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fa3d81bcf00 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-20891-101worr.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 23ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:15:29 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:15:51 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  Rendered admin/items/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 27ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+     8:  </tr>
+     9: </thead>
+    10: <body>
+    11:   <% @items.each do |item|%>
+    12:    <tr>
+    13:      <td><%= item.id %></td>
+    14:      <td><%= item.name %></td>
+  
+app/views/admin/items/index.html.erb:11:in `_app_views_admin_items_index_html_erb___4007255925200389737_70170774702280'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:16:35 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 63ms (Views: 60.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 06:22:04 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 423ms (Views: 417.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:22:12 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.7ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 66ms (Views: 56.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:22:14 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 58ms (Views: 56.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:22:22 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (29.9ms)
+Completed 200 OK in 98ms (Views: 87.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:22:35 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o7blBm3g4AsKwP/ZpPhCDApVeKuX2da5bZ1FuykZBkyu1tv/JDm3FYVtaLTJG8RSlgTYIY+emFXk55N8g48LkA==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe9985471b0 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-7137-1o7valx.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[36mItem Create (0.5ms)[0m  [1m[32mINSERT INTO "items" ("name", "explanation", "image_id", "tax_excluded_price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["name", "ケーキ"], ["explanation", "cake"], ["image_id", "8fe7a6ed2578b2c96f807b5653a7281fbe949e421dd68ca06a30b165fe6d"], ["tax_excluded_price", 1000], ["created_at", "2021-10-19 06:22:35.352818"], ["updated_at", "2021-10-19 06:22:35.352818"]]
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.7ms)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: items.category_id may not be NULL: INSERT INTO "items" ("name", "explanation", "image_id", "tax_excluded_price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)):
+  
+app/controllers/admin/items_controller.rb:8:in `create'
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:24:10 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"o7blBm3g4AsKwP/ZpPhCDApVeKuX2da5bZ1FuykZBkyu1tv/JDm3FYVtaLTJG8RSlgTYIY+emFXk55N8g48LkA==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe990305698 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-7137-hq5ylw.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 38ms (ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:24:11 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 65ms (Views: 64.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:24:16 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 68ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:24:30 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1Cq7kT3HCrXdiRVLQhInTKQQwCzObWPmfZDC4OllHkXZSoVodB5dq1IkgiYv8aESOEFgptYqLQr06hQnQ/MTmQ==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe998bf1308 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-7137-e9ycn0.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 9ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:24:30 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 78ms (Views: 77.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:29:39 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: item):
+  
+app/controllers/admin/items_controller.rb:27:in `item_params'
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:29:41 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 400 Bad Request in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: item):
+  
+app/controllers/admin/items_controller.rb:27:in `item_params'
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:31:21 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `items_params' for #<Admin::ItemsController:0x00007fe990488c18>
+Did you mean?  item_params):
+  
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:31:41 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 500 Internal Server Error in 158ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `items_params' for #<Admin::ItemsController:0x00007fe98c17dbd0>
+Did you mean?  item_params):
+  
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:31:56 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 500 Internal Server Error in 245ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (undefined local variable or method `items_params' for #<Admin::ItemsController:0x00007fe9985e0478>
+Did you mean?  item_params):
+  
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:32:12 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+Completed 400 Bad Request in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionController::ParameterMissing (param is missing or the value is empty: item):
+  
+app/controllers/admin/items_controller.rb:27:in `item_params'
+app/controllers/admin/items_controller.rb:13:in `index'
+Started GET "/" for 153.246.254.136 at 2021-10-19 06:39:50 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 54ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:40:03 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 61ms (Views: 56.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:40:04 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/itemsnew" for 153.246.254.136 at 2021-10-19 06:40:11 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/admin/itemsnew"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 06:40:20 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 84ms (Views: 72.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 06:40:33 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"jWtozFtwkIq/VJgKuLXc96UkeoXIsP3YVHYgTDr/zC2AC1Y1EqnHlDD5D2fVVlqpOXXaD9D3szTdDPaLkGnB8Q==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe998730080 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-7137-j3krij.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 26ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 06:40:34 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 105ms (Views: 103.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:01:17 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:25: syntax error, unexpected ',', expecting ')'
+...ame, Category.all, :id, :name), prompt: "-- 選択してく...
+...                              ^):
+  
+app/views/admin/items/new.html.erb:25: syntax error, unexpected ',', expecting ')'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:01:21 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:25: syntax error, unexpected ',', expecting ')'
+...ame, Category.all, :id, :name), prompt: "-- 選択してく...
+...                              ^):
+  
+app/views/admin/items/new.html.erb:25: syntax error, unexpected ',', expecting ')'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:09:50 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (21.3ms)
+Completed 200 OK in 97ms (Views: 95.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:09:51 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 61ms (Views: 59.6ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 07:10:09 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"D+sIQ2lP9E+rJdzDFfVtVFbv5Wj1ukRApiT+F3AapwUCiza6IJajUSSIS654FusKyr5F4u39CqwvXijQ2oyq2Q==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe98c17cd20 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-7137-n877r4.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "category_id"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 8ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 07:10:10 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 52ms (Views: 51.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:13:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (8.4ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (116.8ms)
+Completed 200 OK in 370ms (Views: 280.2ms | ActiveRecord: 8.4ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 07:13:57 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"uvad9FpF3PfFirdwTACQ0wD+Qw68E1nzsYdPW09fca63lqMNE5yL6UonIB0h4xaNnK/jhKRUFx84/Zmc5cl8cg==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe990315160 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-7137-16zwsfu.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "category_id"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 18ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 07:13:57 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 61ms (Views: 59.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:29:15 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 63ms (Views: 62.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:29:18 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 111ms (Views: 109.7ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 07:29:33 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bUWy2pJKpll0UrkUG0VB1r7uV39Cs4xq7gN61nnNqmhgJYwj25PxR/v/Lnl2pseIIr/39Vr0woZneawR01untA==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007fe984b4b688 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-7137-1wp3k7w.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "category_id"=>"", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 14ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 07:29:33 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  Rendered admin/items/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 56ms (Views: 55.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 07:36:45 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 61ms (Views: 60.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 07:44:28 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 477ms (Views: 472.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-19 07:44:34 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 58ms (Views: 57.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:44:52 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.7ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/categories/index.html.erb:2: syntax error, unexpected tSTRING_BEG, expecting ')'
+...=( f.label :”ジャンル名" );@output_buffer.safe_append...
+...                              ^):
+  
+app/views/admin/categories/index.html.erb:2: syntax error, unexpected tSTRING_BEG, expecting ')'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:44:54 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/categories/index.html.erb:2: syntax error, unexpected tSTRING_BEG, expecting ')'
+...=( f.label :”ジャンル名" );@output_buffer.safe_append...
+...                              ^):
+  
+app/views/admin/categories/index.html.erb:2: syntax error, unexpected tSTRING_BEG, expecting ')'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:46:45 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered admin/categories/index.html.erb within layouts/application (126.3ms)
+Completed 500 Internal Server Error in 131ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined method `categories_path' for #<#<Class:0x00007f4024139000>:0x00007f4021302f10>):
+    1: <%= form_with model: @category, local: true do |f| %>
+    2:   <%= f.label :"ジャンル名" %>
+    3:   <%= f.text_field :name %>
+    4:   <%= f.submit "新規登録" %>
+  
+app/views/admin/categories/index.html.erb:1:in `_app_views_admin_categories_index_html_erb___3427361584366278907_69956705698380'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:46:48 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.8ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  Rendered admin/categories/index.html.erb within layouts/application (209.7ms)
+Completed 500 Internal Server Error in 214ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `categories_path' for #<#<Class:0x00007f4024139000>:0x00007f402c4c8b00>):
+    1: <%= form_with model: @category, local: true do |f| %>
+    2:   <%= f.label :"ジャンル名" %>
+    3:   <%= f.text_field :name %>
+    4:   <%= f.submit "新規登録" %>
+  
+app/views/admin/categories/index.html.erb:1:in `_app_views_admin_categories_index_html_erb___3427361584366278907_69956798925240'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:48:47 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (24.0ms)
+Completed 200 OK in 93ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:48:49 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 90ms (Views: 89.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/categories" for 153.246.254.136 at 2021-10-19 07:49:01 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QZM2NWPE1HdijaAeb7kUgyGZ+UZKHhmQDHoYdCIab85M8wjMKh2Dae0gN3MCWpLdvchZzFJZV3yFAM6ziIxiEg==", "category"=>{"name"=>"ケーキ"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[36mCategory Create (0.9ms)[0m  [1m[32mINSERT INTO "categories" ("created_at", "updated_at") VALUES (?, ?)[0m  [["created_at", "2021-10-19 07:49:01.033582"], ["updated_at", "2021-10-19 07:49:01.033582"]]
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 1.0ms)
+
+
+  
+ActiveRecord::NotNullViolation (SQLite3::ConstraintException: categories.name may not be NULL: INSERT INTO "categories" ("created_at", "updated_at") VALUES (?, ?)):
+  
+app/controllers/admin/categories_controller.rb:4:in `create'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:57:21 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 58ms (Views: 52.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:57:23 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 55ms (Views: 53.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/categories" for 153.246.254.136 at 2021-10-19 07:57:26 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dl2rcckU69YWhkgdwwrVtR0AkeLJJ34zKrjyb09mUXR7PZWIgM28yJkr33Cu6VPrgVExaNFgMN+jwiSo5fBcqA==", "category"=>{"name"=>"ケーキ"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[36mCategory Create (1.6ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "ケーキ"], ["created_at", "2021-10-19 07:57:26.318151"], ["updated_at", "2021-10-19 07:57:26.318151"]]
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[35m (3.5ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/categories
+Completed 302 Found in 11ms (ActiveRecord: 5.2ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:57:26 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 56ms (Views: 55.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/categories" for 153.246.254.136 at 2021-10-19 07:57:32 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xGUQ5i8FnQmqTdvlrwMOqG8t0wom3YUbPDcBfYpw2J7JBS4fZtzKFyXgTIjC4Ij283xzgD6ay/e1Tde6IObVQg==", "category"=>{"name"=>"ケーキ"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[36mCategory Create (0.6ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "ケーキ"], ["created_at", "2021-10-19 07:57:32.683160"], ["updated_at", "2021-10-19 07:57:32.683160"]]
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[35m (3.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/categories
+Completed 302 Found in 10ms (ActiveRecord: 4.5ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 07:57:32 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 70ms (Views: 69.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:02:49 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (241.6ms)
+Completed 500 Internal Server Error in 247ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f40243d55c0>:0x00007f4020b05560>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___3427361584366278907_69956701533580'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___3427361584366278907_69956701533580'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:02:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (304.1ms)
+Completed 500 Internal Server Error in 310ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f40243d55c0>:0x00007f402c3f7898>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___3427361584366278907_69956798493100'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___3427361584366278907_69956798493100'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:03:33 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (221.1ms)
+Completed 500 Internal Server Error in 226ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f40243d55c0>:0x00007f402423b868>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___3427361584366278907_69956730446320'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___3427361584366278907_69956730446320'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:04:27 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (224.4ms)
+Completed 500 Internal Server Error in 231ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f40243d55c0>:0x00007f40243fca80>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___3427361584366278907_69956731398540'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___3427361584366278907_69956731398540'
+Started GET "/" for 153.246.254.136 at 2021-10-19 08:04:56 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 355ms (Views: 350.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:05:14 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (251.4ms)
+Completed 500 Internal Server Error in 266ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb130d7f8>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121122444800'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121122444800'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:05:17 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (299.6ms)
+Completed 500 Internal Server Error in 306ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb41cd890>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121146970240'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121146970240'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:05:53 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (116.9ms)
+Completed 500 Internal Server Error in 123ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method ` ' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb46f3cc0>):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= @category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121150284480'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121150284480'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:05:56 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (170.6ms)
+Completed 500 Internal Server Error in 176ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined method ` ' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb4383018>):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= @category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121147866180'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121147866180'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:06:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (225.3ms)
+Completed 500 Internal Server Error in 230ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` categories' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb5ff9bc0>
+Did you mean?  @categories):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= categories.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121162789400'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121162789400'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:06:17 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (223.8ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` categories' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb43535e8>
+Did you mean?  @categories):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= categories.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121147768620'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121147768620'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:08:18 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (289.1ms)
+Completed 500 Internal Server Error in 294ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb47e64e8>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121150166700'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121150166700'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:10:31 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:8
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" LIMIT ?[0m  [["LIMIT", 11]]
+  ↳ /home/ec2-user/.rvm/rubies/ruby-2.6.3/lib/ruby/gems/2.6.0/gems/did_you_mean-1.3.0/lib/did_you_mean/core_ext/name_error.rb:4
+  Rendered admin/categories/index.html.erb within layouts/application (234.9ms)
+Completed 500 Internal Server Error in 241ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `categories' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb6000cb8>
+Did you mean?  @categories
+               @category):
+    12:     </tr>
+    13:   </thead>
+    14:   <tbody>
+    15:     <% categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+  
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121162803860'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:11:31 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Category id: nil, name: nil, created_at: nil, updated_at: nil>):
+    12:     </tr>
+    13:   </thead>
+    14:   <tbody>
+    15:     <% @category.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+  
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121163308620'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:12:09 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (223.9ms)
+Completed 500 Internal Server Error in 228ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb3c29998>
+Did you mean?  @category):
+    14:   <tbody>
+    15:     <% @categories.each do |categories| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121144013060'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121144013060'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:12:31 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (220.7ms)
+Completed 500 Internal Server Error in 228ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` categories' for #<#<Class:0x00007f8cb1305940>:0x00007f8cadc1ca28>
+Did you mean?  categories
+               @categories):
+    14:   <tbody>
+    15:     <% @categories.each do |categories| %>
+    16:       <tr>
+    17:         <td><%= categories.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121093654860'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121093654860'
+Started GET "/" for 153.246.254.136 at 2021-10-19 08:15:49 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 126ms (Views: 117.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:16:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (3.3ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (238.8ms)
+Completed 500 Internal Server Error in 250ms (ActiveRecord: 3.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb3eb9820>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121145356380'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121145356380'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:16:08 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (221.1ms)
+Completed 500 Internal Server Error in 229ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f8cb1305940>:0x00007f8cb4dea808>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121153321020'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121153321020'
+Started GET "/" for 153.246.254.136 at 2021-10-19 08:17:23 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 52ms (Views: 51.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:17:32 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 93ms (Views: 68.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:17:34 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (5.0ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 69ms (Views: 62.7ms | ActiveRecord: 5.0ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 08:17:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2yIUcuW+f7+9EWAbrzKZv7lKPg+cYDUzSaI4EzM5/bbWQiqLrGcooTK893bC0R/hJRuehYQne9/A2O7Uma/wag==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f8cb46a8928 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-14195-yiu7wg.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "category_id"=>"1", "sale_status"=>"true"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[36mItem Create (28.3ms)[0m  [1m[32mINSERT INTO "items" ("category_id", "name", "explanation", "image_id", "tax_excluded_price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["name", "ケーキ"], ["explanation", "cake"], ["image_id", "3f1240ea3a0438cc64f38058d2aaa3d6a8bb1721377e3dac9834dd32e96b"], ["tax_excluded_price", 1000], ["created_at", "2021-10-19 08:17:55.285533"], ["updated_at", "2021-10-19 08:17:55.285533"]]
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 70ms (ActiveRecord: 32.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 08:17:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  Rendered admin/items/index.html.erb within layouts/application (228.7ms)
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 0.3ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `sale_status' for #<#<Class:0x00007f8cc19fa8f8>:0x00007f8cb4311eb8>):
+    14:      <td><%= item.name %></td>
+    15:      <td><%= item.tax_excluded_price %><td>
+    16:      <td><%= item.category.name %></td>
+    17:      <td><% if sale_status == true %>
+    18:        <p> 販売中 </p>
+    19:        <% else %>
+    20:        <p> 販売停止 </p>
+  
+app/views/admin/items/index.html.erb:17:in `block in _app_views_admin_items_index_html_erb__1773145798575075740_70121147634560'
+app/views/admin/items/index.html.erb:11:in `_app_views_admin_items_index_html_erb__1773145798575075740_70121147634560'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:20:58 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:20:59 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 65ms (Views: 59.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 08:21:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  Rendered admin/items/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 76ms (Views: 73.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:21:46 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 60ms (Views: 58.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:21:47 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 83ms (Views: 81.8ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 08:22:04 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8KpIqhNzYZk/wEW0gN/ya2lXi684oB1e83MwQZK71E79ynZTWqo2h7Bt0tntPHQ19QYrJSDnU7J6CeaGOC3Zkg==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x00007f8cb60a1b68 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-14195-1ul74xw.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "category_id"=>"2", "sale_status"=>"false"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[36mItem Create (13.4ms)[0m  [1m[32mINSERT INTO "items" ("category_id", "name", "explanation", "sale_status", "image_id", "tax_excluded_price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 2], ["name", "ケーキ"], ["explanation", "cake"], ["sale_status", 0], ["image_id", "f578269dfb665b0c36c3dd680ca1445bdf880b387f33f8a0633ca1eae776"], ["tax_excluded_price", 1000], ["created_at", "2021-10-19 08:22:04.811208"], ["updated_at", "2021-10-19 08:22:04.811208"]]
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 40ms (ActiveRecord: 18.3ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 08:22:05 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  Rendered admin/items/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 59ms (Views: 58.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 08:23:34 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  Rendered admin/items/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 65ms (Views: 63.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 08:23:36 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.1ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  Rendered admin/items/index.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 57ms (Views: 56.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:30:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 76ms (ActiveRecord: 0.7ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+... 選択してください --" );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+'.freeze;end
+         ^~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:30:36 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.6ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+... 選択してください --" );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+'.freeze;end
+         ^~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:30:43 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+... 選択してください --" );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+'.freeze;end
+         ^~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:31:53 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  Rendered admin/items/new.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 2.2ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+... 選択してください --" );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+'.freeze;end
+         ^~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/naganocake/app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/admin/items/new.html.erb:25: syntax error, unexpected ')', expecting '}'
+app/views/admin/items/new.html.erb:36: syntax error, unexpected end, expecting ')'
+app/views/admin/items/new.html.erb:38: syntax error, unexpected ensure, expecting ')'
+app/views/admin/items/new.html.erb:40: syntax error, unexpected end, expecting ')'
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:32:42 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 90ms (Views: 88.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/items/new" for 153.246.254.136 at 2021-10-19 08:32:44 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#new as HTML
+  Rendering admin/items/new.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/items/new.html.erb:25
+  Rendered admin/items/new.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 59ms (Views: 57.7ms | ActiveRecord: 0.1ms)
+
+
+Started POST "/admin/items" for 153.246.254.136 at 2021-10-19 08:33:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Jfs6jWD8vqEfAMvN5RydT/7pBp7YXbV/yrqN/UvXXXoomwR0KSXpv5CtXKCI/xsRYrimFMAa+5NDwFs64UFQpg==", "item"=>{"name"=>"ケーキ", "image"=>#<ActionDispatch::Http::UploadedFile:0x0000000004d28698 @tempfile=#<Tempfile:/tmp/RackMultipart20211019-14195-1q68ek.jpg>, @original_filename="strawberryPie.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"item[image]\"; filename=\"strawberryPie.jpg\"\r\nContent-Type: image/jpeg\r\n">, "explanation"=>"cake", "tax_excluded_price"=>"1000", "category_id"=>"1", "sale_status"=>"false"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[36mCategory Load (0.2ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[36mItem Create (1.6ms)[0m  [1m[32mINSERT INTO "items" ("category_id", "name", "explanation", "sale_status", "image_id", "tax_excluded_price", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["category_id", 1], ["name", "ケーキ"], ["explanation", "cake"], ["sale_status", 0], ["image_id", "d6bb84eb6c79d6a98af1771cc041de3d88801bf452060f70608f279c37fb"], ["tax_excluded_price", 1000], ["created_at", "2021-10-19 08:33:07.024691"], ["updated_at", "2021-10-19 08:33:07.024691"]]
+  ↳ app/controllers/admin/items_controller.rb:8
+  [1m[35m (4.9ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/items_controller.rb:8
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/items
+Completed 302 Found in 25ms (ActiveRecord: 6.7ms)
+
+
+Started GET "/admin/items" for 153.246.254.136 at 2021-10-19 08:33:07 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::ItemsController#index as HTML
+  Rendering admin/items/index.html.erb within layouts/application
+  [1m[36mItem Load (0.2ms)[0m  [1m[34mSELECT "items".* FROM "items"[0m
+  ↳ app/views/admin/items/index.html.erb:11
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 2], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  [1m[36mCACHE Category Load (0.0ms)[0m  [1m[34mSELECT  "categories".* FROM "categories" WHERE "categories"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/admin/items/index.html.erb:16
+  Rendered admin/items/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 71ms (Views: 70.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:33:47 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  [1m[36mCategory Load (0.1ms)[0m  [1m[34mSELECT "categories".* FROM "categories"[0m
+  ↳ app/views/admin/categories/index.html.erb:15
+  Rendered admin/categories/index.html.erb within layouts/application (214.8ms)
+Completed 500 Internal Server Error in 219ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method ` category' for #<#<Class:0x00007f8cb1319ff8>:0x00007f8cb1321528>
+Did you mean?  category
+               @category):
+    14:   <tbody>
+    15:     <% @categories.each do |category| %>
+    16:       <tr>
+    17:         <td><%= category.name %></td>
+    18:         <td></td>
+    19:       </tr>
+    20:     <% end %>
+  
+app/views/admin/categories/index.html.erb:17:in `block in _app_views_admin_categories_index_html_erb___1298238474157349616_70121122487100'
+app/views/admin/categories/index.html.erb:15:in `_app_views_admin_categories_index_html_erb___1298238474157349616_70121122487100'
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:33:58 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 68ms (Views: 66.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:34:00 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 54ms (Views: 52.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/categories" for 153.246.254.136 at 2021-10-19 08:34:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"UZk06djZvcdslhUa8WQvF/jQyY2wxZdApoEj8EVmMjpc+QoQkQDq2eM7gnech6lJZIFpB6iC2awv+/U37/A/5g==", "category"=>{"name"=>"マフィン"}, "commit"=>"新規登録"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[36mCategory Create (1.2ms)[0m  [1m[32mINSERT INTO "categories" ("name", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["name", "マフィン"], ["created_at", "2021-10-19 08:34:13.625676"], ["updated_at", "2021-10-19 08:34:13.625676"]]
+  ↳ app/controllers/admin/categories_controller.rb:4
+  [1m[35m (24.4ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/categories_controller.rb:4
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/categories
+Completed 302 Found in 31ms (ActiveRecord: 25.7ms)
+
+
+Started GET "/admin/categories" for 153.246.254.136 at 2021-10-19 08:34:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 70ms (Views: 69.2ms | ActiveRecord: 0.0ms)
+
+
