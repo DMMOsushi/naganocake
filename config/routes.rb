@@ -4,11 +4,14 @@ Rails.application.routes.draw do
     registrations: "public/registrations",
     sessions: 'public/sessions'
   }
+<<<<<<< HEAD
  #変更
+=======
+  #test
+>>>>>>> 3dda18a57698f53101c4ad5a201f6ce9bed63f83
   root 'public/homes#top'
-
+  
   namespace :public do
-
     get 'public/homes/about',to: "homes#about"
 
     resources :customers, only: [:show, :edit, :update]
