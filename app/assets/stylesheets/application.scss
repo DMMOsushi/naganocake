@@ -13,8 +13,50 @@
  *= require_tree .
  *= require_self
  */
+<<<<<<< HEAD
 <<<<<<< HEAD:app/assets/stylesheets/application.scss
  @import "bootstrap";
 =======
  @import "bootstrap";
 >>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7:app/assets/stylesheets/application.css
+=======
+ @import "bootstrap";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  height: 100%;
+}
+
+.nav-item {
+	padding-left: 10px;
+}
+
+header {
+   padding: 10px 20px 20px 20px;
+   background-color: #3A4861;
+   position: sticky;
+    top: 0;
+   z-index:9999;
+   width: 100%;
+}
+
+#wrapper{
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+footer{
+    width: 100%;
+    height: 100px;
+    background-color: #3A4861;
+    text-align: center;
+    margin-top: auto;
+    padding-top: 20px;
+}
+>>>>>>> 2605375e7410fdd59b414367cf854c632890719b

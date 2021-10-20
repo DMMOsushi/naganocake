@@ -5,14 +5,33 @@ Rails.application.routes.draw do
     sessions: 'public/sessions'
   }
 <<<<<<< HEAD
+<<<<<<< HEAD
   #test
 =======
  #変更
 >>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7
   root 'public/homes#top'
   
+=======
+  #test
+  root to: 'public/homes#top'
+  get 'about' => 'public/homes#about'
+  get 'top' => 'admin/homes#top'
+
+  def after_sign_in_path_for(resource)
+    admin_path(resource)
+  end
+
+  def after_sign_up_path_for(resource)
+    admin_path(resource)
+  end
+
+  def after_sign_out_path_for(resource)
+    root_path
+  end
+
+>>>>>>> 2605375e7410fdd59b414367cf854c632890719b
   namespace :public do
-    get 'public/homes/about',to: "homes#about"
 
     resources :customers, only: [:show, :edit, :update]
     get 'unsubscribe/:name' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
@@ -39,7 +58,6 @@ Rails.application.routes.draw do
   }
 
   namespace :admin do
-    get 'top' => 'homes#top'
 
     resources :customers, only: [:index, :show, :edit, :update]
 
@@ -50,7 +68,7 @@ Rails.application.routes.draw do
     resources :orders, only: [:show, :update]
 
     resources :order_items, only: [:update]
-     
+
 
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
