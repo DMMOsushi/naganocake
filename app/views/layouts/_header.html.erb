@@ -8,15 +8,8 @@
       <div>
         <ul class="navbar-nav ml-auto">
           <% if public_signed_in? %>
-          <!--顧客がログインしている時 -->
-<<<<<<< HEAD
-          <li><%= link_to 'マイページ', public_customer_path(current_public), class: "header_btn glyphicon glyphicon-home" %></li>
-          <li><%= link_to '商品一覧', public_items_path, class: "header_btn glyphicon glyphicon-briefcase" %></li>
-          <li><%= link_to 'カート', public_cart_items_path, class: "header_btn glyphicon glyphicon-shopping-cart" %></li>
-          <li><%= link_to 'ログアウト', destroy_public_session_path, method: :delete, class: "header_btn glyphicon glyphicon-log-out" %></li>
-=======
->>>>>>> 2605375e7410fdd59b414367cf854c632890719b
 
+          <!--顧客がログインしている時 -->
             <li data-rippleria class="nav-item">
               <%= link_to " マイページ", public_customer_path(current_public), class: 'btn btn-light' %>
             </li>
@@ -56,7 +49,7 @@
               <%= link_to "マイページ", root_path, class: 'btn btn-light' %>
             </li>
             <li data-rippleria class="nav-item">
-              <%= link_to " 商品一覧", public_orders_path, class: 'btn btn-light' %>
+              <%= link_to " 商品一覧", public_items_path, class: 'btn btn-light' %>
             </li>
             <li data-rippleria class="nav-item">
               <%= link_to " 新規登録", new_public_registration_path, class: 'btn btn-light' %>

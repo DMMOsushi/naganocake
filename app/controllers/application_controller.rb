@@ -1,9 +1,5 @@
 class ApplicationController < ActionController::Base
-<<<<<<< HEAD
-    before_action :configure_permitted_parameters, if: :devise_controller?
-=======
   before_action :configure_permitted_parameters, if: :devise_controller?
->>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7
 
   protected
 
