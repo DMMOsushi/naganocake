@@ -29,6 +29,6 @@ class Public::CustomersController < ApplicationController
   private
 
   def public_params
-    params.require(:public).permit(:last_name, :first_name, :last_kana_name, :first_kana_name, :address, :postalcode, :telephone)
+    params.require(:public).permit(:last_name, :first_name, :last_kana_name, :first_kana_name, :email, :address, :postalcode, :telephone)
   end
 end
