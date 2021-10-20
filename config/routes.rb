@@ -5,10 +5,11 @@ Rails.application.routes.draw do
     sessions: 'public/sessions'
   }
   #test
-  root 'public/homes#top'
-  
+  root to: 'public/homes#top'
+  get 'about' => 'public/homes#about'
+  get 'admin' => 'admin/homes#top'
+
   namespace :public do
-    get 'public/homes/about',to: "homes#about"
 
     resources :customers, only: [:show, :edit, :update]
     get 'customers/unsubscribe'
@@ -34,7 +35,6 @@ Rails.application.routes.draw do
   }
 
   namespace :admin do
-    get 'top' => 'homes#top'
 
     resources :customers, only: [:index, :show, :edit, :update]
 
