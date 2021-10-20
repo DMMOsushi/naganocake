@@ -10660,3 +10660,39 @@ Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 12
 Refile::App: [2021-10-20 07:29:36 +0000] GET "/9cc8982991e70d5286aebe1036a75054e5877cdb/store/16a35339b1fc63c760324153d5be21b887b8839ed87a865706118069843d/image" 200 10.8ms
 
 >>>>>>> 2605375e7410fdd59b414367cf854c632890719b
+Started GET "/" for 175.177.42.18 at 2021-10-20 08:21:48 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+^~
+/home/ec2-user/environment/naganocake/app/controllers/application_controller.rb:4: syntax error, unexpected ===, expecting end
+=======
+^~~
+/home/ec2-user/environment/naganocake/app/controllers/application_controller.rb:6: syntax error, unexpected >>, expecting end
+>>>>>>> 4ff6ceffb167b1fce78a47a...
+^~):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/application_controller.rb:4: syntax error, unexpected ===, expecting end
+app/controllers/application_controller.rb:6: syntax error, unexpected >>, expecting end
+app/controllers/public/homes_controller.rb:1:in `<main>'
+Started GET "/" for 175.177.42.18 at 2021-10-20 08:21:49 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/controllers/application_controller.rb:2: syntax error, unexpected <<
+<<<<<<< HEAD
+^~
+/home/ec2-user/environment/naganocake/app/controllers/application_controller.rb:4: syntax error, unexpected ===, expecting end
+=======
+^~~
+/home/ec2-user/environment/naganocake/app/controllers/application_controller.rb:6: syntax error, unexpected >>, expecting end
+>>>>>>> 4ff6ceffb167b1fce78a47a...
+^~):
+  
+app/controllers/application_controller.rb:2: syntax error, unexpected <<
+app/controllers/application_controller.rb:4: syntax error, unexpected ===, expecting end
+app/controllers/application_controller.rb:6: syntax error, unexpected >>, expecting end
+app/controllers/public/homes_controller.rb:1:in `<main>'
