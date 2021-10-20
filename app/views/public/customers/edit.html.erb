@@ -23,7 +23,10 @@
 
     <%= f.text_field :telephone %>
 
-    <%= f.submit '編集内容を保存' %>
+    <%= f.submit '編集内容を保存',class: "btn btn-success" %>
+
+    <%= link_to '退会する',@public,class: "btn btn-danger", method: :get %>
+
   <% end %>
-  
+
 </div>

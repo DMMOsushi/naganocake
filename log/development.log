@@ -4573,3 +4573,471 @@ Processing by Public::CustomersController#show as HTML
 Completed 200 OK in 101ms (Views: 98.4ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:07:48 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 505ms (Views: 479.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:09:05 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:28: syntax error, unexpected '<'
+  <% end );@output_buffer.safe_a...
+  ^
+/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:34: syntax error, unexpected end-of-input, expecting end):
+  
+app/views/public/customers/edit.html.erb:28: syntax error, unexpected '<'
+app/views/public/customers/edit.html.erb:34: syntax error, unexpected end-of-input, expecting end
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:09:27 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 116ms (Views: 112.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:09:30 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bo0DezVHX/jokNSo/nTpqOLcAugMJoAR/WUmycMxqxjrhrq3Bme6iOxkgkH64iQYF9fMfQjE7ez+O7arj3PSrA==", "public"=>{"last_name"=>"提出", "first_name"=>"太郎", "last_kana_name"=>"テイシュツ", "first_kana_name"=>"タロウ", "email"=>"ss@ss", "postalcode"=>"35454554", "address"=>"東京都千代田区", "telephone"=>"2325252535"}, "commit"=>"退会する", "id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+Redirected to https://44beea4b1b9f4163825b619771f83510.vfs.cloud9.us-east-1.amazonaws.com/public/customers/1
+Completed 302 Found in 13ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:09:30 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? ORDER BY "publics"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:3
+  Rendering public/customers/show.html.erb within layouts/application
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/public/customers/show.html.erb:7
+  Rendered public/customers/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 156ms (Views: 150.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:09:34 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 102ms (Views: 100.7ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:09:37 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"sQeBz/f4LMgpjZUTfZHcG/biT0xyQiAu3Mhx0jqUu1b0ZlwmPjkEQ01UIBcSHyG1rAvUkVNlmuKshy7jupK4PQ==", "public"=>{"last_name"=>"提出", "first_name"=>"太郎", "last_kana_name"=>"テイシュツ", "first_kana_name"=>"タロウ", "email"=>"ss@sss", "postalcode"=>"35454554", "address"=>"東京都千代田区", "telephone"=>"2325252535"}, "commit"=>"編集内容を保存", "id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+  [1m[36mPublic Exists (0.1ms)[0m  [1m[34mSELECT  1 AS one FROM "publics" WHERE "publics"."email" = ? AND "publics"."id" != ? LIMIT ?[0m  [["email", "ss@sss"], ["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:13
+  [1m[36mPublic Update (0.9ms)[0m  [1m[33mUPDATE "publics" SET "email" = ?, "updated_at" = ? WHERE "publics"."id" = ?[0m  [["email", "ss@sss"], ["updated_at", "2021-10-20 07:09:37.124221"], ["id", 1]]
+  ↳ app/controllers/public/customers_controller.rb:13
+  [1m[35m (6.2ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+Redirected to https://44beea4b1b9f4163825b619771f83510.vfs.cloud9.us-east-1.amazonaws.com/public/customers/1
+Completed 302 Found in 19ms (ActiveRecord: 7.4ms)
+
+
+Started GET "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:09:37 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? ORDER BY "publics"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:3
+  Rendering public/customers/show.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/public/customers/show.html.erb:7
+  Rendered public/customers/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 85ms (Views: 82.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:17:42 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 510ms (Views: 486.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:18:51 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 105ms (Views: 86.2ms | ActiveRecord: 1.2ms)
+
+
+Started PATCH "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:18:53 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"rcxfkNCEKCA1Rbou715ZOMlP+jHBNvSWYXW86o3IO88ox+Zc46TNUDGx7MfryJSIPEQ0pMXUmWtiKyyIwYpCew==", "public"=>{"last_name"=>"提出", "first_name"=>"太郎", "last_kana_name"=>"テイシュツ", "first_kana_name"=>"タロウ", "email"=>"ss@sss", "postalcode"=>"35454554", "address"=>"東京都千代田区", "telephone"=>"2325252535"}, "commit"=>"退会する", "id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+Redirected to https://44beea4b1b9f4163825b619771f83510.vfs.cloud9.us-east-1.amazonaws.com/public/customers/1
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:18:53 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? ORDER BY "publics"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:3
+  Rendering public/customers/show.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/public/customers/show.html.erb:7
+  Rendered public/customers/show.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 104ms (Views: 100.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:19:10 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 93ms (Views: 90.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:23:58 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? ORDER BY "publics"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:3
+  Rendering public/customers/show.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/public/customers/show.html.erb:7
+  Rendered public/customers/show.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 111ms (Views: 106.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:24:00 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 99ms (Views: 97.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:24:20 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:28: syntax error, unexpected ')'
+...nd=( f.submit '退会する', );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:30: syntax error, unexpected end, expecting ')'
+'.freeze;   end 
+            ^~~
+/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:34: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:36: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/public/customers/edit.html.erb:28: syntax error, unexpected ')'
+app/views/public/customers/edit.html.erb:30: syntax error, unexpected end, expecting ')'
+app/views/public/customers/edit.html.erb:34: syntax error, unexpected ensure, expecting ')'
+app/views/public/customers/edit.html.erb:36: syntax error, unexpected end, expecting ')'
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:24:24 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.3ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:28: syntax error, unexpected ')'
+...nd=( f.submit '退会する', );@output_buffer.safe_append='
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:30: syntax error, unexpected end, expecting ')'
+'.freeze;   end 
+            ^~~
+/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:34: syntax error, unexpected ensure, expecting ')'
+          ensure
+          ^~~~~~
+/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:36: syntax error, unexpected end, expecting ')'
+          end
+          ^~~):
+  
+app/views/public/customers/edit.html.erb:28: syntax error, unexpected ')'
+app/views/public/customers/edit.html.erb:30: syntax error, unexpected end, expecting ')'
+app/views/public/customers/edit.html.erb:34: syntax error, unexpected ensure, expecting ')'
+app/views/public/customers/edit.html.erb:36: syntax error, unexpected end, expecting ')'
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:24:29 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:28: syntax error, unexpected '='
+... f.submit '退会する',class="btn btn-danger" );@output_bu...
+...                              ^):
+  
+app/views/public/customers/edit.html.erb:28: syntax error, unexpected '='
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:24:56 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 105ms (Views: 102.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:26:46 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.1ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/public/customers/edit.html.erb:28: syntax error, unexpected ',', expecting ')'
+...uffer.append=(  '退会する',class: "btn btn-danger" );@ou...
+...                              ^):
+  
+app/views/public/customers/edit.html.erb:28: syntax error, unexpected ',', expecting ')'
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:26:52 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 144ms (Views: 141.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/public/customers/1/edit?class=btn+btn-danger" for 175.177.42.18 at 2021-10-20 07:26:55 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"class"=>"btn btn-danger", "id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 103ms (Views: 100.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/public/customers/1/edit?class=btn+btn-danger" for 175.177.42.18 at 2021-10-20 07:28:59 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/controllers/public/customers_controller.rb:18: syntax error, unexpected ')', expecting ']'
+...ic = Public.find_by(params[:id)
+...                              ^):
+  
+app/controllers/public/customers_controller.rb:18: syntax error, unexpected ')', expecting ']'
+Started GET "/public/customers/1/edit?class=btn+btn-danger" for 175.177.42.18 at 2021-10-20 07:29:11 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"class"=>"btn btn-danger", "id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 123ms (Views: 104.3ms | ActiveRecord: 0.9ms)
+
+
+Started PATCH "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:29:13 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZJFWWZ3wg3bMjvQt7F0kBAYjC6YwzhOLl6uflcYVAEHhmu+VrtBmBsh6osToy+m08yjFMzQsfnaU9Q/3ild59Q==", "public"=>{"last_name"=>"提出", "first_name"=>"太郎", "last_kana_name"=>"テイシュツ", "first_kana_name"=>"タロウ", "email"=>"ss@sss", "postalcode"=>"35454554", "address"=>"東京都千代田区", "telephone"=>"2325252535"}, "commit"=>"退会する", "id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:12
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/public/customers_controller.rb:13
+Redirected to https://44beea4b1b9f4163825b619771f83510.vfs.cloud9.us-east-1.amazonaws.com/public/customers/1
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/public/customers/1" for 175.177.42.18 at 2021-10-20 07:29:13 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? ORDER BY "publics"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:3
+  Rendering public/customers/show.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/public/customers/show.html.erb:7
+  Rendered public/customers/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 95ms (Views: 91.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:29:15 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 156ms (Views: 150.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:31:54 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 102ms (Views: 100.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/public/withdraw/1" for 175.177.42.18 at 2021-10-20 07:31:56 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/public/withdraw/1"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/public/customers/1/edit" for 175.177.42.18 at 2021-10-20 07:36:25 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/public/customers_controller.rb:8
+  Rendering public/customers/edit.html.erb within layouts/application
+  Rendered public/customers/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 514ms (Views: 490.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/public/withdraw/1" for 175.177.42.18 at 2021-10-20 07:36:28 +0000
+Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/public/withdraw/1"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
