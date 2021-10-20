@@ -1,7 +1,11 @@
 <div class="container">
   
 <h2>新規会員登録</h2>
+<<<<<<< HEAD
+<%= form_with model: @public, url: new_public_registration_path, local: true do |f| %>
+=======
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+>>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7
   <%= render "public/shared/error_messages", resource: resource %>
   
   <div class="field">
@@ -63,7 +67,12 @@
     <%= f.submit "新規登録" %>
   </div>
 <% end %>
+<<<<<<< HEAD
+<%= render "public/shared/links" %>
+</div>
+=======
 
 
 <%= render "public/shared/links" %>
 </div>
+>>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7

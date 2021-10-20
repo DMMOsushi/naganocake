@@ -4,6 +4,15 @@ Rails.application.routes.draw do
     registrations: "public/registrations",
     sessions: 'public/sessions'
   }
+<<<<<<< HEAD
+<<<<<<< HEAD
+  #test
+=======
+ #変更
+>>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7
+  root 'public/homes#top'
+  
+=======
   #test
   root to: 'public/homes#top'
   get 'about' => 'public/homes#about'
@@ -21,11 +30,13 @@ Rails.application.routes.draw do
     root_path
   end
 
+>>>>>>> 2605375e7410fdd59b414367cf854c632890719b
   namespace :public do
 
     resources :customers, only: [:show, :edit, :update]
-    get 'customers/unsubscribe'
-    get 'customers/withdraw'
+    get 'unsubscribe/:name' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
+    patch ':id/withdraw/:name' => 'customers#withdraw', as: 'withdraw_user'
+    put 'withdraw/:name' => 'customers#withdraw'
 
     resources :addresses, only: [:index, :edit, :update, :create, :destroy]
 
