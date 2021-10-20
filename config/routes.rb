@@ -4,7 +4,11 @@ Rails.application.routes.draw do
     registrations: "public/registrations",
     sessions: 'public/sessions'
   }
+<<<<<<< HEAD
   #test
+=======
+ #変更
+>>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7
   root 'public/homes#top'
   
   namespace :public do
@@ -46,6 +50,7 @@ Rails.application.routes.draw do
     resources :orders, only: [:show, :update]
 
     resources :order_items, only: [:update]
+     
 
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
