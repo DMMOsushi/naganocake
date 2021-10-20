@@ -4,11 +4,20 @@ Rails.application.routes.draw do
     registrations: "public/registrations",
     sessions: 'public/sessions'
   }
+<<<<<<< HEAD
+ #変更
+=======
   #test
+<<<<<<< HEAD
   root to: 'public/homes#top'
   get 'about' => 'public/homes#about'
   get 'admin' => 'admin/homes#top'
 
+=======
+>>>>>>> 3dda18a57698f53101c4ad5a201f6ce9bed63f83
+  root 'public/homes#top'
+  
+>>>>>>> 543724688734343ccc95ba7309a25c82c4e1da67
   namespace :public do
 
     resources :customers, only: [:show, :edit, :update]
@@ -45,6 +54,7 @@ Rails.application.routes.draw do
     resources :orders, only: [:show, :update]
 
     resources :order_items, only: [:update]
+     
 
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
