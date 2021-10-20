@@ -11,7 +11,7 @@
 
           <!--顧客がログインしている時 -->
           <li><%= link_to 'マイページ', public_customer_path(current_public), class: "header_btn glyphicon glyphicon-home" %></li>
-          <li><%= link_to '商品一覧', public_path, class: "header_btn glyphicon glyphicon-briefcase" %></li>
+          <li><%= link_to '商品一覧', public_items_path, class: "header_btn glyphicon glyphicon-briefcase" %></li>
           <li><%= link_to 'カート', public_cart_items_path, class: "header_btn glyphicon glyphicon-shopping-cart" %></li>
           <li><%= link_to 'ログアウト', destroy_public_session_path, method: :delete, class: "header_btn glyphicon glyphicon-log-out" %></li>
 

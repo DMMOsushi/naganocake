@@ -1,2 +1,45 @@
-<h1>Public::Customers#show</h1>
-<p>Find me in app/views/public/customers/show.html.erb</p>
+<div class="container">
+  <h3>マイページ</h3>
+    <div class="row">
+      <h5><strong>登録情報</strong></h5>
+      <%= link_to '編集する',edit_public_customer_path(@public), class: "btn btn-danger" %>
+    </div>
+    <%= @publics.each do |public| %>
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <td>氏名</td>
+          <td><%= public.last_name%><%= public.first_name %></td>
+        </tr>
+        <tr>
+          <td>カナ</td>
+          <td><%= public.last_kana_name %><%= public.first_kana_name %></td>
+        </tr>
+        <tr>
+          <td>郵便番号</td>
+          <td><%= public.postalcode %></td>
+        </tr>
+        <tr>
+          <td>住所</td>
+          <td> <%= public.address %></td>
+        </tr>
+        <tr>
+          <td>電話番号</td>
+          <td><%= public.telephone %></td>
+        </tr>
+        <tr>
+          <td>メールアドレス</td>
+          <td><%= public.email %></td>
+        </tr>
+      </thread>
+    </table>
+  <% end %>
+  <div class="row">
+    <h5><strong>配送先</strong></h5>
+    <button type="button" class="btn btn-primary">一覧を見る</button>
+  </div>
+  <div class="row">
+    <h5><strong>注文履歴</strong></h5>
+    <button type="button" class="btn btn-primary">一覧を見る</button>
+  </div>
+</div>
