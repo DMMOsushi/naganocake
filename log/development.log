@@ -1665,6 +1665,365 @@ Processing by Public::HomesController#top as HTML
 Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 0.0ms)
 
 
+<<<<<<< HEAD
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:37:30 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.1ms)
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:37:31 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.1ms)
+Completed 500 Internal Server Error in 3871ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (can't add a new key into hash during iteration):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__4089478205615982646_28792480'
+Completed 200 OK in 3813ms (Views: 3812.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:39:14 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.6ms)
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:39:15 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 3577ms (Views: 3570.3ms | ActiveRecord: 0.0ms)
+
+
+Completed 200 OK in 3161ms (Views: 3158.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:39:28 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 103ms (Views: 101.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:53:52 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.5ms)
+Completed 500 Internal Server Error in 179ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected "}", was ""
+        on line 192:2 of app/assets/stylesheets/application.scss
+>> }
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:192
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3744952165638626198_69940503270420'
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:54:15 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.4ms)
+Completed 500 Internal Server Error in 71ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected "}", was ""
+        on line 192:2 of app/assets/stylesheets/application.scss
+>> }
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:192
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3744952165638626198_69940499878720'
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:54:36 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 1636ms (Views: 1635.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:57:35 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.7ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ec2-user/environment/naganocake/app/views"
+  * "/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/app/views"
+):
+    13:     <%= yield %>
+    14:   </div>
+    15: 
+    16:     <%= render "layouts/footer" %>
+    17:   </body>
+    18: 
+    19: </html>
+  
+app/views/public/homes/top.html.erb:16:in `_app_views_public_homes_top_html_erb__3103581251949626552_69940497406360'
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:58:14 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 101ms (Views: 99.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:59:39 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.6ms)
+Completed 500 Internal Server Error in 174ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "}": expected selector or at-rule, was "}"
+        on line 195:2 of app/assets/stylesheets/application.scss
+>> }
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:195
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb___3744952165638626198_69940491807040'
+Started GET "/" for 119.230.154.55 at 2021-10-19 06:59:50 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 1504ms (Views: 1503.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:00:27 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 1702ms (Views: 1701.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:00:51 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 1484ms (Views: 1483.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:01:08 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 1656ms (Views: 1654.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:02:29 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1628ms (Views: 1626.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:02:53 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 1662ms (Views: 1661.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:03:21 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1439ms (Views: 1438.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:03:40 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1510ms (Views: 1508.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:08:57 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.6ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 138ms (Views: 126.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:11:07 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:11:21 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 91ms (Views: 89.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:11:59 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 2029ms (Views: 2028.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:13:31 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 1407ms (Views: 1405.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:18:36 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.7ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 1427ms (Views: 1426.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:20:02 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1504ms (Views: 1502.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:20:44 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 1548ms (Views: 1547.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:35:22 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 556ms (Views: 551.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:35:24 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 93ms (Views: 92.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:36:32 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 103ms (Views: 102.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:41:12 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
   [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ bin/rails:9
   [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
@@ -1679,10 +2038,753 @@ Completed 200 OK in 104ms (Views: 103.2ms | ActiveRecord: 0.0ms)
   ↳ bin/rails:9
 Started GET "/" for 175.177.42.18 at 2021-10-19 03:37:06 +0000
 Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> 543724688734343ccc95ba7309a25c82c4e1da67
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
   ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
 Processing by Public::HomesController#top as HTML
   Rendering public/homes/top.html.erb within layouts/application
+<<<<<<< HEAD
+  Rendered layouts/_header.html.erb (3.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 455ms (Views: 450.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:41:14 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 174ms (Views: 173.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:44:37 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 97ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:45:30 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 104ms (Views: 103.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:47:08 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 96ms (Views: 95.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 07:51:57 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (140.0ms)
+  Rendered public/homes/top.html.erb within layouts/application (143.6ms)
+Completed 500 Internal Server Error in 147ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `user_signed_in?' for #<#<Class:0x000000000447be00>:0x00007f433101b190>):
+     9:       </button>
+    10:       <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    11:         <ul class="navbar-nav ml-auto">
+    12:         <% if user_signed_in? %>
+    13:           <li><%= link_to ' Home',user_path(current_user),class: 'fas fa-home nav-link text-light' %></li>
+    14:           <li><%= link_to ' Users',users_path,class: 'fas fa-users nav-link text-light' %></li>
+    15:           <li><%= link_to ' Books',books_path ,class: 'fas fa-book-open nav-link text-light'%></li>
+  
+app/views/layouts/_header.html.erb:12:in `_app_views_layouts__header_html_erb___2186645997334835657_69963280926080'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3068029837846959671_69963280843560'
+Started GET "/" for 119.230.154.55 at 2021-10-19 08:02:58 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 149ms (Views: 146.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 08:03:23 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 99ms (Views: 98.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 08:03:25 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 97ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 119.230.154.55 at 2021-10-19 08:03:26 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#new as HTML
+  Rendering public/registrations/new.html.erb within layouts/application
+  Rendered public/shared/_error_messages.html.erb (0.5ms)
+  Rendered public/shared/_links.html.erb (0.7ms)
+  Rendered public/registrations/new.html.erb within layouts/application (44.6ms)
+Completed 200 OK in 153ms (Views: 139.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-19 08:03:28 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.6ms)
+  Rendered public/sessions/new.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 90ms (Views: 87.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 119.230.154.55 at 2021-10-19 08:03:31 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#new as HTML
+  Rendering public/registrations/new.html.erb within layouts/application
+  Rendered public/shared/_error_messages.html.erb (0.4ms)
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/registrations/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 98ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-19 08:03:32 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 173ms (Views: 172.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 08:17:40 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 144ms (Views: 142.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 08:20:16 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 2437ms (Views: 2436.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-19 08:20:22 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 100ms (Views: 99.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-19 08:21:11 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 120ms (Views: 119.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-19 08:21:47 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 136ms (Views: 133.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:36:01 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 536ms (Views: 529.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:36:03 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 127ms (Views: 126.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:36:45 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:37:36 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 100ms (Views: 99.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:38:35 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 109ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:39:17 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 94ms (Views: 93.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:40:14 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:40:46 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+...public_path, class: "class="btn btn-secondary" );@output_buf...
+...                            ^~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...ass: "class="btn btn-secondary" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+..._items_path, class: "header_btn glyphicon glyphicon-shopping...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:18: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...phicon glyphicon-shopping-cart" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+...od: :delete, class: "header_btn glyphicon glyphicon-log-out"...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:19: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...tn glyphicon glyphicon-log-out" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+          <button type="button" class="btn btn-secondary">
+                        ^~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+...button type="button" class="btn btn-secondary">
+...                            ^~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:24: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...tton" class="btn btn-secondary">
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:25: syntax error, unexpected tIDENTIFIER, expecting ')'
+...rent_admin), class: "header_btn glyphicon glyphicon-briefcas...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:25: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+... glyphicon glyphicon-briefcase" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+...tomers_path, class: "header_btn glyphicon glyphicon-user" );...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...r_btn glyphicon glyphicon-user" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+..._order_path, class: "header_btn glyphicon glyphicon-list-alt...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:28: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...n glyphicon glyphicon-list-alt" %></li> -->
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+...gories_path, class: "header_btn glyphicon glyphicon-th-list"...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:29: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...tn glyphicon glyphicon-th-list" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+...od: :delete, class: "header_btn glyphicon glyphicon-log-out"...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:30: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...tn glyphicon glyphicon-log-out" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+...public_path, class: "header_btn glyphicon glyphicon-briefcas...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+... glyphicon glyphicon-briefcase" %></li> -->
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+....append=( link_to "新規登録", new_public_registration_pa...
+...                   ^~~~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+...tration_path,class: "header_btn glyphicon glyphicon-edit" );...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+...r_btn glyphicon glyphicon-edit" );@output_buffer.safe_append...
+...                              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+....append=( link_to "ログイン", new_public_session_path, c...
+...                   ^~~~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+...ession_path, class: "header_btn glyphicon glyphicon-log-in" ...
+...                     ^~~~~~~~~~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:37: syntax error, unexpected in
+..._btn glyphicon glyphicon-log-in" );@output_buffer.safe_appen...
+...                             ^~
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:48: unterminated string meets end of file
+          end
+              ^
+/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:48: syntax error, unexpected end-of-input, expecting ')'):
+  
+app/views/layouts/_header.html.erb:17: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:17: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:18: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:18: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:19: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:19: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:24: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:24: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:25: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:25: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:27: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:28: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:28: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:29: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:29: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:30: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:30: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:35: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:35: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:36: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:36: syntax error, unexpected tSTRING_BEG, expecting do or '{' or '('
+app/views/layouts/_header.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:37: syntax error, unexpected tIDENTIFIER, expecting ')'
+app/views/layouts/_header.html.erb:37: syntax error, unexpected in
+app/views/layouts/_header.html.erb:48: unterminated string meets end of file
+app/views/layouts/_header.html.erb:48: syntax error, unexpected end-of-input, expecting ')'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___1262972585343510045_69827022020380'
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:44:32 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 01:55:34 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 102ms (Views: 101.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 01:55:37 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.6ms)
+  Rendered public/sessions/new.html.erb within layouts/application (29.7ms)
+Completed 200 OK in 137ms (Views: 122.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:02:32 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (160.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (162.8ms)
+Completed 500 Internal Server Error in 173ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "logo_transparent.png" is not present in the asset pipeline.
+):
+     5:   <nav class="navbar navbar-expand-sm navbar-light header-image" style="height: 100px">
+     6:   <% end %>
+     7:     <div class="container">
+     8:       <a class="navbar-brand logo-image" href="/"><%= image_tag('logo_transparent.png', class: "logo-image") %></a>
+     9:       <div>
+    10:         <ul class="navbar-nav ml-auto">
+    11:           <% if public_signed_in? %>
+  
+app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__1900088742756399864_31883100'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3747347533577307786_31716420'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:02:34 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.5ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.3ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (The asset "logo_transparent.png" is not present in the asset pipeline.
+):
+     5:   <nav class="navbar navbar-expand-sm navbar-light header-image" style="height: 100px">
+     6:   <% end %>
+     7:     <div class="container">
+     8:       <a class="navbar-brand logo-image" href="/"><%= image_tag('logo_transparent.png', class: "logo-image") %></a>
+     9:       <div>
+    10:         <ul class="navbar-nav ml-auto">
+    11:           <% if public_signed_in? %>
+  
+app/views/layouts/_header.html.erb:8:in `_app_views_layouts__header_html_erb__1900088742756399864_24522460'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3747347533577307786_19709460'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:02:51 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (299.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (301.5ms)
+Completed 500 Internal Server Error in 306ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `about_path' for #<#<Class:0x0000000003c7d7a8>:0x00007f22b5e0ac98>):
+    40: 
+    41:           <% else %>
+    42:             <li data-rippleria class="nav-item">
+    43:               <%= link_to " About", about_path, class: 'btn btn-light' %>
+    44:             </li>
+    45:             <li data-rippleria class="nav-item">
+    46:               <%= link_to " 商品一覧", public_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:43:in `_app_views_layouts__header_html_erb__1900088742756399864_69893528533800'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3747347533577307786_69893528509040'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:03:16 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (258.7ms)
+  Rendered public/homes/top.html.erb within layouts/application (261.7ms)
+Completed 500 Internal Server Error in 268ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `homes_about_path' for #<#<Class:0x0000000003c7d7a8>:0x00007f22b5ebec48>):
+    40: 
+    41:           <% else %>
+    42:             <li data-rippleria class="nav-item">
+    43:               <%= link_to " About", homes_about_path, class: 'btn btn-light' %>
+    44:             </li>
+    45:             <li data-rippleria class="nav-item">
+    46:               <%= link_to " 商品一覧", public_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:43:in `_app_views_layouts__header_html_erb__1900088742756399864_69893528918740'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3747347533577307786_69893528877620'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:05:52 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (320.7ms)
+  Rendered public/homes/top.html.erb within layouts/application (323.3ms)
+Completed 500 Internal Server Error in 332ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `public_homes_about_path' for #<#<Class:0x0000000005568ba0>:0x000000000557b480>
+Did you mean?  public_public_homes_about_path):
+    40: 
+    41:           <% else %>
+    42:             <li data-rippleria class="nav-item">
+    43:               <%= link_to " About", public_homes_about_path, class: 'btn btn-light' %>
+    44:             </li>
+    45:             <li data-rippleria class="nav-item">
+    46:               <%= link_to " 商品一覧", public_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:43:in `_app_views_layouts__header_html_erb___961226626895722856_44946020'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3840595252811478494_44782900'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:05:54 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (232.7ms)
+  Rendered public/homes/top.html.erb within layouts/application (235.1ms)
+Completed 500 Internal Server Error in 240ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `public_homes_about_path' for #<#<Class:0x0000000005568ba0>:0x00007feb8c027798>
+Did you mean?  public_public_homes_about_path):
+    40: 
+    41:           <% else %>
+    42:             <li data-rippleria class="nav-item">
+    43:               <%= link_to " About", public_homes_about_path, class: 'btn btn-light' %>
+    44:             </li>
+    45:             <li data-rippleria class="nav-item">
+    46:               <%= link_to " 商品一覧", public_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:43:in `_app_views_layouts__header_html_erb___961226626895722856_70324821535400'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324821483580'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:06:16 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (224.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (226.7ms)
+Completed 500 Internal Server Error in 234ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `public_path' for #<#<Class:0x0000000005568ba0>:0x00007feb8cb6ff60>
+Did you mean?  public_order_path):
+    40: 
+    41:           <% else %>
+    42:             <li data-rippleria class="nav-item">
+    43:               <%= link_to " 商品一覧", public_path, class: 'btn btn-light' %>
+    44:             </li>
+    45:             <li data-rippleria class="nav-item">
+    46:               <%= link_to " 新規登録", new_public_registration_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:43:in `_app_views_layouts__header_html_erb___961226626895722856_70324827456520'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324827374560'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:06:53 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.1ms)
+Completed 500 Internal Server Error in 9ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"public/orders"}, missing required keys: [:id]):
+    40: 
+    41:           <% else %>
+    42:             <li data-rippleria class="nav-item">
+    43:               <%= link_to " 商品一覧", public_order_path, class: 'btn btn-light' %>
+    44:             </li>
+    45:             <li data-rippleria class="nav-item">
+    46:               <%= link_to " 新規登録", new_public_registration_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:43:in `_app_views_layouts__header_html_erb___961226626895722856_70324826742380'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324827377700'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:07:03 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (261.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (264.2ms)
+Completed 500 Internal Server Error in 271ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `nnew_public_session_path' for #<#<Class:0x0000000005568ba0>:0x00007feb8e402ac8>
+Did you mean?  new_public_session_path
+               new_public_session_url
+               new_admin_session_path):
+    46:               <%= link_to " 新規登録", new_public_registration_path, class: 'btn btn-light' %>
+    47:             </li>
+    48:             <li data-rippleria class="nav-item">
+    49:               <%= link_to " ログイン", nnew_public_session_path, class: 'btn btn-light' %>
+    50:             </li>
+    51:           <% end %>
+    52:         </ul>
+  
+app/views/layouts/_header.html.erb:49:in `_app_views_layouts__header_html_erb___961226626895722856_70324839348720'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324840307060'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:07:18 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ec2-user/environment/naganocake/app/views"
+  * "/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/app/views"
+):
+    51:           <% end %>
+    52:         </ul>
+    53:         <div class=" mt-2 float-right">
+    54:           <%= render 'layouts/search', class: 'mt-5' %>
+    55:         </div>
+    56:       </div>
+    57:     </div>
+  
+app/views/layouts/_header.html.erb:54:in `_app_views_layouts__header_html_erb___961226626895722856_70324831457320'
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324831137680'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:07:48 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 598ms (Views: 596.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 02:07:51 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.7ms)
+  Rendered public/sessions/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 168ms (Views: 152.4ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/public/sign_up" for 119.230.154.55 at 2021-10-20 02:07:53 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#new as HTML
+  Rendering public/registrations/new.html.erb within layouts/application
+  Rendered public/shared/_error_messages.html.erb (0.4ms)
+  Rendered public/shared/_links.html.erb (0.5ms)
+  Rendered public/registrations/new.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 89ms (Views: 88.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/orders" for 119.230.154.55 at 2021-10-20 02:07:55 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::OrdersController#index as HTML
+  Rendering public/orders/index.html.erb within layouts/application
+  Rendered public/orders/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 107ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:08:52 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 2319ms (Views: 2318.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:09:49 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 1448ms (Views: 1447.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/sweets.jpg" for 119.230.154.55 at 2021-10-20 02:09:52 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/images/sweets.jpg"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:10:01 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 116ms (Views: 115.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/images/sweets.jpg" for 119.230.154.55 at 2021-10-20 02:10:02 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/images/sweets.jpg"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+=======
   Rendered public/homes/top.html.erb within layouts/application (5.2ms)
 Completed 200 OK in 549ms (Views: 538.4ms | ActiveRecord: 0.0ms)
 
@@ -1816,6 +2918,7 @@ activesupport (5.2.6) lib/active_support/callbacks.rb:98:in `run_callbacks'
 actionpack (5.2.6) lib/action_dispatch/middleware/callbacks.rb:26:in `call'
 actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
 actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:61:in `call'
+>>>>>>> 543724688734343ccc95ba7309a25c82c4e1da67
 web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
 web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
 web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
@@ -1842,6 +2945,123 @@ puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
 puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:11:36 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial layouts/_slide_show with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ec2-user/environment/naganocake/app/views"
+  * "/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/app/views"
+):
+    1: <%= render 'layouts/slide_show' %>
+    2: <div class="container">
+    3: 
+    4: 	<div class="row pb-5">
+  
+app/views/public/homes/top.html.erb:1:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324990161300'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:11:57 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial public/homes/_genres_search with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ec2-user/environment/naganocake/app/views"
+  * "/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/app/views"
+):
+    1: <div class="container">
+    2: 
+    3: 	<div class="row pb-5">
+    4: 		<%= render 'public/homes/genres_search', genres: @genres %>
+    5: 		<div class="col-9">
+    6: 			<!--画像を入れてください-->
+    7: 			<div class="new-item">
+  
+app/views/public/homes/top.html.erb:4:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324929715180'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:13:40 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Missing partial public/homes/_card_deck with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:raw, :erb, :html, :builder, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/home/ec2-user/environment/naganocake/app/views"
+  * "/home/ec2-user/.rvm/gems/ruby-2.6.3/gems/devise-4.8.0/app/views"
+):
+     5: 			<!--画像を入れてください-->
+     6: 			<div class="new-item">
+     7: 				<h3 class="font-weight-bold">新着商品</h3>
+     8: 				<%= render 'public/homes/card_deck', items: @items %>
+     9: 				<%= link_to "すべての商品を見る＞", items_path, class: 'float-right mt-2' %>
+    10: 			</div>
+    11: 		</div>
+  
+app/views/public/homes/top.html.erb:8:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324990359640'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:13:56 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 84ms (Views: 83.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:19:19 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 87ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:19:27 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:19:29 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered public/homes/top.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 95ms (Views: 93.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:20:38 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 02:20:43 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 85ms (Views: 84.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 119.230.154.55 at 2021-10-20 02:20:44 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
 Started GET "/" for 175.177.42.18 at 2021-10-19 04:10:10 +0000
 Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
   [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
@@ -1872,10 +3092,158 @@ Completed 200 OK in 87ms (Views: 70.5ms | ActiveRecord: 0.7ms)
 
 Started GET "/public/sign_up" for 175.177.42.18 at 2021-10-19 04:11:03 +0000
 Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> 543724688734343ccc95ba7309a25c82c4e1da67
 Processing by Public::RegistrationsController#new as HTML
   Rendering public/registrations/new.html.erb within layouts/application
   Rendered public/shared/_error_messages.html.erb (0.4ms)
   Rendered public/shared/_links.html.erb (0.4ms)
+<<<<<<< HEAD
+  Rendered public/registrations/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 116ms (Views: 115.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/orders" for 119.230.154.55 at 2021-10-20 02:20:46 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::OrdersController#index as HTML
+  Rendering public/orders/index.html.erb within layouts/application
+  Rendered public/orders/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 136ms (Views: 134.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/orders" for 119.230.154.55 at 2021-10-20 02:20:53 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::OrdersController#index as HTML
+  Rendering public/orders/index.html.erb within layouts/application
+  Rendered public/orders/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 85ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:24:10 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 95ms (Views: 94.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:24:59 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 91ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:25:42 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 101ms (Views: 100.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:26:16 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:26:26 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:26:49 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 84ms (Views: 83.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:27:21 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 89ms (Views: 88.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:28:25 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 108ms (Views: 107.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:33:14 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (0.8ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 16ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/layouts/_header.html.erb:43: syntax error, unexpected class, expecting ')'
+...link_to "マイページ" class: 'btn btn-light' );@output_b...
+...                          ^~~~~):
+  
+app/views/layouts/_header.html.erb:43: syntax error, unexpected class, expecting ')'
+app/views/public/homes/top.html.erb:3:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324894579060'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:34:01 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 112ms (Views: 110.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:34:03 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 145ms (Views: 143.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:34:28 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered public/homes/top.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 82ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/orders" for 119.230.154.55 at 2021-10-20 02:34:29 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::OrdersController#index as HTML
+  Rendering public/orders/index.html.erb within layouts/application
+  Rendered public/orders/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 82ms (Views: 81.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 119.230.154.55 at 2021-10-20 02:34:31 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+=======
   Rendered public/registrations/new.html.erb within layouts/application (8.0ms)
 Completed 200 OK in 72ms (Views: 71.5ms | ActiveRecord: 0.0ms)
 
@@ -1998,10 +3366,75 @@ Completed 200 OK in 89ms (Views: 88.7ms | ActiveRecord: 0.0ms)
 
 Started GET "/public/sign_up" for 175.177.42.18 at 2021-10-19 04:19:48 +0000
 Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+>>>>>>> 543724688734343ccc95ba7309a25c82c4e1da67
 Processing by Public::RegistrationsController#new as HTML
   Rendering public/registrations/new.html.erb within layouts/application
   Rendered public/shared/_error_messages.html.erb (0.4ms)
   Rendered public/shared/_links.html.erb (0.4ms)
+<<<<<<< HEAD
+  Rendered public/registrations/new.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 02:34:32 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 82ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 02:34:45 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/public/sign_in" for 119.230.154.55 at 2021-10-20 02:34:50 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4k+1f3YV/qPqeu/13gdcByxfj4loCBLkWVqORqGyEJEvHhg8SstzVJ/Y1nILbU2m+n7aot/DBH+BO5PnMs+WZg==", "public"=>{"email"=>"aaaa@aaaa", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."email" = ? ORDER BY "publics"."id" ASC LIMIT ?[0m  [["email", "aaaa@aaaa"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Completed 401 Unauthorized in 8ms (ActiveRecord: 0.2ms)
+
+
+Processing by Public::SessionsController#new as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4k+1f3YV/qPqeu/13gdcByxfj4loCBLkWVqORqGyEJEvHhg8SstzVJ/Y1nILbU2m+n7aot/DBH+BO5PnMs+WZg==", "public"=>{"email"=>"aaaa@aaaa", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 412ms (Views: 102.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 119.230.154.55 at 2021-10-20 02:34:54 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#new as HTML
+  Rendering public/registrations/new.html.erb within layouts/application
+  Rendered public/shared/_error_messages.html.erb (0.4ms)
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/registrations/new.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/public" for 119.230.154.55 at 2021-10-20 02:35:05 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"bn0pwpZk6wIFfGl3uIDIJhNMIM+7lAT2IBjzHNqId+H9GgVvk1FVwCcsOTNG/GngD50/LQ/5LdShYT3N4PvR5A==", "public"=>{"email"=>"555@555", "password"=>"[FILTERED]", "password_confirmation"=>"[FILTERED]"}, "commit"=>"Sign up"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[36mPublic Exists (0.2ms)[0m  [1m[34mSELECT  1 AS one FROM "publics" WHERE "publics"."email" = ? LIMIT ?[0m  [["email", "555@555"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[36mPublic Create (0.6ms)[0m  [1m[32mINSERT INTO "publics" ("email", "encrypted_password", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["email", "555@555"], ["encrypted_password", "$2a$12$NsV3gwyPMQVwe4FfhvtuPe5DvAITmnHJ.Owgf4uSmsdmS5RLtC6bq"], ["created_at", "2021-10-20 02:35:05.952132"], ["updated_at", "2021-10-20 02:35:05.952132"]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Completed 500 Internal Server Error in 333ms (ActiveRecord: 0.9ms)
+=======
   Rendered public/registrations/new.html.erb within layouts/application (8.5ms)
 Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
 
@@ -2206,6 +3639,7 @@ Unpermitted parameters: :last_name, :first_name, :last_kana_name, :first_kana_na
   [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
   ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
 Completed 500 Internal Server Error in 317ms (ActiveRecord: 0.8ms)
+>>>>>>> 543724688734343ccc95ba7309a25c82c4e1da67
 
 
   
@@ -2330,6 +3764,1039 @@ puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
 puma (3.12.6) lib/puma/server.rb:476:in `process_client'
 puma (3.12.6) lib/puma/server.rb:334:in `block in run'
 puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+<<<<<<< HEAD
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 02:35:13 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.4ms)
+  Rendered public/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 98ms (Views: 96.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 02:35:21 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.3ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 106ms (Views: 98.3ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/admin/sign_in" for 119.230.154.55 at 2021-10-20 02:35:27 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r/b1aIgmQF4XKW5yXav78XxCapZycyEbY9aZT8s9cn3wuVs0tN78JITRw1J3FVOaHWvljzchLITCqUn4Jw8zMQ==", "admin"=>{"email"=>"0000@0000", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "0000@0000"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 311ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:35:27 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:24
+  Rendered layouts/_header.html.erb (6.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.1ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"admin/orders"}, missing required keys: [:id]):
+    29:               <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>
+    30:             </li>
+    31:             <li data-rippleria class="nav-item">
+    32:               <%= link_to " 注文履歴一覧", admin_order_path, class: 'btn btn-light' %>
+    33:             </li>
+    34:             <li data-rippleria class="nav-item">
+    35:               <%= link_to " ジャンル一覧", admin_categories_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:32:in `_app_views_layouts__header_html_erb___961226626895722856_70324989507600'
+app/views/public/homes/top.html.erb:3:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324989491660'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:35:48 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:24
+  Rendered layouts/_header.html.erb (277.7ms)
+  Rendered public/homes/top.html.erb within layouts/application (280.0ms)
+Completed 500 Internal Server Error in 284ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_orders_path' for #<#<Class:0x0000000005568ba0>:0x00007feb98e8cde0>
+Did you mean?  admin_order_path
+               admin_order_item_path
+               admin_items_path
+               admin_order_url
+               admin_item_path):
+    29:               <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>
+    30:             </li>
+    31:             <li data-rippleria class="nav-item">
+    32:               <%= link_to " 注文履歴一覧", admin_orders_path, class: 'btn btn-light' %>
+    33:             </li>
+    34:             <li data-rippleria class="nav-item">
+    35:               <%= link_to " ジャンル一覧", admin_categories_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:32:in `_app_views_layouts__header_html_erb___961226626895722856_70324929735820'
+app/views/public/homes/top.html.erb:3:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324929719060'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:36:08 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:24
+  Rendered layouts/_header.html.erb (251.0ms)
+  Rendered public/homes/top.html.erb within layouts/application (253.3ms)
+Completed 500 Internal Server Error in 258ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `admin_order_items_path' for #<#<Class:0x0000000005568ba0>:0x00007feba04f09c8>
+Did you mean?  admin_order_item_path
+               admin_order_path
+               admin_order_item_url
+               admin_items_path):
+    29:               <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>
+    30:             </li>
+    31:             <li data-rippleria class="nav-item">
+    32:               <%= link_to " 注文履歴一覧", admin_order_items_path, class: 'btn btn-light' %>
+    33:             </li>
+    34:             <li data-rippleria class="nav-item">
+    35:               <%= link_to " ジャンル一覧", admin_categories_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:32:in `_app_views_layouts__header_html_erb___961226626895722856_70324991815600'
+app/views/public/homes/top.html.erb:3:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324991789340'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:36:18 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:24
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.9ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"update", :controller=>"admin/order_items"}, missing required keys: [:id]):
+    29:               <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>
+    30:             </li>
+    31:             <li data-rippleria class="nav-item">
+    32:               <%= link_to " 注文履歴一覧", admin_order_item_path, class: 'btn btn-light' %>
+    33:             </li>
+    34:             <li data-rippleria class="nav-item">
+    35:               <%= link_to " ジャンル一覧", admin_categories_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:32:in `_app_views_layouts__header_html_erb___961226626895722856_70324922280060'
+app/views/public/homes/top.html.erb:3:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324922618920'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:36:29 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:24
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.2ms)
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"admin/orders"}, missing required keys: [:id]):
+    29:               <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>
+    30:             </li>
+    31:             <li data-rippleria class="nav-item">
+    32:               <%= link_to " 注文履歴一覧", admin_order_path, class: 'btn btn-light' %>
+    33:             </li>
+    34:             <li data-rippleria class="nav-item">
+    35:               <%= link_to " ジャンル一覧", admin_categories_path, class: 'btn btn-light' %>
+  
+app/views/layouts/_header.html.erb:32:in `_app_views_layouts__header_html_erb___961226626895722856_70324922491140'
+app/views/public/homes/top.html.erb:3:in `_app_views_public_homes_top_html_erb___3840595252811478494_70324922614940'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:38:18 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/categories" for 119.230.154.55 at 2021-10-20 02:38:21 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 79ms (Views: 76.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers" for 119.230.154.55 at 2021-10-20 02:38:24 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 79ms (Views: 77.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers/1" for 119.230.154.55 at 2021-10-20 02:38:26 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 135ms (Views: 133.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:38:59 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 88ms (Views: 87.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 119.230.154.55 at 2021-10-20 02:39:01 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started DELETE "/admin/sign_out" for 119.230.154.55 at 2021-10-20 02:40:08 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9ioSahwda1x5tdgJ8j3t3A/6kJWOZ7XM0axdacSaqpp2I355Sxh4mggkNBmPqHAjv+IPvqe7Fa3FJXXRVQYVfQ=="}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 19ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:40:08 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 105ms (Views: 104.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:40:11 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 89ms (Views: 88.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 02:40:15 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (1.1ms)
+  Rendered public/sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 02:40:25 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.3ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 100ms (Views: 98.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/sign_in" for 119.230.154.55 at 2021-10-20 02:40:31 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iB6tyEJNwiiXY3V5D8xk+8w/a9yJ5DEuvC6AaDDirk0a8czHxM+sLicq3/WwPKclcc4NzqyLY60U7qX/+f267Q==", "admin"=>{"email"=>"0000@0000", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "0000@0000"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 309ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:40:31 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 90ms (Views: 88.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 119.230.154.55 at 2021-10-20 02:40:35 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 79ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:45:37 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (3.8ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 1480ms (Views: 1478.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:46:39 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 87ms (Views: 86.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:48:51 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 1400ms (Views: 1399.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:49:08 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 89ms (Views: 87.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:50:59 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 1433ms (Views: 1432.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:52:54 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 221ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...ding-top: 20px;": expected "}", was ""
+        on line 57:23 of app/assets/stylesheets/application.scss
+>>     padding-top: 20px;
+
+   ----------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:57
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1133479869684575415_70324992086840'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:54:30 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (9.0ms)
+Completed 500 Internal Server Error in 73ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Error: Invalid CSS after "...ding-top: 20px;": expected "}", was ""
+        on line 61:23 of app/assets/stylesheets/application.scss
+>>     padding-top: 20px;
+
+   ----------------------^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:61
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1133479869684575415_70324989460300'
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:54:46 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 1423ms (Views: 1421.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:57:20 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 94ms (Views: 92.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:57:49 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 89ms (Views: 88.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:58:22 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 107ms (Views: 105.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 02:58:57 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (5.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 143ms (Views: 142.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:00:18 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.9ms)
+Completed 500 Internal Server Error in 139ms (ActiveRecord: 0.1ms)
+
+
+  
+ActionView::Template::Error (Error: property "margin-right" must be followed by a ':'
+        on line 33:2 of app/assets/stylesheets/application.scss
+>> 	margin-right
+
+   -^
+):
+     5:     <%= csrf_meta_tags %>
+     6:     <%= csp_meta_tag %>
+     7: 
+     8:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+     9:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    10:   </head>
+    11: 
+  
+app/assets/stylesheets/application.scss:33
+app/views/layouts/application.html.erb:8:in `_app_views_layouts_application_html_erb__1133479869684575415_70324991382000'
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:00:46 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (5.5ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 1508ms (Views: 1506.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:01:34 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 1458ms (Views: 1456.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:02:30 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 1476ms (Views: 1474.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:02:47 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 1598ms (Views: 1597.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:06:55 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (6.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 209ms (Views: 207.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:10:23 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (6.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 90ms (Views: 89.0ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/admin/sign_out" for 119.230.154.55 at 2021-10-20 03:10:26 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zi28WYvciHY4HyIOBbiewdWWrwmeEktU5vghfQZxO+LKlbZjqvactk6lrliLpp8ij1j3OgrlMY04BtVdlh3wHQ=="}
+  [1m[36mAdmin Load (1.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (1.5ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 8ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:10:27 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 85ms (Views: 84.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:14:20 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 421ms (Views: 397.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 03:15:21 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.5ms)
+  Rendered public/sessions/new.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 100ms (Views: 85.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:15:27 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.3ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 115ms (Views: 107.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:15:33 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zR+dW1YXawKKkDM51VQ1ffm/ZtCsy6pT2jyXQ5R+xQbdZvi210VIvBx58PHSJ5vBsD5ZySY8gP9XOk5rXcBdsQ==", "admin"=>{"email"=>"0000@0000", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "0000@0000"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 304ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:15:34 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (5.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 107ms (Views: 106.0ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/admin/sign_out" for 119.230.154.55 at 2021-10-20 03:16:19 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"u4yBg55tiz/SQASrJ3k2md47yAW5UYWZ/M6235Fpd1oA77bicEcosJ4FSiIbo9rYhj1Uwc7uvoglAlcVOMy+Sw=="}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 18ms (ActiveRecord: 0.9ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:16:20 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.8ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 97ms (Views: 95.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:16:22 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.4ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 116ms (Views: 114.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:16:30 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lZ3D8FXkfbYJHkFI4i3cj0ZonSChHYWKycbFTjy7uAIO2IA/A0ObbuIiBm7KSwvZJAY6JI87yvFO3JOZTxU02Q==", "admin"=>{"email"=>"0000@0000", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "0000@0000"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 309ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:16:30 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (3.9ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.9ms)
+Completed 200 OK in 90ms (Views: 89.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers/1" for 119.230.154.55 at 2021-10-20 03:17:08 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 91ms (Views: 89.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers" for 119.230.154.55 at 2021-10-20 03:17:10 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 102ms (Views: 99.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/categories" for 119.230.154.55 at 2021-10-20 03:17:12 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CategoriesController#index as HTML
+  Rendering admin/categories/index.html.erb within layouts/application
+  Rendered admin/categories/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 83ms (Views: 81.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:18:54 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (10.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 119ms (Views: 117.6ms | ActiveRecord: 0.8ms)
+
+
+Started DELETE "/admin/sign_out" for 119.230.154.55 at 2021-10-20 03:18:57 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VvDOKIpoEpG8tNEDudI1N+IBzm4TXVOvjwaCc4rrLNEQ1V2XhzpNwNjM5nvKjn1S3Hv3+934PzFuakNBxz/LMA=="}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 10ms (ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:18:57 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 85ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:18:59 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.4ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 86ms (Views: 85.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:19:03 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"vrFDUeuNO47T5rQb/SsUG2BK/qkvyo6yJyg65wjI+kw00sEz8gcXKqUgHEfLqnjWR8NAARvq9pRQ2mTqKaKshQ==", "admin"=>{"email"=>"0000@0000", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "0000@0000"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 309ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:19:04 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (25.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (29.1ms)
+Completed 200 OK in 144ms (Views: 143.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:19:40 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (11.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 98ms (Views: 96.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:19:42 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 6ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:19:53 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Filter chain halted as :require_no_authentication rendered or redirected
+Completed 302 Found in 5ms (ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:19:53 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (31.5ms)
+Completed 200 OK in 123ms (Views: 121.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/admin/sign_out" for 119.230.154.55 at 2021-10-20 03:19:58 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"TiwfxgCWW7NQ06aVJRKCz0hNxInDxpZx3QNcSHlMK0WgmhLJQsnTOtf1ZBR1Jk2DSxgqVWlngOCCVf8kBwxZwA=="}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:19:58 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 130ms (Views: 128.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 03:20:03 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.5ms)
+  Rendered public/sessions/new.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 110ms (Views: 97.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:20:10 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.4ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 90ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:20:15 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xMNwUTLVVqdv0B2N5njePkrlaXIJg668X2Y6tlu/+4IlDWZQLacidXrvrqVWm+AUfSYAkoFtinnekFiT7Yz3NA==", "admin"=>{"email"=>"0000@0000", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "0000@0000"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 309ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:20:16 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 96ms (Views: 94.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:21:24 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (11.5ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (15.3ms)
+Completed 200 OK in 99ms (Views: 97.0ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/admin/sign_out" for 119.230.154.55 at 2021-10-20 03:21:27 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wXBwRPSlPrjWEUtdBMfFnqDLkVAHR3e7SpGSMY2x1lC5hRlXnA84MODACBWvjuS8uCJQP94t7UPiXbD4148LOQ=="}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 10ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:21:28 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 133ms (Views: 132.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_in" for 119.230.154.55 at 2021-10-20 03:21:36 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.6ms)
+  Rendered public/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 106ms (Views: 91.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:21:43 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.4ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 91ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/admin/sign_in" for 119.230.154.55 at 2021-10-20 03:21:50 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"7ueApicZ3jf+Bnjr5bwRahMEFuxYWsMT5AcnAi5t/4KdukkTXsZ9Kl1g2x6emE8+P8wWd4V4arxn94M7hcApJg==", "admin"=>{"email"=>"0000@0000", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Log in"}
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."email" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["email", "0000@0000"], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 303ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:21:51 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:26
+  Rendered layouts/_header.html.erb (4.0ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 117ms (Views: 115.8ms | ActiveRecord: 0.2ms)
+
+
+Started DELETE "/admin/sign_out" for 119.230.154.55 at 2021-10-20 03:21:58 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"lw1mLTPagmcdB5IpXZo9c96/MQGV8LpqT7HS4atgpV8uW1h+boelL+86Yp19sEzOFHS5Gg1Rv+xMyhGyeUewLg=="}
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Redirected to https://c3dc92bbf0f5421aa79aff2d4152cc33.vfs.cloud9.us-east-1.amazonaws.com/
+Completed 302 Found in 8ms (ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:21:58 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 86ms (Views: 85.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:21:59 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/orders" for 119.230.154.55 at 2021-10-20 03:22:00 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::OrdersController#index as HTML
+  Rendering public/orders/index.html.erb within layouts/application
+  Rendered public/orders/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 80ms (Views: 78.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:30:25 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 553ms (Views: 548.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 119.230.154.55 at 2021-10-20 03:30:26 +0000
+Cannot render console from 119.230.154.55! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 156ms (Views: 154.9ms | ActiveRecord: 0.0ms)
+=======
 Started POST "/public" for 175.177.42.18 at 2021-10-19 05:00:17 +0000
 Cannot render console from 175.177.42.18! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
 Processing by Public::RegistrationsController#create as HTML
@@ -2889,5 +5356,6 @@ Processing by Public::CustomersController#show as HTML
   Rendering public/customers/show.html.erb within layouts/application
   Rendered public/customers/show.html.erb within layouts/application (0.3ms)
 Completed 200 OK in 113ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+>>>>>>> 543724688734343ccc95ba7309a25c82c4e1da67
 
 

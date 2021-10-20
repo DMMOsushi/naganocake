@@ -1,37 +1,65 @@
-<nav class="nav navbar-nav navbar-left title">
-      <% if admin_signed_in? %>
-      <%= link_to "ながのCAKE", admin_top_path %>
-      <% else %>
-      <%= link_to "ながのCAKE", root_path %>
-      <% end %>
-    </nav>
-    <nav>
-      <ul class="nav navbar-nav navbar-right">
-        <% if public_signed_in? %>
-
+<header>
+  <% if current_page?(root_path) %>
+    <nav class="navbar navbar-expand-sm navbar-light header-image-top" style="height: 100px">
+  <% else %>
+    <nav class="navbar navbar-expand-sm navbar-light header-image" style="height: 100px">
+  <% end %>
+    <div class="container">
+      <div>
+        <ul class="navbar-nav ml-auto">
+          <% if public_signed_in? %>
           <!--顧客がログインしている時 -->
-          <li><%= link_to 'マイページ', public_customer_path(current_public), class: "header_btn glyphicon glyphicon-home" %></li>
-          <li><%= link_to '商品一覧', public_path, class: "header_btn glyphicon glyphicon-briefcase" %></li>
-          <li><%= link_to 'カート', public_cart_items_path, class: "header_btn glyphicon glyphicon-shopping-cart" %></li>
-          <li><%= link_to 'ログアウト', destroy_public_session_path, method: :delete, class: "header_btn glyphicon glyphicon-log-out" %></li>
 
-        <% elsif admin_signed_in? %>
+            <li data-rippleria class="nav-item">
+              <%= link_to " マイページ", public_customer_path(current_public), class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " 商品一覧", public_path, class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " カート", public_cart_items_path, class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " ログアウト", destroy_public_session_path, method: :delete, class: 'btn btn-light' %>
+            </li>
 
+          <% elsif admin_signed_in? %>
           <!-- 管理者がログインしている時 -->
-          <li><%= link_to '商品一覧', admin_customer_path(current_admin), class: "header_btn glyphicon glyphicon-briefcase" %></li>
-          <li><%= link_to '会員一覧', admin_customers_path, class: "header_btn glyphicon glyphicon-user" %></li>
-          <!--%= link_to '注文履歴一覧', admin_order_path, class: "header_btn glyphicon glyphicon-list-alt" %></li> -->
-          <li><%= link_to 'ジャンル一覧', admin_categories_path, class: "header_btn glyphicon glyphicon-th-list" %></li>
-          <li><%= link_to 'ログアウト', destroy_admin_session_path, method: :delete, class: "header_btn glyphicon glyphicon-log-out" %></li>
 
-        <% else %>
+          	<li data-rippleria class="nav-item">
+              <%= link_to " 商品一覧", admin_customer_path(current_admin), class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <!--%= link_to " 注文履歴一覧", admin_order_path, class: 'btn btn-light' %>-->
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " ジャンル一覧", admin_categories_path, class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " ログアウト", destroy_admin_session_path, method: :delete, class: 'btn btn-light' %>
+            </li>
 
+          <% else %>
           <!-- ログインしていない時 -->
-          <!--%= link_to '商品一覧', public_path, class: "header_btn glyphicon glyphicon-briefcase" %></li> -->
-          <li><%= link_to "新規登録", new_public_registration_path,class: "header_btn glyphicon glyphicon-edit" %></li>
-          <li><%= link_to "ログイン", new_public_session_path, class: "header_btn glyphicon glyphicon-log-in" %></li>
 
-        <% end %>
-      </ul>
-    </nav>
+            <li data-rippleria class="nav-item">
+              <%= link_to "マイページ", root_path, class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " 商品一覧", public_orders_path, class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " 新規登録", new_public_registration_path, class: 'btn btn-light' %>
+            </li>
+            <li data-rippleria class="nav-item">
+              <%= link_to " ログイン", new_public_session_path, class: 'btn btn-light' %>
+            </li>
+          <% end %>
+        </ul>
+      </div>
+    </div>
+  </nav>
 </header>
