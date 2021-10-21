@@ -3,7 +3,7 @@ class Public::AddressesController < ApplicationController
 
   def index
     @address = Address.new
-    @addresses = current_public.addresses.all
+    @addresses = Address.all
   end
 
   def edit
