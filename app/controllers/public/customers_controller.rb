@@ -16,11 +16,11 @@ class Public::CustomersController < ApplicationController
 
   def unsubscribe
     @public = Public.find(params[:id])
-    redirect_to public_confirm_unsubscribe_path(public.id)
+    redirect_to public_confirm_unsubscribe
   end
 
   def withdraw
-    @public = Public.find_by(name: params[:name])
+    @public = Public.find(params[:id])
     @public.update(is_valid: false)
     reset_session
     redirect_to root_path

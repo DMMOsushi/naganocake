@@ -1,9 +1,8 @@
-<<<<<<< HEAD
 <div class="container">
   <h3>マイページ</h3>
-    <div class="row">
-      <h5><strong>登録情報</strong></h5>
-      <%= link_to '編集する',edit_public_customer_path(@public), class: "btn btn-success" %>
+    <div class="row mb-3">
+      <h5 ><strong>登録情報</strong></h5>
+      <div><%= link_to '編集する',edit_public_customer_path(@public), class: "btn btn-success" %></div>
     </div>
     <%= @publics.each do |public| %>
     <table class="table table-bordered">
@@ -44,12 +43,4 @@
     <button type="button" class="btn btn-primary">一覧を見る</button>
   </div>
 </div>
-=======
-<h1>マイページ</h1>
-<h4>登録情報</h4>
-<button type="button" class="btn btn-danger">編集する</button>
 
-<h4>配送先</h4>
-<h4>注文履歴</h4>
-
->>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7

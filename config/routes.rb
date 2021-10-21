@@ -24,9 +24,10 @@ Rails.application.routes.draw do
   namespace :public do
 
     resources :customers, only: [:show, :edit, :update]
-    get 'unsubscribe/:name' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
-    patch ':id/withdraw/:name' => 'customers#withdraw', as: 'withdraw_user'
-    put 'withdraw/:name' => 'customers#withdraw'
+    get 'customers/unsubscribe/:email' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
+    patch ':id/withdraw/:email' => 'customers#withdraw', as: 'withdraw_user'
+    put 'withdraw/:email' => 'customers#withdraw'
+
 
     resources :addresses, only: [:index, :edit, :update, :create, :destroy]
 
