@@ -10898,3 +10898,717 @@ Processing by Public::HomesController#top as HTML
 Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/" for 153.246.254.136 at 2021-10-20 08:24:10 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_footer.html.erb (0.3ms)
+  Rendered public/homes/top.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 587ms (Views: 564.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-20 08:24:14 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 37ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 153.246.254.136 at 2021-10-20 08:24:20 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#new as HTML
+  Rendering public/registrations/new.html.erb within layouts/application
+  Rendered public/shared/_error_messages.html.erb (0.4ms)
+  Rendered public/shared/_links.html.erb (5.0ms)
+  Rendered public/registrations/new.html.erb within layouts/application (82.8ms)
+Completed 200 OK in 143ms (Views: 119.5ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/public/items" for 153.246.254.136 at 2021-10-20 08:24:34 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::ItemsController#index as HTML
+  Rendering public/items/index.html.erb within layouts/application
+  Rendered public/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 39ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/items" for 153.246.254.136 at 2021-10-20 08:24:52 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::ItemsController#index as HTML
+  Rendering public/items/index.html.erb within layouts/application
+  Rendered public/items/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 153.246.254.136 at 2021-10-20 08:24:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#new as HTML
+  Rendering public/registrations/new.html.erb within layouts/application
+  Rendered public/shared/_error_messages.html.erb (0.4ms)
+  Rendered public/shared/_links.html.erb (0.5ms)
+  Rendered public/registrations/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 106ms (Views: 104.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-20 08:24:57 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 43ms (Views: 42.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-20 08:55:00 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.6ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 233ms (Views: 226.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 08:55:23 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Admin::CustomersController::Customer):
+  
+app/controllers/admin/customers_controller.rb:3:in `index'
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:02:12 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Admin::CustomersController::Customer):
+  
+app/controllers/admin/customers_controller.rb:3:in `index'
+Started GET "/admin/customer" for 153.246.254.136 at 2021-10-20 09:02:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [GET] "/admin/customer"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/admin/customers/1" for 153.246.254.136 at 2021-10-20 09:04:28 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers/1" for 153.246.254.136 at 2021-10-20 09:04:30 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 42ms (Views: 40.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:04:45 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Admin::CustomersController::Customer):
+  
+app/controllers/admin/customers_controller.rb:3:in `index'
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:08:29 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant Admin::CustomersController::Customer):
+  
+app/controllers/admin/customers_controller.rb:3:in `index'
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:11:06 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 48ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @customers.each do |customer| %>
+    2:    <tr>
+    3:     <td><%= customer.id %></td>
+    4:     <td><%= link_to customer.last_name + customer.first_name , admin_customer_path(customer) %></td>
+  
+app/views/admin/customers/index.html.erb:1:in `_app_views_admin_customers_index_html_erb__1332557496401642541_69925087680080'
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:12:27 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (1.7ms)
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for nil:NilClass):
+    1: <% @public.each do |public| %>
+    2:    <tr>
+    3:     <td><%= public.id %></td>
+    4:     <td><%= link_to public.last_name + public.first_name , admin_customer_path(customer) %></td>
+  
+app/views/admin/customers/index.html.erb:1:in `_app_views_admin_customers_index_html_erb__1332557496401642541_69924891066460'
+Started GET "/public/sign_in" for 153.246.254.136 at 2021-10-20 09:13:22 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (1.0ms)
+  Rendered public/sessions/new.html.erb within layouts/application (28.6ms)
+Completed 200 OK in 99ms (Views: 77.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/public/sign_in" for 153.246.254.136 at 2021-10-20 09:13:24 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::SessionsController#new as HTML
+  Rendering public/sessions/new.html.erb within layouts/application
+  Rendered public/shared/_links.html.erb (0.5ms)
+  Rendered public/sessions/new.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 61ms (Views: 57.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/public/sign_up" for 153.246.254.136 at 2021-10-20 09:13:30 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::RegistrationsController#new as HTML
+  Rendering public/registrations/new.html.erb within layouts/application
+  Rendered public/shared/_error_messages.html.erb (0.5ms)
+  Rendered public/shared/_links.html.erb (0.5ms)
+  Rendered public/registrations/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 60ms (Views: 59.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/public/sign_up" for 153.246.254.136 at 2021-10-20 09:14:10 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  
+ActionController::RoutingError (No route matches [POST] "/public/sign_up"):
+  
+actionpack (5.2.6) lib/action_dispatch/middleware/debug_exceptions.rb:65:in `call'
+web-console (3.7.0) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.7.0) lib/web_console/middleware.rb:22:in `block in call'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.7.0) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/show_exceptions.rb:33:in `call'
+railties (5.2.6) lib/rails/rack/logger.rb:38:in `call_app'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `block in call'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `block in tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:28:in `tagged'
+activesupport (5.2.6) lib/active_support/tagged_logging.rb:71:in `tagged'
+railties (5.2.6) lib/rails/rack/logger.rb:26:in `call'
+sprockets-rails (3.2.2) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/remote_ip.rb:81:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/request_id.rb:27:in `call'
+rack (2.2.3) lib/rack/method_override.rb:24:in `call'
+rack (2.2.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.2.6) lib/active_support/cache/strategy/local_cache_middleware.rb:29:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/executor.rb:14:in `call'
+actionpack (5.2.6) lib/action_dispatch/middleware/static.rb:127:in `call'
+rack (2.2.3) lib/rack/sendfile.rb:110:in `call'
+railties (5.2.6) lib/rails/engine.rb:524:in `call'
+puma (3.12.6) lib/puma/configuration.rb:227:in `call'
+puma (3.12.6) lib/puma/server.rb:706:in `handle_request'
+puma (3.12.6) lib/puma/server.rb:476:in `process_client'
+puma (3.12.6) lib/puma/server.rb:334:in `block in run'
+puma (3.12.6) lib/puma/thread_pool.rb:135:in `block in spawn_thread'
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:17:10 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  Rendered admin/customers/index.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/home/ec2-user/environment/naganocake/app/views/admin/customers/index.html.erb:8: else without rescue is useless
+'.freeze;      else 
+               ^~~~
+/home/ec2-user/environment/naganocake/app/views/admin/customers/index.html.erb:15: syntax error, unexpected ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/admin/customers/index.html.erb:8: else without rescue is useless
+app/views/admin/customers/index.html.erb:15: syntax error, unexpected ensure, expecting end-of-input
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:19:07 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:1
+  Rendered admin/customers/index.html.erb within layouts/application (418.3ms)
+Completed 500 Internal Server Error in 424ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined local variable or method `customer' for #<#<Class:0x00000000042d3f30>:0x000000000395f940>):
+    1: <% @publics.each do |public| %>
+    2:    <tr>
+    3:     <td><%= public.id %></td>
+    4:     <td><%= link_to public.last_name + public.first_name , admin_customer_path(customer) %></td>
+    5:     <td><%= public.email %></td>
+    6:     <td class>
+    7:      <% if public.user_status %>
+  
+app/views/admin/customers/index.html.erb:4:in `block in _app_views_admin_customers_index_html_erb__1332557496401642541_32227440'
+app/views/admin/customers/index.html.erb:1:in `_app_views_admin_customers_index_html_erb__1332557496401642541_32227440'
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:19:35 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:1
+  Rendered admin/customers/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 54ms (Views: 51.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:19:37 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:1
+  Rendered admin/customers/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 69ms (Views: 63.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:21:01 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.3ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:10
+  Rendered admin/customers/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 48ms (Views: 47.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:21:03 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:10
+  Rendered admin/customers/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 74ms (Views: 73.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:22:07 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.9ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:10
+  Rendered admin/customers/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 39ms (Views: 37.8ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:22:08 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:10
+  Rendered admin/customers/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 36ms (Views: 35.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:23:43 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:23:45 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 64ms (Views: 63.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:39:15 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 49ms (Views: 45.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:39:17 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 54ms (Views: 52.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:39:42 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (1.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 36ms (Views: 34.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:39:44 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 47ms (Views: 46.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-20 09:45:15 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 221ms (Views: 214.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:45:28 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (18.5ms)
+Completed 500 Internal Server Error in 23ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"show", :controller=>"admin/customers"}, missing required keys: [:id]):
+    11:   <% @publics.each do |public| %>
+    12:      <tr>
+    13:       <td><%= public.id %></td>
+    14:       <td><%= link_to public.last_name + public.first_name, admin_customer_path %></td>
+    15:       <td><%= public.email %></td>
+    16:       <td class>
+    17:        <% if public.user_status %>
+  
+app/views/admin/customers/index.html.erb:14:in `block in _app_views_admin_customers_index_html_erb___1504908026994161304_69929315483460'
+app/views/admin/customers/index.html.erb:11:in `_app_views_admin_customers_index_html_erb___1504908026994161304_69929315483460'
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:46:29 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 40ms (Views: 38.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-20 09:46:31 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 68ms (Views: 67.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers/1" for 153.246.254.136 at 2021-10-20 09:46:32 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers/1/edit" for 153.246.254.136 at 2021-10-20 09:47:30 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:10
+  Rendering admin/customers/edit.html.erb within layouts/application
+  Rendered admin/customers/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 63ms (Views: 39.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/customers/1/edit" for 153.246.254.136 at 2021-10-20 09:47:32 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:10
+  Rendering admin/customers/edit.html.erb within layouts/application
+  Rendered admin/customers/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 33.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-21 03:45:17 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (3.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 249ms (Views: 238.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-21 03:45:23 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 39ms (Views: 38.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-21 03:45:26 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 40ms (Views: 39.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-21 03:46:00 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 55ms (Views: 52.2ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-21 03:46:01 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers/1" for 153.246.254.136 at 2021-10-21 03:46:27 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (1.0ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 43ms (Views: 36.8ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/admin/customers/1/edit" for 153.246.254.136 at 2021-10-21 03:46:33 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:11
+  Rendering admin/customers/edit.html.erb within layouts/application
+  Rendered admin/customers/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 35ms (Views: 31.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/orders/1" for 153.246.254.136 at 2021-10-21 03:46:41 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 153.246.254.136 at 2021-10-21 03:46:41 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.3ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 60ms (Views: 50.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/customers/1/edit" for 153.246.254.136 at 2021-10-21 03:46:54 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:11
+  Rendering admin/customers/edit.html.erb within layouts/application
+  Rendered admin/customers/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 58ms (Views: 54.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-21 03:59:39 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (2.0ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 70ms (Views: 67.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 153.246.254.136 at 2021-10-21 03:59:41 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  Rendered layouts/_header.html.erb (1.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 39ms (Views: 38.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-21 03:59:55 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.9ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 51ms (Views: 48.9ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/admin/customers" for 153.246.254.136 at 2021-10-21 03:59:57 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#index as HTML
+  Rendering admin/customers/index.html.erb within layouts/application
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT "publics".* FROM "publics"[0m
+  ↳ app/views/admin/customers/index.html.erb:11
+  Rendered admin/customers/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 47ms (Views: 45.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers/1" for 153.246.254.136 at 2021-10-21 03:59:59 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 34.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/customers/1/edit" for 153.246.254.136 at 2021-10-21 04:00:00 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:11
+  Rendering admin/customers/edit.html.erb within layouts/application
+  Rendered admin/customers/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 37ms (Views: 34.6ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/admin/customers/1" for 153.246.254.136 at 2021-10-21 04:00:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4vJYCO8R8ZPWRtA20PA1/4pAGeCLeNEudRe/K2Pw00u/Ilq9PovOBBR+MMMIHN5IFo4+50nIJVqLmsMuEd60sA==", "public"=>{"last_name"=>"test", "first_name"=>"太郎", "last_kana_name"=>"テイシュツ", "first_kana_name"=>"タロウ", "email"=>"ss@sss", "postalcode"=>"35454554", "address"=>"東京都千代田区", "telephone"=>"2325252535"}, "commit"=>"変更を保存", "id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:15
+Unpermitted parameter: :postalcode
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/admin/customers_controller.rb:16
+  [1m[36mPublic Update (2.0ms)[0m  [1m[33mUPDATE "publics" SET "last_name" = ?, "updated_at" = ? WHERE "publics"."id" = ?[0m  [["last_name", "test"], ["updated_at", "2021-10-21 04:00:13.667767"], ["id", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:16
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/admin/customers_controller.rb:16
+Redirected to https://d5461102db1647408cef734e6ad8bd40.vfs.cloud9.us-east-1.amazonaws.com/admin/customers/1
+Completed 302 Found in 15ms (ActiveRecord: 5.5ms)
+
+
+Started GET "/admin/customers/1" for 153.246.254.136 at 2021-10-21 04:00:13 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 36.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/orders/1" for 153.246.254.136 at 2021-10-21 04:00:20 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 153.246.254.136 at 2021-10-21 04:00:20 +0000
+Cannot render console from 153.246.254.136! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.3ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 64ms (Views: 55.9ms | ActiveRecord: 0.6ms)
+
+
