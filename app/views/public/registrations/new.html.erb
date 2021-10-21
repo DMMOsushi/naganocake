@@ -1,7 +1,7 @@
 <div class="container">
   
 <h2>新規会員登録</h2>
-<%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+<%= form_with model: @public, url: new_public_registration_path, local: true do |f| %>
   <%= render "public/shared/error_messages", resource: resource %>
   
   <div class="field">
@@ -63,7 +63,5 @@
     <%= f.submit "新規登録" %>
   </div>
 <% end %>
-
-
 <%= render "public/shared/links" %>
 </div>

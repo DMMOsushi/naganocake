@@ -4,6 +4,7 @@ Rails.application.routes.draw do
     registrations: "public/registrations",
     sessions: 'public/sessions'
   }
+ #変更
   #test
   root to: 'public/homes#top'
   get 'about' => 'public/homes#about'
@@ -24,8 +25,9 @@ Rails.application.routes.draw do
   namespace :public do
 
     resources :customers, only: [:show, :edit, :update]
-    get 'customers/unsubscribe'
-    get 'customers/withdraw'
+    get 'unsubscribe/:name' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
+    patch ':id/withdraw/:name' => 'customers#withdraw', as: 'withdraw_user'
+    put 'withdraw/:name' => 'customers#withdraw'
 
     resources :addresses, only: [:index, :edit, :update, :create, :destroy]
 

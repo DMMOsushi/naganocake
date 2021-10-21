@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-class DeviseCreatePublics < ActiveRecord::Migration[5.2]
+class DeviseCreatePublics < ActiveRecord::Migration[5.2]    
   def change
     create_table :publics do |t|
       ## Database authenticatable

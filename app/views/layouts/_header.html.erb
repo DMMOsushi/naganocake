@@ -8,8 +8,8 @@
       <div>
         <ul class="navbar-nav ml-auto">
           <% if public_signed_in? %>
-          <!--顧客がログインしている時 -->
 
+          <!--顧客がログインしている時 -->
             <li data-rippleria class="nav-item">
               <%= link_to " マイページ", public_customer_path(current_public), class: 'btn btn-light' %>
             </li>
@@ -49,7 +49,7 @@
               <%= link_to "マイページ", root_path, class: 'btn btn-light' %>
             </li>
             <li data-rippleria class="nav-item">
-              <%= link_to " 商品一覧", public_orders_path, class: 'btn btn-light' %>
+              <%= link_to " 商品一覧", public_items_path, class: 'btn btn-light' %>
             </li>
             <li data-rippleria class="nav-item">
               <%= link_to " 新規登録", new_public_registration_path, class: 'btn btn-light' %>
