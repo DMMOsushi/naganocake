@@ -10898,3 +10898,212 @@ Processing by Public::HomesController#top as HTML
 Completed 200 OK in 38ms (Views: 37.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:02:51 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (1.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (7.4ms)
+Completed 500 Internal Server Error in 83ms (ActiveRecord: 1.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `id' for nil:NilClass):
+    1: <div>
+    2:   <p>会員ID <%= @customer.id %></p>
+    3: </div>
+    4: <div>
+    5:   <p>名前　<%= @customer.full_name %></p>
+  
+app/views/admin/customers/show.html.erb:2:in `_app_views_admin_customers_show_html_erb__2328350669656325183_56421680'
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:05:08 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (9.5ms)
+Completed 500 Internal Server Error in 46ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `full_name' for #<Public:0x00000000018ec398>):
+    2:   <p>会員ID <%= @public.id %></p>
+    3: </div>
+    4: <div>
+    5:   <p>名前　<%= @public.full_name %></p>
+    6: </div>
+    7: <div>
+    8:   <p>フリガナ　<%= @public.full_kana_name %></p>
+  
+app/views/admin/customers/show.html.erb:5:in `_app_views_admin_customers_show_html_erb__3696762983577038732_26527600'
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:07:12 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 374ms (Views: 341.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:09:56 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 232ms (Views: 200.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:11:14 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:13:49 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 275ms (Views: 242.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:15:05 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 227ms (Views: 195.4ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:22:47 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 39ms (Views: 35.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:23:49 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:33:28 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (157.8ms)
+Completed 500 Internal Server Error in 194ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `current_index_admin_order_path' for #<#<Class:0x00000000037fc6c0>:0x00000000038653a0>):
+    45:       <div class="btn-toolbar">
+    46:         <diV class="btn-group">
+    47:           <button><%= link_to '編集する', edit_admin_customer_path(@public) %></button>
+    48:           <button><%= link_to '注文履歴一覧を見る', current_index_admin_order_path(@public) %></button>
+    49:         </diV>
+    50:         
+    51:       </div>
+  
+app/views/admin/customers/show.html.erb:48:in `_app_views_admin_customers_show_html_erb___3628271286772025059_28173500'
+Started GET "/admin/customers/1" for 27.81.6.159 at 2021-10-21 02:33:44 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (4.4ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:7
+  Rendering admin/customers/show.html.erb within layouts/application
+  Rendered admin/customers/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 391ms (Views: 384.4ms | ActiveRecord: 4.4ms)
+
+
+Started GET "/admin/orders/1" for 27.81.6.159 at 2021-10-21 02:33:50 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 4ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 27.81.6.159 at 2021-10-21 02:33:50 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.4ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (46.9ms)
+Completed 200 OK in 98ms (Views: 83.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/customers/1/edit" for 27.81.6.159 at 2021-10-21 02:33:53 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::CustomersController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mPublic Load (0.1ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/admin/customers_controller.rb:11
+  Rendering admin/customers/edit.html.erb within layouts/application
+  Rendered admin/customers/edit.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 32.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/admin/orders/1" for 27.81.6.159 at 2021-10-21 02:33:58 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#show as HTML
+  Parameters: {"id"=>"1"}
+Completed 401 Unauthorized in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 27.81.6.159 at 2021-10-21 02:33:58 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.3ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 60ms (Views: 58.6ms | ActiveRecord: 0.0ms)
+
+
