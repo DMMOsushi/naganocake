@@ -1,11 +1,6 @@
 <h2>ログイン</h2>
 <h4>会員の方はこちらからログイン</h4>
-<<<<<<< HEAD
-<%= form_with model: @public, url: new_public_session_path, local: true do |f| %>
-<%= render "public/shared/links", resource: resource %>
-=======
-<%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
->>>>>>> 4ff6ceffb167b1fce78a47ae8a3aa9ff91550ea7
+<%= form_with model: @public, url: public_session_path, local: true do |f| %>
   <div class="field">
     <%= f.label :メールアドレス %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
@@ -28,4 +23,4 @@
   </div>
 <% end %>
 <h4>会員登録がお済みでない方</h4>
-<%= render "public/shared/links" %>
+<%= render "public/shared/links", resource: resource %>
