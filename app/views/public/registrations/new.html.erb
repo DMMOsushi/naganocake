@@ -1,50 +1,50 @@
 <div class="container">
-  
+
 <h2>新規会員登録</h2>
-<%= form_with model: @public, url: new_public_registration_path, local: true do |f| %>
+<%= form_with model: @public, url: public_registration_path, local: true do |f| %>
   <%= render "public/shared/error_messages", resource: resource %>
-  
+
   <div class="field">
     <%= f.label :名前　姓%>
     <%= f.text_field :last_name, autofocus: true %>
   </div>
-  
+
   <div class="field">
     <%= f.label :名前　名 %>
     <%= f.text_field :first_name, autofocus: true %>
   </div>
-  
+
   <div class="field">
     <%= f.label :セイ %>
     <%= f.text_field :last_kana_name, autofocus: true %>
   </div>
-  
+
   <div class="field">
     <%= f.label :メイ %>
     <%= f.text_field :first_kana_name, autofocus: true %>
   </div>
-  
+
   <div class="field">
     <%= f.label :メールアドレス %>
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
-  
+
   <div class="field">
     <%= f.label :郵便番号 %>
     <%= f.text_field :postalcode, autofocus: true %>
-  </div> 
-  
+  </div>
+
   <div class="field">
     <%= f.label :住所 %>
     <%= f.text_field :address, autofocus: true %>
   </div>
-  
+
   <div class="field">
     <%= f.label :電話番号 %>
     <%= f.text_field :telephone, autofocus: true %>
   </div>
 
-  
+
 
   <div class="field">
     <%= f.label :パスワード %>
