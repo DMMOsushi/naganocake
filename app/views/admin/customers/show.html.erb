@@ -1,2 +1,54 @@
-<h1>Admin::Customers#show</h1>
-<p>Find me in app/views/admin/customers/show.html.erb</p>
+<div class="container">
+  <div class="row">
+    <div class="mx-auto">
+      <h2><%= @public.last_name %><%= @public.first_name %>さんの会員詳細</h2>
+      <table>
+        <tr>
+          <th>会員ID</th>
+          <td><%= @public.id %></td>
+        </tr>
+        <tr>
+          <th>氏名</th>
+          <td><%= @public.last_name %>　<%= @public.first_name %></td>
+        </tr>
+        <tr>
+          <th>フリガナ</th>
+          <td><%= @public.last_kana_name %>　<%= @public.first_kana_name %></td>
+        </tr>
+        <tr>
+          <th>郵便番号</th>
+          <td><%= @public.postalcode %></td>
+        </tr>
+        <tr>
+          <th>住所</th>
+          <td><%= @public.address %></td>
+        </tr>
+        <tr>
+          <th>電話番号</th>
+          <td><%= @public.telephone %></td>
+        </tr>
+        <tr>
+          <th>メールアドレス</th>
+          <td><%= @public.email %></td>
+        </tr>
+        <tr>
+          <th>会員ステータス</th>
+          <td>
+            <% if @public.user_status == true %>
+              <p>有効</p>
+            <% else @public.user_status == false %>
+              <p>退会済</p>
+            <% end %>
+          </td>
+        </tr>
+      </table>
+      <div class="btn-toolbar">
+        <diV class="btn-group">
+          <button><%= link_to '編集する', edit_admin_customer_path(@public) %></button>
+          <button><%= '注文履歴一覧を見る' %></button>
+        </diV>
+        
+      </div>
+    </div>
+  </div>
+</div>
