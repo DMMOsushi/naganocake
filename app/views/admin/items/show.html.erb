@@ -1,27 +1,33 @@
 <%= attachment_image_tag(@item, :image, size: "100x100") %>
+
   <div>
    <p>商品名</p>
    <p><%= @item.name %></p>
   </div>
+  
   <div>
    <p>商品説明</p>
    <p><%= @item.explanation %></p>
   </div>
+  
   <div>
    <p>ジャンル</p>
    <p><%= @item.category.name %></p>
   </div>
+  
   <div>
    <p>価格<br>(税抜価格)</p>
    <p><%= @item.tax_excluded_price %></p>
   </div>
+  
   <div>
    <p>販売ステータス</p>
-  <div>
    <% if @item.sale_status == true %>
     <p>販売中</p>
    <% else %>
     <p>販売停止中</p>
-  <% end %>
+   <% end %>
+  </div>
+   
   
   <%= link_to '編集する', edit_admin_item_path(@item) %>
