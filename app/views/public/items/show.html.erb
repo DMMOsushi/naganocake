@@ -1,24 +1,34 @@
-<div>
-  <%= attachment_image_tag @item, :image, size: "100x100" %>
-</div>
-
-<div class="item_show_box">
-  <h2 class="font-weight-bold"><%= @item.name %></h2>
-  <h3 class="my-3"><%= @item.explanation %></h3>
-  <h4>税込価格: <%= @item.tax_excluded_price.to_s(:delimited) %>円</h4>
- <div>
-   <% if public_signed_in? %>
-     <% unless @item.sale_status == false %>
-       <%= form_with model: @cart_item, url: public_cart_items_path(@cart_item), method: :post, local: true do |f| %>
-         <%= f.select :cart_quantity, [*1..10], selected: 1 %>
-         <%= f.hidden_field :item_id, value: @item.id %>
-         <%= f.hidden_field :public_id, value: current_public.id %>
-         <%= f.submit "カートに入れる", class:"btn btn btn-success px-4 ml-3" do %>
-         <% end %>
-       <% end %>
-     <% else %>
-       <h4>申し訳ありません。販売中止中です</h4>
-     <% end %>
-   <% end %>
- </div>
-</div>
+<div class="container my-5">
+  <div class="row">
+    <div class="col-md-9 offset-md-1">
+      <div class="card">
+        <div class="row no-gutters">
+          <div class="col-md-8">
+            <%= attachment_image_tag @item, :image, size: "100x100" %>
+          </div>
+          <div class="col-md-4">
+            <div class="card-body">
+              <h5 class="card-title"><%= @item.name %></h5>
+              <p class="card-text"><%= @item.explanation %></p>
+              <div class="row">
+                <p class="ml-3"><%= ((@item.tax_excluded_price * 1.1).round).to_s(:delimited) %> 円</p><p>(税込)</p>
+              </div>
+              <% if public_signed_in? %>
+                <%= form_with model: @cart_item, url: public_cart_items_path, local: true do |f| %>
+                  <% if public_signed_in? %>
+                    <%= f.hidden_field :public_id, :value => current_public.id %>
+                  <% end %>
+                  <%= f.hidden_field :item_id, :value => @item.id %>
+                  <div class="cart-btn">
+                    <% number = (1..99).to_a %>
+                    <%= f.select :cart_quantity, number, class: "item-count" %>
+                    <%= f.submit "カートに追加する", class: "btn btn-success btn-sm" %>
+                  </div>
+                <% end %>
+              <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
