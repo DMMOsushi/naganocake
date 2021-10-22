@@ -1,32 +1,35 @@
 <div class="container">
   <h2>会員情報編集</h2>
-  <%= form_with model:@public, url:"/public/customers/#{@public.id}", local:true do |f| %>
+  <div class="row">
+    <div class="col">
+      <%= form_with model:@public, url:"/public/customers/#{@public.id}", local:true do |f| %>
 
+      <p>名前</p>
+        <%= f.text_field :last_name %>
+        <%= f.text_field :first_name %>
 
-    <%= f.text_field :last_name %>
+      <p>フリガナ</p>
+        <%= f.text_field :last_kana_name %>
+        <%= f.text_field :first_kana_name %>
 
+      <p>メールアドレス</p>
+        <%= f.email_field :email %>
 
-    <%= f.text_field :first_name %>
+      <p>郵便番号</p>
+        <%= f.text_field :postalcode %>
 
+      <p>住所</p>
+        <%= f.text_field :address %>
 
-    <%= f.text_field :last_kana_name %>
-
-
-    <%= f.text_field :first_kana_name %>
-
-    <%= f.email_field :email %>
-
-
-    <%= f.text_field :postalcode %>
-
-    <%= f.text_field :address %>
-
-    <%= f.text_field :telephone %>
-
-    <%= f.submit '編集内容を保存',class: "btn btn-success" %>
-
-    <%= link_to '退会する',@public,class: "btn btn-danger", method: :get %>
-
-  <% end %>
-
+      <p>電話番号</p>
+        <%= f.text_field :telephone %>
+      <div class="col">
+        <%= f.submit '編集内容を保存',class: "btn btn-sm btn-success" %>
+      </div>
+      <div class="col">
+        <%= f.submit '退会する',class: "btn btn-sm btn-danger" %>
+      </div>
+      <% end %>
+    </div>
+  </div>
 </div>

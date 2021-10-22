@@ -1,7 +1,7 @@
 class Public::CustomersController < ApplicationController
   def show
     @public = current_public
-    @publics = Public.all
+    @public = Public.find(params[:id])
   end
 
   def edit
