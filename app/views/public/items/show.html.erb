@@ -1,2 +1,24 @@
-<h1>Public::Items#show</h1>
-<p>Find me in app/views/public/items/show.html.erb</p>
+<div>
+  <%= attachment_image_tag @item, :image, size: "100x100" %>
+</div>
+
+<div class="item_show_box">
+  <h2 class="font-weight-bold"><%= @item.name %></h2>
+  <h3 class="my-3"><%= @item.explanation %></h3>
+  <h4>税込価格: <%= @item.tax_excluded_price.to_s(:delimited) %>円</h4>
+ <div>
+   <% if public_signed_in? %>
+     <% unless @item.sale_status == false %>
+       <%= form_with model: @cart_item, url: public_cart_items_path(@cart_item), method: :post, local: true do |f| %>
+         <%= f.select :cart_quantity, [*1..10], selected: 1 %>
+         <%= f.hidden_field :item_id, value: @item.id %>
+         <%= f.hidden_field :public_id, value: current_public.id %>
+         <%= f.submit "カートに入れる", class:"btn btn btn-success px-4 ml-3" do %>
+         <% end %>
+       <% end %>
+     <% else %>
+       <h4>申し訳ありません。販売中止中です</h4>
+     <% end %>
+   <% end %>
+ </div>
+</div>
