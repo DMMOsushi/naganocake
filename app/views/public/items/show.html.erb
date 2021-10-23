@@ -14,13 +14,13 @@
                 <p class="ml-3"><%= ((@item.tax_excluded_price * 1.1).round).to_s(:delimited) %> 円</p><p>(税込)</p>
               </div>
               <% if public_signed_in? %>
-                <%= form_with model: @cart_item, url: public_cart_items_path, local: true do |f| %>
+                <%= form_with model: @cart_item, url: public_cart_items_path, method: :post, local: true do |f| %>
                   <% if public_signed_in? %>
                     <%= f.hidden_field :public_id, :value => current_public.id %>
                   <% end %>
                   <%= f.hidden_field :item_id, :value => @item.id %>
                   <div class="cart-btn">
-                    <% number = (1..99).to_a %>
+                    <% number = (1..20).to_a %>
                     <%= f.select :cart_quantity, number, class: "item-count" %>
                     <%= f.submit "カートに追加する", class: "btn btn-success btn-sm" %>
                   </div>
