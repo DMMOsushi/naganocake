@@ -1,17 +1,31 @@
-<h2>ジャンル一覧・追加</h2>
-<%= form_with model: @category, url: admin_categories_path, local: true do |f| %>
-  <%= f.label :"ジャンル名" %>
-  <%= f.text_field :name %>
-  <%= f.submit "新規登録" %>
-<% end %>
-<table>
- <h3>ジャンル</h3>
-  <tbody>
-   <% @categories.each do |category| %>
-    <tr>
-     <td><%= category.name %></td>
-     <td><%= link_to "編集する", edit_admin_category_path(category) %></td>
-    </tr>
+<div class="container">
+ <div class="row">
+  <div class="col-md-4 mx-auto">
+   <h2 class="head-line text-center">ジャンル追加</h2>
+   <%= form_with model: @category, url: admin_categories_path, local: true do |f| %>
+     <%= f.label :"ジャンル名" %>
+     <%= f.text_field :name %>
+     <%= f.submit "新規登録" %>
    <% end %>
-  </tbody>
-</table>
+  </div>
+ </div>
+ <div class="row">
+  <div class="col-md-4 mx-auto">
+    <table class="table table-hover table-inverse table-bordered">
+     <h3 class="head-line text-center">ジャンル一覧</h3>
+      <tbody>
+       <% @categories.each do |category| %>
+        <tr>
+         <td><%= category.name %></td>
+         <td><%= link_to "編集する", edit_admin_category_path(category) %></td>
+        </tr>
+       <% end %>
+      </tbody>
+    </table>
+   </div>
+  </div>
+ </div>
+</div>
+
+
+

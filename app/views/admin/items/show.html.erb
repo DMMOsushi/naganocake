@@ -1,27 +1,47 @@
-<%= attachment_image_tag(@item, :image, size: "100x100") %>
-  <div>
-   <p>商品名</p>
-   <p><%= @item.name %></p>
+<div class="container mt-5">
+ <div class="row align-items-start">
+
+  <div class="col-md-5">
+   <h3 class="table-active text-center">商品詳細</h3>
+   <%= attachment_image_tag(@item, :image, size: "350x350") %>
   </div>
-  <div>
-   <p>商品説明</p>
-   <p><%= @item.explanation %></p>
+
+  <div class="col-md-5 offset-md-1">
+   <table class="table">
+    <tr>
+     <th>商品名</th>
+     <td><%= @item.name %></td>
+    </tr>
+    <tr>
+     <th>商品説明</th>
+     <td><%= @item.explanation %></td>
+    </tr>
+    <tr>
+     <th>ジャンル</th>
+     <td><%= @item.category.name %></td>
+    </tr>
+    <tr>
+     <th>価格<br>(税抜価格)</th>
+     <td><%= @item.tax_excluded_price %></td>
+    </tr>
+    <tr>
+     <th>販売ステータス</th>
+     <td>
+      <% if @item.sale_status == true %>
+       <p>販売中</p>
+      <% else %>
+       <p>販売停止中</p>
+      <% end %>
+     </td>
+    </tr>
+   </table>
+
+   <%= link_to '編集する', edit_admin_item_path(@item), class: "btn btn-sm btn-success" %>
+
   </div>
-  <div>
-   <p>ジャンル</p>
-   <p><%= @item.category.name %></p>
-  </div>
-  <div>
-   <p>価格<br>(税抜価格)</p>
-   <p><%= @item.tax_excluded_price %></p>
-  </div>
-  <div>
-   <p>販売ステータス</p>
-  <div>
-   <% if @item.sale_status == true %>
-    <p>販売中</p>
-   <% else %>
-    <p>販売停止中</p>
-  <% end %>
-  
-  <%= link_to '編集する', edit_admin_item_path(@item) %>
+ </div>
+</div>
+
+
+
+
