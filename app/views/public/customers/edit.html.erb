@@ -27,9 +27,10 @@
         <%= f.submit '編集内容を保存',class: "btn btn-sm btn-success" %>
       </div>
       <div class="col">
-        <%= f.submit '退会する',class: "btn btn-sm btn-danger" %>
       </div>
+      <%= link_to '退会する', public_confirm_unsubscribe_path(@public.id), class: "btn btn-sm btn-danger" %>
       <% end %>
     </div>
+
   </div>
 </div>
