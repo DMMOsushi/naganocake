@@ -1,8 +1,12 @@
 class Public::ItemsController < ApplicationController
   
   def index
+<<<<<<< HEAD
+    
+=======
     @categories = Category.all
     @items = Item.all
+>>>>>>> 805066958a8889f17252b8e5d48751d8216b4532
   end
 
   def show
