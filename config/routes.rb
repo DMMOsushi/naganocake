@@ -31,10 +31,11 @@ Rails.application.routes.draw do
     resources :cart_items, only: [:index, :update, :destroy, :create]
     put :cart_items, to: 'cart_items#destroy_all'
 
+    get 'orders/thanks' => 'orders#thanks'
+
     resources :orders, only: [:new, :create, :index, :show]
     get 'orders/confirm'
-    get 'orders/thanks'
-
+    post '/orders/confirm' => 'orders#confirm'
   end
 
 #admin

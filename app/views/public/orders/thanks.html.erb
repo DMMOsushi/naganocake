@@ -1,2 +1,29 @@
-<h1>Public::Orders#thanks</h1>
-<p>Find me in app/views/public/orders/thanks.html.erb</p>
+<div class="cart-item-img" style='height: 600px;'>
+  <div role="content">
+    <div class="content_complete">
+      <div class="row justify-content-center">
+        <form id="wizard-1" novalidate="novalidate">
+          <div id="bootstrap-wizard-1" class="col-sm-12">
+            <div class="form-bootstrapWizard">
+              <ul class="bootstrapWizard form-wizard">
+                <li data-target="#step1" class=""><span class="step">1</span> <span class="title">カートに入れる</span></li>
+                <li data-target="#step2" class=""><span class="step">2</span> <span class="title">注文情報入力</span></li>
+                <li data-target="#step3" class=""><span class="step">3</span> <span class="title">注文内容を確認</span></li>
+                <li class="active" data-target="#step4" class=""><span class="fas fa-coffee fa-2x cupcolor"></span> <span class="title">完了</span></li>
+              </ul>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <div class='d-flex align-items-center justify-content-center' style='height: 300px'>
+    <h1>ご注文ありがとうございました !</h1>
+  </div>
+  <div>
+    <%= link_to '注文履歴一覧を見る', public_orders_path, class:"fas fa-scroll fa-2x d-flex align-items-center justify-content-center", style:'height: 100px' %>
+  </div>
+</div>
+
