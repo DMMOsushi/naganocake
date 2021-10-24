@@ -1,6 +1,7 @@
 class Admin::CustomersController < ApplicationController
   def index
     @publics = Public.all
+    @publics = Public.page(params[:page]).per(6)
   end
 
   def show
@@ -19,7 +20,7 @@ class Admin::CustomersController < ApplicationController
       render 'edit'
     end
   end
-  
+
   private
 
   def public_params
