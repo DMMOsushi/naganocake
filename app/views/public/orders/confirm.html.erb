@@ -76,7 +76,7 @@
         <%= f.hidden_field :postalcode, value: @order.postalcode %>
         <%= f.hidden_field :address, value: @order.address %>
         <%= f.hidden_field :destination, value: @order.destination %>
-        <%= f.hidden_field :order_status, value: 'wait' %>
+        <%= f.hidden_field :order_status, value: '' %>
         <%= f.submit '注文を確定する', class:'btn btn-success btn-lg mt-4' %>
       <% end %>
     </div>

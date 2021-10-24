@@ -9,26 +9,26 @@ class Public::OrdersController < ApplicationController
     @cart_items = CartItem.where(public_id: @public.id)
     @bill = (@cart_items.map { |cart_item| cart_item.item.tax_excluded_price * cart_item.cart_quantity }.sum * 1.08).floor
     # 現在の住所を使う場合
-    if params[:address] == 'now'
+    if params[:order][:address_number] == '1'
       @order = Order.new(
         public_id: @public.id,
-        postal_code: @public.postal_code,
+        postalcode: @public.postalcode,
         address: @public.address,
-        name: @public.last_name + @public.first_name,
+        destination: @public.last_name + @public.first_name,
         pay: params[:order][:pay]
       )
     # 配送先登録した住所を使う場合
-    elsif params[:address] == 'select'
-      address =  Address.find_by(id: params[:select]) # params[:select]は選択した住所のid
+    elsif params[:order][:address_number] == '2'
+      address = Address.find(params[:order][:registered]) # params[:select]は選択した住所のid
       @order = Order.new(
         public_id: @public.id,
-        postal_code: @public.postal_code,
-        address: @public.address,
-        name: @public.last_name + @public.first_name,
+        postalcode: address.postalcode,
+        address: address.address,
+        destination: address.destination,
         pay: params[:order][:pay]
       )
     # 新しく住所を追加する場合
-    elsif params[:address] == 'new'
+    elsif params[:order][:address_number] == '3'
       @order = Order.new(order_params)
     else
       @order = Order.new(order_params)
@@ -41,9 +41,11 @@ class Public::OrdersController < ApplicationController
   def create
     # カートが空の場合
     if @public.cart_items.blank?
-      redirect_to cart_items_path and return
+      redirect_to public_cart_items_path and return
     end
     @order = Order.new(order_params)
+    @order.order_status=0
+
     if @order.save
       # 注文商品テーブルのレコードを作成
       @public.cart_items.map do |cart_item|
@@ -51,7 +53,7 @@ class Public::OrdersController < ApplicationController
           order_id: @order.id,
           item_id: cart_item.item_id,
           item_quantity: cart_item.cart_quantity,
-          production_status: 'cannot',
+          production_status: 0,
           tax_included_price: (cart_item.item.tax_excluded_price * 1.08).floor
         )
       end
