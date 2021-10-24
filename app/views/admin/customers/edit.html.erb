@@ -1,3 +1,6 @@
+<div id="header">
+  <%= render "layouts/header" %>
+</div>
 <div class="container">
   <h2>会員情報編集</h2>
   <%= form_with model:@public, url:"/admin/customers/#{@public.id}", local:true do |f| %>

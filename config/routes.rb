@@ -32,7 +32,7 @@ Rails.application.routes.draw do
     put :cart_items, to: 'cart_items#destroy_all'
 
     resources :orders, only: [:new, :create, :index, :show]
-    get 'orders/confirm'
+    post 'orders/confirm'
     get 'orders/thanks'
 
   end
