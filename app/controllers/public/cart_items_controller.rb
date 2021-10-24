@@ -4,6 +4,7 @@ class Public::CartItemsController < ApplicationController
   def index
     @sum = 0
     @cart_items = current_public.cart_items
+    @public = current_public
   end
 
   def update
