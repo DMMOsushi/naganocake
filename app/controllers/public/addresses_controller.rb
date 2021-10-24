@@ -2,8 +2,9 @@ class Public::AddressesController < ApplicationController
   before_action :move_to_signed_in
 
   def index
+    @public = current_public
+    @addresses = @public.addresses
     @address = Address.new
-    @addresses = Address.all
   end
 
   def edit

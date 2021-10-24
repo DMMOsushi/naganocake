@@ -69,11 +69,12 @@ class Public::OrdersController < ApplicationController
   end
 
   def index
-    @orders = current_public.orders
+    @orders = current_public.orders.all.page(params[:page]).per(10)
   end
 
   def show
     @order = Order.find(params[:id])
+    @order_items = OrderItem.where(order_id: @order)
   end
 
   private

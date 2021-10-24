@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="container mt-5 flex-column">
  <div class="row my-3">
   <h3 class="col-3 table-active text-center">会員一覧</h3>
@@ -33,3 +34,34 @@
   <%= paginate @publics %>
 </div>
 </div>
+=======
+<<<<<<< HEAD
+=======
+<table>
+ <thead>
+   <tr>
+    <th>会員ID</th>
+    <th>氏名</th>
+    <th>メールアドレス</th>
+    <th>ステータス</th>
+   </tr>
+ </thead>
+ <tbody></tbody>
+  <% @publics.each do |public| %>
+     <tr>
+      <td><%= public.id %></td>
+      <td><%= link_to public.last_name + public.first_name, admin_customer_path(public) %></td>
+      <td><%= public.email %></td>
+      <td class>
+       <% if public.user_status %>
+        <p>退会</p>
+       <% else %>
+        <p>有効</p>
+       <% end %>
+      </td>
+    </tr>
+  <% end %>
+ </tbody>
+</table>
+>>>>>>> d736c73aaa7a4e0eb36b4f2fab2120d53029600f
+>>>>>>> dcbbe6e69ff6877fb5c88f4741d439c841842b85
