@@ -8,13 +8,12 @@
       <div>
         <ul class="navbar-nav ml-auto">
           <% if public_signed_in? %>
-
           <!--顧客がログインしている時 -->
             <li data-rippleria class="nav-item">
               <%= link_to " マイページ", public_customer_path(current_public), class: 'btn btn-light' %>
             </li>
             <li data-rippleria class="nav-item">
-              <%= link_to " 商品一覧", public_path, class: 'btn btn-light' %>
+              <%= link_to " 商品一覧", public_items_path, class: 'btn btn-light' %>
             </li>
             <li data-rippleria class="nav-item">
               <%= link_to " カート", public_cart_items_path, class: 'btn btn-light' %>
@@ -27,7 +26,7 @@
           <!-- 管理者がログインしている時 -->
 
           	<li data-rippleria class="nav-item">
-              <%= link_to " 商品一覧", admin_customer_path(current_admin), class: 'btn btn-light' %>
+              <%= link_to " 商品一覧", admin_items_path, class: 'btn btn-light' %>
             </li>
             <li data-rippleria class="nav-item">
               <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>

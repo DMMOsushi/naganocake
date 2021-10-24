@@ -1,7 +1,7 @@
 class Public::CustomersController < ApplicationController
   def show
     @public = current_public
-    @publics = Public.all
+    @public = Public.find(params[:id])
   end
 
   def edit
@@ -16,12 +16,12 @@ class Public::CustomersController < ApplicationController
 
   def unsubscribe
     @public = Public.find(params[:id])
-    redirect_to public_confirm_unsubscribe_path(public.id)
+    #redirect_to public_confirm_unsubscribe_path
   end
 
   def withdraw
-    @public = Public.find_by(name: params[:name])
-    @public.update(is_valid: false)
+    @public = Public.find(params[:id])
+    @public.update(user_status: true)
     reset_session
     redirect_to root_path
   end

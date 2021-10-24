@@ -10,15 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_10_17_084237) do
+ActiveRecord::Schema.define(version: 2021_10_23_155334) do
 
   create_table "addresses", force: :cascade do |t|
-    t.integer "customer_id", null: false
     t.string "destination", null: false
     t.string "address", null: false
     t.string "postalcode", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "CustomerId"
+    t.integer "public_id"
   end
 
   create_table "admins", force: :cascade do |t|
@@ -35,10 +36,10 @@ ActiveRecord::Schema.define(version: 2021_10_17_084237) do
 
   create_table "cart_items", force: :cascade do |t|
     t.integer "item_id", null: false
-    t.integer "customer_id", null: false
     t.integer "cart_quantity", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "public_id"
   end
 
   create_table "categories", force: :cascade do |t|
@@ -69,7 +70,6 @@ ActiveRecord::Schema.define(version: 2021_10_17_084237) do
   end
 
   create_table "orders", force: :cascade do |t|
-    t.integer "customer_id", null: false
     t.integer "postage", null: false
     t.integer "bill", null: false
     t.integer "pay", default: 0, null: false
@@ -79,6 +79,7 @@ ActiveRecord::Schema.define(version: 2021_10_17_084237) do
     t.integer "order_status", default: 0, null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.integer "public_id"
   end
 
   create_table "publics", force: :cascade do |t|

@@ -4,30 +4,25 @@ Rails.application.routes.draw do
     registrations: "public/registrations",
     sessions: 'public/sessions'
   }
+
+  devise_for :admin, skip: [:passwords] ,controllers: {
+    registrations: "admin/registrations",
+    sessions: "admin/sessions"
+  }
+
  #変更
   #test
   root to: 'public/homes#top'
   get 'about' => 'public/homes#about'
   get 'top' => 'admin/homes#top'
 
-  def after_sign_in_path_for(resource)
-    admin_path(resource)
-  end
-
-  def after_sign_up_path_for(resource)
-    admin_path(resource)
-  end
-
-  def after_sign_out_path_for(resource)
-    root_path
-  end
 
   namespace :public do
 
     resources :customers, only: [:show, :edit, :update]
-    get 'unsubscribe/:name' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
-    patch ':id/withdraw/:name' => 'customers#withdraw', as: 'withdraw_user'
-    put 'withdraw/:name' => 'customers#withdraw'
+    get 'customers/unsubscribe/:id' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
+    patch 'customers/:id/withdraw/' => 'customers#withdraw', as: 'withdraw_user'
+    put 'withdraw/:id' => 'customers#withdraw'
 
     resources :addresses, only: [:index, :edit, :update, :create, :destroy]
 
@@ -36,17 +31,14 @@ Rails.application.routes.draw do
     resources :cart_items, only: [:index, :update, :destroy, :create]
     put :cart_items, to: 'cart_items#destroy_all'
 
+    get 'orders/thanks' => 'orders#thanks'
+
     resources :orders, only: [:new, :create, :index, :show]
     get 'orders/confirm'
-    get 'orders/thanks'
-
+    post '/orders/confirm' => 'orders#confirm'
   end
 
 #admin
-  devise_for :admin, skip: [:passwords] ,controllers: {
-    registrations: "admin/registrations",
-    sessions: "admin/sessions"
-  }
 
   namespace :admin do
 
