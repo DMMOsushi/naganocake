@@ -46748,3 +46748,41 @@ Processing by Admin::OrdersController#index as HTML
 Completed 200 OK in 104ms (Views: 91.8ms | ActiveRecord: 0.6ms)
 
 
+Started GET "/admin/orders" for 27.81.6.159 at 2021-10-24 03:28:30 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::OrdersController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  Rendering admin/orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/admin/orders/index.html.erb:18
+  Rendered admin/orders/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 235ms (Views: 217.0ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/admin/orders" for 27.81.6.159 at 2021-10-24 03:28:50 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  Rendering admin/orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/admin/orders/index.html.erb:18
+  Rendered admin/orders/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 53ms (Views: 50.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/orders" for 27.81.6.159 at 2021-10-24 03:28:59 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  Rendering admin/orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.1ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/admin/orders/index.html.erb:18
+  Rendered admin/orders/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 94ms (Views: 90.2ms | ActiveRecord: 0.2ms)
+
+
