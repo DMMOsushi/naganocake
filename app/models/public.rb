@@ -8,4 +8,7 @@ class Public < ApplicationRecord
   has_many :cart_items, dependent: :destroy
   has_many :addresses, dependent: :destroy
 
+  def active_for_authentication?
+    super && (user_status == false)
+  end
 end
