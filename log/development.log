@@ -46786,3 +46786,58 @@ Processing by Admin::OrdersController#index as HTML
 Completed 200 OK in 94ms (Views: 90.2ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/" for 27.81.6.159 at 2021-10-24 04:10:42 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Public::HomesController#top as HTML
+  Rendering public/homes/top.html.erb within layouts/application
+  [1m[36mPublic Load (0.2ms)[0m  [1m[34mSELECT  "publics".* FROM "publics" WHERE "publics"."id" = ? ORDER BY "publics"."id" ASC LIMIT ?[0m  [["id", 12], ["LIMIT", 1]]
+  ↳ app/views/layouts/_header.html.erb:10
+  Rendered layouts/_header.html.erb (23.5ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+  Rendered public/homes/top.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 575ms (Views: 568.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/orders" for 27.81.6.159 at 2021-10-24 04:11:09 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#index as HTML
+  [1m[36mAdmin Load (0.1ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  Rendering admin/orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/admin/orders/index.html.erb:18
+  Rendered admin/orders/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 83ms (Views: 64.1ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/admin/orders" for 27.81.6.159 at 2021-10-24 06:09:21 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+Processing by Admin::OrdersController#index as HTML
+Completed 401 Unauthorized in 10ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/sign_in" for 27.81.6.159 at 2021-10-24 06:09:22 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::SessionsController#new as HTML
+  Rendering admin/sessions/new.html.erb within layouts/application
+  Rendered admin/shared/_links.html.erb (0.4ms)
+  Rendered admin/sessions/new.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 426ms (Views: 415.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/orders" for 27.81.6.159 at 2021-10-24 06:09:23 +0000
+Cannot render console from 27.81.6.159! Allowed networks: 127.0.0.1, ::1, 127.0.0.0/127.255.255.255
+Processing by Admin::OrdersController#index as HTML
+  [1m[36mAdmin Load (0.2ms)[0m  [1m[34mSELECT  "admins".* FROM "admins" WHERE "admins"."id" = ? ORDER BY "admins"."id" ASC LIMIT ?[0m  [["id", 6], ["LIMIT", 1]]
+  ↳ /home/ec2-user/.rvm/gems/ruby-2.6.3/gems/activerecord-5.2.6/lib/active_record/log_subscriber.rb:98
+  Rendering admin/orders/index.html.erb within layouts/application
+  [1m[36mOrder Load (0.2ms)[0m  [1m[34mSELECT "orders".* FROM "orders"[0m
+  ↳ app/views/admin/orders/index.html.erb:18
+  Rendered admin/orders/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 136ms (Views: 109.5ms | ActiveRecord: 0.6ms)
+
+
