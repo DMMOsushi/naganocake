@@ -1,35 +1,26 @@
-<<<<<<< HEAD
-<div class="container mt-5 flex-column">
-  <div class="row my-3">
-    <h3 class="col-3 table-active text-center">商品一覧(全<%= @items.count %>件)</h3>
-  </div>
-    <div class="row row-cols-1 row-cols-md-4 g-4">
-      <% @items.each do |item| %>
-        <div class="col">
-          <div class="card mb-5">
-=======
 <div class="container">
-<h3 class="ml-4">商品一覧</h3>
-<div class="row">
-  <%= render 'layouts/category', categories: @categories %>
-  <div class="card-deck">
-    <% @items.each do |item| %>
-      <div class="col-md-6 mx-auto">
-        <div class="card my-3 item-index">
-          <div class="item-cards">
->>>>>>> 1f9dc128e83d371d6b6b8d95790a4944a2df9199
-            <%= link_to public_item_path(item) do %>
-              <%= attachment_image_tag item, :image, size: "253x170" %>
-            <% end %>
-            <div class="card-body text-center">
-              <p class="card-title item-name"><%= link_to item.name, public_item_path(item) %></p>
-              <p class="card-text"><%= ((item.tax_excluded_price * 1.08).round).to_s(:delimited) %> 円</p>
-            </div>
-          </div>
+  <div class="row mt-5">
+    <%= render 'layouts/category', categories: @categories %>
+    <div class="col-9">
+      <h3>商品一覧(全<%= @items.count %>件)</h3>
+        <div class="row row-cols-4">
+	        <% @items.each do |item| %>
+	          <div class="col">
+              <%= link_to public_item_path(item) do %>
+	              <div class="card mb-4">
+	  	            <%= attachment_image_tag item, :image, size: "183x170" %>
+		                <div class="card-body text-center">
+		                  <p class="card-title item-namek"><%= link_to item.name, public_item_path(item) %></p>
+                      <p>￥<%= ((item.tax_excluded_price * 1.08).round).to_s(:delimited) %></p>
+                    </div>
+                  <% end %>
+                </div>
+	  		    </div>
+	    	  <% end %>
         </div>
-      <% end %>
+      <div class='p-top__paginate'>
+        <%= paginate @items %>
+      </div>
     </div>
-  <div class='p-top__paginate'>
-    <%= paginate @items %>
-  </div>
+	</div>
 </div>
