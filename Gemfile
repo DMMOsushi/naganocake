@@ -70,8 +70,6 @@ gem "refile-mini_magick"
 
  gem "enum_help"
 
-<<<<<<< HEAD
 gem "kaminari"
-=======
-gem 'kaminari'
->>>>>>> dcbbe6e69ff6877fb5c88f4741d439c841842b85
+
+gem 'font-awesome-sass'
