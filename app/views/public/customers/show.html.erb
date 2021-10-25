@@ -1,72 +1,40 @@
-<div class="container">
-<<<<<<< HEAD
-  <h3 class="">マイページ</h3>
-    <div class="row"%>
-      <div>
-        <h5><strong>登録情報</strong></h5>
-        <%= link_to '編集する',edit_public_customer_path(@public), class: "btn btn-success" %>
-      </div>
-      <table class="table table-bordered" >
-          <tr>
-            <td class="table-active col-md-3">氏名</td>
-            <td colspan="2"><%= @public.last_name%><%= @public.first_name %></td>
-          </tr>
-          <tr>
-            <td class="table-active">カナ</td>
-            <td><%= @public.last_kana_name %><%= @public.first_kana_name %></td>
-          </tr>
-          <tr>
-            <td class="table-active">郵便番号</td>
-            <td><%= @public.postalcode %></td>
-          </tr>
-          <tr>
-            <td class="table-active">住所</td>
-            <td><%= @public.address %></td>
-          </tr>
-          <tr>
-            <td class="table-active">電話番号</td>
-            <td><%= @public.telephone %></td>
-          </tr>
-          <tr>
-            <td class="table-active">メールアドレス</td>
-            <td><%= @public.email %></td>
-          </tr>
-      </table>
-    <div>
-      <div>
-        <h5><strong>配送先</strong></h5>
-      </div>
-      <div>
-        <%= link_to "一覧を見る", public_addresses_path, class: "btn btn-primary" %>
-      </div>
-    </div>
-    <div>
-      <div>
-        <h5><strong>注文履歴</strong></h5>
-      </div>
-      <div>
-        <%= link_to "一覧を見る", public_orders_path,  class:"btn btn-primary" %>
-      </div>
-=======
-  <h3>マイページ</h3>
-    <div class="row mb-3">
-      <h5 ><strong>登録情報</strong></h5>
-      <div><%= link_to '編集する',edit_public_customer_path(@public), class: "btn btn-success" %></div>
->>>>>>> c51b8d9e4c04a7c4112def98897c10046662c564
-    </div>
+<div class="container mt-5 flex-column">
+　<div class="row my-3">
+  <h3 class="col-3 table-active text-center">マイページ</h3>
+  </div>
+  <div class="row"%>
+    <div class="col-px-0"><h5><strong>登録情報</strong></h5></div>
+    <div class="col mb-3"><%= link_to '編集する',edit_public_customer_path(@public), class: "btn btn-success" %></div>
+    <table class="table table-bordered" >
+      <tr>
+        <td class="table-active col-md-3">氏名</td>
+        <td colspan="2"><%= @public.last_name%><%= @public.first_name %></td>
+      </tr>
+      <tr>
+        <td class="table-active">カナ</td>
+        <td><%= @public.last_kana_name %><%= @public.first_kana_name %></td>
+      </tr>
+      <tr>
+        <td class="table-active">郵便番号</td>
+        <td><%= @public.postalcode %></td>
+      </tr>
+      <tr>
+        <td class="table-active">住所</td>
+        <td><%= @public.address %></td>
+      </tr>
+      <tr>
+        <td class="table-active">電話番号</td>
+        <td><%= @public.telephone %></td>
+      </tr>
+      <tr>
+        <td class="table-active">メールアドレス</td>
+        <td><%= @public.email %></td>
+      </tr>
+    </table>
+      <div class="col-px-0"><h5><strong>配送先</strong></h5></div>
+      <div class="col-md-3 mb-3"><%= link_to "一覧を見る", public_orders_path,  class:"btn btn-primary" %></div>
+      <div class="col-px-0"><h5><strong>注文履歴</strong></h5></div>
+      <div class="col-md-3 mb-3"><%= link_to "一覧を見る", public_addresses_path, class: "btn btn-primary" %></div>
   </div>
 </div>
-<<<<<<< HEAD
-<div></div>
-=======
-<<<<<<< HEAD
 
-=======
-<h1>マイページ</h1>
-<h4>登録情報</h4>
-<button type="button" class="btn btn-danger">編集する</button>
-
-<h4>配送先</h4>
-<h4>注文履歴</h4>
->>>>>>> origin/develop
->>>>>>> c51b8d9e4c04a7c4112def98897c10046662c564
