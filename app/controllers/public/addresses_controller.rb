@@ -9,6 +9,7 @@ class Public::AddressesController < ApplicationController
 
   def edit
      @address = Address.find(params[:id])
+     @public = current_public
   end
 
   def update
