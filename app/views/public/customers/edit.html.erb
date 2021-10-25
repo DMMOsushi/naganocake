@@ -1,29 +1,42 @@
-<div class="container">
-  <h2>会員情報編集</h2>
-<<<<<<< HEAD
-  <div class="row">
-    <div class="col">
+<div class="container flex-column">
+　<div class="row my-3">
+  <h3 class="col-3 table-active text-center">会員情報編集</h3>
+  </div>
+    <div class="row">
       <%= form_with model:@public, url:"/public/customers/#{@public.id}", local:true do |f| %>
-
-      <p>名前</p>
+        
+        <div class="col mb-2">
+        <%= f.label :名前%>
         <%= f.text_field :last_name %>
         <%= f.text_field :first_name %>
-
-      <p>フリガナ</p>
+        </div>
+        
+        <div class="col mb-2">
+        <%= f.label :フリガナ%>
         <%= f.text_field :last_kana_name %>
         <%= f.text_field :first_kana_name %>
-
-      <p>メールアドレス</p>
+        </div>
+        
+        <div class="col mb-2">
+        <%= f.label :メールアドレス%>
         <%= f.email_field :email %>
-
-      <p>郵便番号</p>
+        </div>
+        
+        <div class="col mb-2">
+        <%= f.label :郵便番号%>
         <%= f.text_field :postalcode %>
-
-      <p>住所</p>
+        </div>
+        
+        <div class="col mb-2">
+        <%= f.label :住所%>
         <%= f.text_field :address %>
-
-      <p>電話番号</p>
+        </div>
+        
+        <div class="col mb-2">
+        <%= f.label :電話番号%>
         <%= f.text_field :telephone %>
+        </div>
+        
       <div class="col">
         <%= f.submit '編集内容を保存',class: "btn btn-sm btn-success" %>
       </div>
@@ -34,37 +47,4 @@
     </div>
 
   </div>
-=======
-  <%= form_with model: @public, url:"/public/customers/#{@public.id}", local:true do |f| %>
-
-
-    <%= f.text_field :last_name %>
-
-
-    <%= f.text_field :first_name %>
-
-
-    <%= f.text_field :last_kana_name %>
-
-
-    <%= f.text_field :first_kana_name %>
-
-    <%= f.email_field :email %>
-
-
-    <%= f.text_field :postalcode %>
-
-    <%= f.text_field :address %>
-
-    <%= f.text_field :telephone %>
-
-    <%= f.submit '編集内容を保存',class: "btn btn-success" %>
-    
-    <%= f.submit '退会する',class: "btn btn-danger" %>
-
-  <% end %>
-
-  　
-
->>>>>>> c51b8d9e4c04a7c4112def98897c10046662c564
 </div>
