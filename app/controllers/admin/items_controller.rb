@@ -11,11 +11,7 @@ class Admin::ItemsController < ApplicationController
 
   def index
     @items = Item.all
-<<<<<<< HEAD
-    @items = Item.page(params[:page]).per(6)
-=======
     @items = Item.page(params[:page]).per(8)
->>>>>>> d38db987cc5df658b13cae9ea110ff45eea0f580
   end
 
   def show
