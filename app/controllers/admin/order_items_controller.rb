@@ -3,12 +3,16 @@ class Admin::OrderItemsController < ApplicationController
 
   def update
     @order_item = OrderItem.find(params[:id])
-    if @order_item.update(order_item_params)
-      flash[:success] = "製作ステータスを変更しました"
-      redirect_to admin_orders_path
-    else
+    @order = @order_item.order
+    @order_items = @order_item.order.order_items
+    @order_item.update(order_item_params)
+    if @order_item.in_production?
+      @order.in_production!
+    elsif @order_items.count == @order_items.complete.count
+      @order.in_preparation!
       render 'show'
     end
+    redirect_to admin_order_path(@order_item.order)
   end
 
   private

@@ -1,3 +1,24 @@
+<div class="cart-item-img">
+  <div role="content">
+      <div class="widget-body">
+        <div class="row justify-content-center">
+          <form id="wizard-1" novalidate="novalidate">
+            <div id="bootstrap-wizard-1" class="col-sm-12">
+              <div class="form-bootstrapWizard">
+                <ul class="bootstrapWizard form-wizard">
+
+                  <li class="active" data-target="#step1"><span class="fas fa-birthday-cake fa-2x cupcolor"></span> <span class="title">注文情報入力</span></li>
+                  <li data-target="#step2" class=""> <span class="step">2</span> <span class="title">注文情報入力</span></li>
+                  <li data-target="#step3" class="">  <span class="step">3</span> <span class="title">注文内容を確認</span></li>
+                  <li data-target="#step3" class=""> <span class="step">4</span> <span class="title">完了</span></li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
 <div class="container my-5">
   <% if current_public.cart_items.blank? %>
     <div class="row">
@@ -28,7 +49,7 @@
             <%= attachment_image_tag cart_item.item, :image, size: "100x100" %>
             <%= cart_item.item.name %>
            </td>
-           <td class="align-middle"><%= ((cart_item.item.tax_excluded_price*1.1).round).to_s(:delimited) %></td>
+           <td class="align-middle"><%= ((cart_item.item.tax_excluded_price*1.08).round).to_s(:delimited) %></td>
            <td class="align-middle">
             <%= form_with model: cart_item, url: public_cart_item_path(cart_item.id), local: true do |f| %>
               <div class="form-group row mx-auto">

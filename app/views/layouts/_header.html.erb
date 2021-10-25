@@ -1,64 +1,35 @@
-<header>
-  <% if current_page?(root_path) %>
-    <nav class="navbar navbar-expand-sm navbar-light header-image-top" style="height: 100px">
-  <% else %>
-    <nav class="navbar navbar-expand-sm navbar-light header-image" style="height: 100px">
-  <% end %>
-    <div class="container">
-      <div>
-        <ul class="navbar-nav ml-auto">
-          <% if public_signed_in? %>
-          <!--顧客がログインしている時 -->
-            <li data-rippleria class="nav-item">
-              <%= link_to " マイページ", public_customer_path(current_public), class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " 商品一覧", public_items_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " カート", public_cart_items_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " ログアウト", destroy_public_session_path, method: :delete, class: 'btn btn-light' %>
-            </li>
-
-          <% elsif admin_signed_in? %>
-          <!-- 管理者がログインしている時 -->
-
-          	<li data-rippleria class="nav-item">
-              <%= link_to " 商品一覧", admin_items_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " 会員一覧", admin_customers_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <!--%= link_to " 注文履歴一覧", admin_order_path, class: 'btn btn-light' %>-->
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " ジャンル一覧", admin_categories_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " ログアウト", destroy_admin_session_path, method: :delete, class: 'btn btn-light' %>
-            </li>
-
-          <% else %>
-          <!-- ログインしていない時 -->
-
-            <li data-rippleria class="nav-item">
-              <%= link_to "マイページ", root_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " 商品一覧", public_items_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " 新規登録", new_public_registration_path, class: 'btn btn-light' %>
-            </li>
-            <li data-rippleria class="nav-item">
-              <%= link_to " ログイン", new_public_session_path, class: 'btn btn-light' %>
-            </li>
-          <% end %>
-        </ul>
-      </div>
-    </div>
-  </nav>
-</header>
+</main>
+    <header class='bg-header'>
+      <nav class='navbar navbar-expand-md' style='height: 140px'>
+        <div class="container-fluid">
+            <ul class="nav navbar navbar-expand-lg navbar-light text-light navbar-nav ml-auto">
+              <% if public_signed_in? %>
+                <li class='text-body font-weight-bold'>
+                <span>ようこそ、<%= @public.last_name %>さん！</span>
+                </li>
+                <li><%= link_to 'マイページ', public_customer_path(current_public), class:'nav-link text-body font-weight-bold mr-1' %></li>
+                <li><%= link_to '商品一覧', public_items_path, class:'nav-link text-body font-weight-bold mr-1' %></li>
+                <li><%= link_to 'カート', public_cart_items_path, class:'nav-link text-body font-weight-bold mr-1' %></li>
+                <li><%= link_to 'ログアウト', destroy_public_session_path, method: :delete, class:'nav-link text-body font-weight-bold' %></li>
+              <% elsif admin_signed_in? %>
+                <li><%= link_to '商品一覧', admin_items_path, class:'nav-link text-body font-weight-bold' %></li>
+                <li><%= link_to '会員一覧', admin_customers_path, class:'nav-link text-body font-weight-bold' %></li>
+                <li><%= link_to '注文履歴一覧', admin_order_path, class:'nav-link text-body font-weight-bold' %></li>
+                <li><%= link_to 'ジャンル一覧', admin_categories_path, class:'nav-link text-body font-weight-bold' %></li>
+                <li><%= link_to 'ログアウト', destroy_admin_session_path, method: :delete, class:'nav-link text-dark font-weight-bold' %></li>
+              <% else %>
+                <li><%= link_to 'about', about_path, class:'nav-link text-body font-weight-bold mr-1' %></li>
+                <li><%= link_to '商品一覧', public_items_path, class:'nav-link text-body font-weight-bold mr-1' %></li>
+                <li><%= link_to '新規登録', new_public_registration_path, class:'nav-link text-body font-weight-bold mr-1' %></li>
+                <li><%= link_to 'ログイン', new_public_session_path, class:'nav-link text-body font-weight-bold' %></li>
+              <% end %>
+            </ul>
+            <div class='text-light'>
+　　　　　　　<form id="form2"  method="get">
+　　　　　　　　<input id="sbox2"  id="s" name="s" type="text" placeholder="検索"/>
+　　　　　　　　<button type="submit" id="sbtn2"><i class="fas fa-search"></i></button>
+　　　　　　　</form>
+            </div>
+        </div>
+      </nav>
+    </header>
