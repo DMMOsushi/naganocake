@@ -71,8 +71,5 @@ gem "refile-mini_magick"
  gem "enum_help"
 
 gem "kaminari"
-<<<<<<< HEAD
-=======
-
 gem 'font-awesome-sass'
->>>>>>> d09a42053f698a630bda7aa8feddad714ec8a327
+gem 'devise-i18n'
