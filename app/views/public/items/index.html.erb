@@ -1,6 +1,7 @@
-
+<div class="container">
 <h3 class="ml-4">商品一覧</h3>
 <div class="row">
+  <%= render 'layouts/category', categories: @categories %>
   <div class="card-deck">
     <% @items.each do |item| %>
       <div class="col-md-6 mx-auto">
@@ -18,4 +19,8 @@
       </div>
     <% end %>
   </div>
+</div>
+<div class='p-top__paginate'>
+  <%= paginate @items %>
+</div>
 </div>

@@ -11,6 +11,7 @@ class Admin::ItemsController < ApplicationController
 
   def index
     @items = Item.all
+    @items = Item.page(params[:page]).per(1)
   end
 
   def show
@@ -26,12 +27,12 @@ class Admin::ItemsController < ApplicationController
     @item.update(item_params)
     redirect_to admin_item_path(@item.id)
   end
-  
+
   private
   def item_params
     params.require(:item).permit(:name, :image, :explanation, :tax_excluded_price, :category_id, :sale_status)
   end
-  
-  
+
+
 end
 
