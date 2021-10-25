@@ -1,3 +1,73 @@
 // Place all the styles related to the public/items controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+.item_card_text{
+  background-color: #ecc996;
+  font-family: serif;
+  text-decoration: none;
+  color: black;
+}
+
+.item_title h4 {
+  position: relative;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+.item_title h4:after {
+  position: absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #a8d4ff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+.item_parent{
+  position: relative; /*基点の位置*/
+}
+
+.parent span.item_mask{
+  position: relative;
+  transition: .3s ease-in-out; /*移り変わる速さ*/
+  display: block;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.item_parent:hover span.item_mask::before{
+  content:"";
+  position: absolute;
+  z-index: 2;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+}
+
+.item_parent span.item_text{
+  opacity: 0;
+  transition: .5s ease-in-out; /*移り変わる速さ*/
+  position: absolute;
+  z-index: 3;/*テキストを前面に出す*/
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: #fff;
+  line-height: 1.5;
+}
+
+.item_parent:hover span.item_text{
+  opacity: 1;
+}
+
+.introduction{
+  font-family: cursive;
+}
