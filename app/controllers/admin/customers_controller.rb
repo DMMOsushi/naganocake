@@ -1,6 +1,7 @@
 class Admin::CustomersController < ApplicationController
   def index
     @publics = Public.all
+    @publics = Public.page(params[:page]).per(6)
   end
 
   def show
@@ -18,8 +19,17 @@ class Admin::CustomersController < ApplicationController
     else
       render 'edit'
     end
+<<<<<<< HEAD
   end
   
+  private
+  
+  def public_params
+    params.require(:public).permit(:first_name, :last_name, :first_kana_name, :last_kana_name, :address, :postalcode, :telephone, :email, :sale_status)
+=======
+>>>>>>> d736c73aaa7a4e0eb36b4f2fab2120d53029600f
+  end
+
   private
 
   def public_params

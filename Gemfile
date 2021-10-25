@@ -68,6 +68,10 @@ gem 'jquery-rails'
 gem "refile", require: "refile/rails", github: 'manfe/refile'
 gem "refile-mini_magick"
 
+ gem "enum_help"
 
-
-
+<<<<<<< HEAD
+gem "kaminari"
+=======
+gem 'kaminari'
+>>>>>>> dcbbe6e69ff6877fb5c88f4741d439c841842b85

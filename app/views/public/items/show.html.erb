@@ -11,7 +11,7 @@
               <h5 class="card-title"><%= @item.name %></h5>
               <p class="card-text"><%= @item.explanation %></p>
               <div class="row">
-                <p class="ml-3"><%= ((@item.tax_excluded_price * 1.1).round).to_s(:delimited) %> 円</p><p>(税込)</p>
+                <p class="ml-3"><%= ((@item.tax_excluded_price * 1.08).round).to_s(:delimited) %> 円</p><p>(税込)</p>
               </div>
               <% if public_signed_in? %>
                 <%= form_with model: @cart_item, url: public_cart_items_path, method: :post, local: true do |f| %>
