@@ -1,14 +1,14 @@
-<div class='top-bg-center'>
-  <div class="container pb-5">
-    <div class='top-bg-introduction mx-auto py-5'>
-      <div class='col-9 mx-auto px-3 py-4'>
-        <h4 class='pt-3'>
-          ようこそ、ながのCAKEへ<br>
-          <br>
-          このサイトはケーキ販売のECサイトになります。<br>
-          会員でない方も商品の閲覧はできますが、<br>
-          購入には会員登録が必要になります。
-        </h4>
+  <div class="main-visual">
+      <div style="padding-top: 100px;">
+        <div class="main-visual-content mx-auto">
+          <h6 style="color: #fff; padding-top: 50px;">
+            ようこそ、ながのCAKEへ<br>
+            <br>
+            このサイトはケーキ販売のECサイトになります。<br>
+            会員でない方も商品の閲覧はできますが、<br>
+            購入には会員登録が必要になります。
+          </h6>
+        </div>
       </div>
     </div>
 　　<div class='d-flex'>
@@ -20,7 +20,7 @@
         <% @items.each do |item| %>
           <div class="col-3 px-2">
             <%= link_to public_item_path(item) do %>
-              <%= attachment_image_tag item, :image, size: "100x100" %>
+              <%= attachment_image_tag item, :image, size: "260x200" %>
             <% end %>
             <%= link_to public_item_path(item) do %>
               <p class='font-weight-bold text-dark mt-2 mb-1'><%= item.name %></p>
@@ -31,4 +31,11 @@
       </div>
       <p class="text-right"><%= link_to '全ての商品を見る >', public_items_path, style:'color: #82654D;' %></p>
     </div>
+    <script>
+      $('.slider').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 4,
+      });
+    </script>
   </div>
