@@ -6,9 +6,9 @@
 			</tr>
 		</thead>
 		<tbody>
-			<% categories.each do |genre| %>
+			<% @categories.each do |category| %>
 				<tr>
-					<td style="border: none"><%= link_to category.name, items_path(:category_id => category.id) %></td>
+					<td style="border: none"><%= link_to category.name, public_items_path %></td>
 				</tr>
 			<% end %>
 		</tbody>
