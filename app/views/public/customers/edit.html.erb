@@ -1,6 +1,5 @@
 <div class="container">
   <h2>会員情報編集</h2>
-<<<<<<< HEAD
   <div class="row">
     <div class="col">
       <%= form_with model:@public, url:"/public/customers/#{@public.id}", local:true do |f| %>
@@ -34,37 +33,4 @@
     </div>
 
   </div>
-=======
-  <%= form_with model: @public, url:"/public/customers/#{@public.id}", local:true do |f| %>
-
-
-    <%= f.text_field :last_name %>
-
-
-    <%= f.text_field :first_name %>
-
-
-    <%= f.text_field :last_kana_name %>
-
-
-    <%= f.text_field :first_kana_name %>
-
-    <%= f.email_field :email %>
-
-
-    <%= f.text_field :postalcode %>
-
-    <%= f.text_field :address %>
-
-    <%= f.text_field :telephone %>
-
-    <%= f.submit '編集内容を保存',class: "btn btn-success" %>
-    
-    <%= f.submit '退会する',class: "btn btn-danger" %>
-
-  <% end %>
-
-  　
-
->>>>>>> c51b8d9e4c04a7c4112def98897c10046662c564
 </div>
