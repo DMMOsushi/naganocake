@@ -1,6 +1,6 @@
 class Admin::OrdersController < ApplicationController
 
-   before_action :authenticate_admin!
+  before_action :authenticate_admin!
 
   def index
     if params[:day]
@@ -15,14 +15,16 @@ class Admin::OrdersController < ApplicationController
     @order_items = OrderItem.where(order_id: @order)
   end
 
+  # 注文ステータスの更新
   def update
     @order = Order.find(params[:id])
-    if @order.update(order_params)
-      flash[:success] = "注文ステータスを更新しました"
-      redirect_to admin_orders_path
-    else
-      render 'show'
+    @order.update(order_params)
+    if @order.pay_confirm?
+      @order.order_items.each do |order_item|
+        order_item.waiting_production!
+      end
     end
+    redirect_to admin_order_path
   end
 
   private
