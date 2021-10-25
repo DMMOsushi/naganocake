@@ -31,7 +31,7 @@ class Public::CartItemsController < ApplicationController
       @cart_item.save
       redirect_to public_cart_items_url(@cart_item.public)
     else
-      redirect_to items_url
+      redirect_to public_cart_items_url
     end
   end
 
