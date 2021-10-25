@@ -17,7 +17,8 @@
  @import "bootstrap";
  @import 'font-awesome-sprockets';
  @import 'font-awesome';
-
+ @import "slick-theme";
+ @import "slick";
 
 * {
   margin: 0;
@@ -222,4 +223,20 @@ font-size:20px;/*アイコンサイズ*/
 }
 #sbtn5:hover{
 color:#7fbfff;
+}
+
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(gaikan.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  width: 60%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 30;
 }

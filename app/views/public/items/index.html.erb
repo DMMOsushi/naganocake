@@ -9,6 +9,7 @@
       </div>
       </div>
       <% @items.each do |item| %>
+<<<<<<< HEAD
       <div class="col">
         <div class="card mb-5">
           <%= link_to public_item_path(item) do %>
@@ -20,6 +21,19 @@
           </div>
         </div>
       </div>
+=======
+        <div class="col">
+          <div class="card mb-5">
+<div class="container">
+<h3 class="ml-4">商品一覧</h3>
+<div class="row">
+  <%= render 'layouts/category', categories: @categories %>
+  <div class="card-deck">
+    <% @items.each do |item| %>
+      <div class="col-md-6 mx-auto">
+        <div class="card my-3 item-index">
+          <div class="item-cards">
+>>>>>>> 612ab04f5e0f7240e9b4e17db8619eade0032105
             <%= link_to public_item_path(item) do %>
               <%= attachment_image_tag item, :image, size: "253x170" %>
             <% end %>
