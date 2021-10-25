@@ -1,0 +1,16 @@
+<div class="col-3">
+	<table class="table table-bordered table-hover">
+		<thead>
+			<tr>
+				<th>ジャンル検索</th>
+			</tr>
+		</thead>
+		<tbody>
+			<% @categories.each do |category| %>
+				<tr>
+					<td style="border: none"><%= link_to category.name, public_items_path %></td>
+				</tr>
+			<% end %>
+		</tbody>
+	</table>
+</div>
