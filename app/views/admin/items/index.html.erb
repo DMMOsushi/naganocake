@@ -1,48 +1,55 @@
+<<<<<<< HEAD
 <div class="container mt-5 flex-column">
  <div class="flash-message"><%= flash[:success] %></div>
  <div class="row my-3">
   <h3 class="col-3 table-active text-center">商品一覧</h3>
+=======
+
+ <div class="container mt-5 flex-column">
+  <div class="row my-3">
+   <h3 class="col-3 table-active text-center">商品一覧</h3>
+  </div>
+  <div class="row">
+   <table class="table">
+    <thead>
+     <tr>
+       <th>商品ID</th>
+       <th>商品名</th>
+       <th>税抜価格</th>
+       <th>ジャンル</th>
+       <th>販売ステータス</th>
+     </tr>
+    </thead>
+    <tbody>
+      <% @items.each do |item|%>
+       <tr>
+         <td><%= item.id %></td>
+         <td>
+          <%= link_to item.name, admin_item_path(item.id) %>
+         </td>
+         <td>
+          <%= item.tax_excluded_price %>
+         </td>
+         <td>
+          <%= item.category.name %>
+         </td>
+         <td>
+          <% if item.sale_status == true %>
+           <p>販売中</p>
+          <% elsif item.sale_status == false %>
+           <p>販売停止中</p>
+          <% end %>
+         </td>
+       </tr>
+      <% end %>
+    </tbody>
+   </table>
+  </div>
+>>>>>>> 893b8de522d4f7035facefa2185f57fe804be5d0
  </div>
- <div class="row">
-  <table class="table">
-   <thead>
-    <tr>
-      <th>商品ID</th>
-      <th>商品名</th>
-      <th>税抜価格</th>
-      <th>ジャンル</th>
-      <th>販売ステータス</th>
-    </tr>
-   </thead>
-   <tbody>
-     <% @items.each do |item|%>
-      <tr>
-        <td><%= item.id %></td>
-        <td>
-         <%= link_to item.name, admin_item_path(item.id) %>
-        </td>
-        <td>
-         <%= item.tax_excluded_price %>
-        </td>
-        <td>
-         <%= item.category.name %>
-        </td>
-        <td>
-         <% if item.sale_status == true %>
-          <p>販売中</p>
-         <% elsif item.sale_status == false %>
-          <p>販売停止中</p>
-         <% end %>
-        </td>
-      </tr>
-     <% end %>
-   </tbody>
-  </table>
+ <div class='p-top__paginate'>
+   <%= paginate @items %>
  </div>
-</div>
-<div class='p-top__paginate'>
-  <%= paginate @items %>
-</div>
 
 
 

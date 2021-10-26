@@ -17,7 +17,11 @@ class Admin::ItemsController < ApplicationController
 
   def show
     @item = Item.find(params[:id])
+<<<<<<< HEAD
     
+=======
+    @categories = category.all
+>>>>>>> 893b8de522d4f7035facefa2185f57fe804be5d0
   end
 
   def edit

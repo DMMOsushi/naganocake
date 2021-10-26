@@ -1,16 +1,25 @@
-<div class="col-3">
-	<table class="table table-bordered table-hover">
-		<thead>
-			<tr>
-				<th>ジャンル検索</th>
-			</tr>
-		</thead>
-		<tbody>
-			<% @categories.each do |category| %>
-				<tr>
-					<td style="border: none"><%= link_to category.name, public_items_path %></td>
-				</tr>
-			<% end %>
-		</tbody>
-	</table>
-</div>
+<table class="table table-borderless genre_box">
+  <thead class="borderless">
+    <tr>
+      <th class="text-center ribbon"><p>ジャンル検索</p></th>
+    </tr>
+  </thead>
+  <tbody>
+    <% @categories.each do |category| %>
+      <tr>
+        <td class="genre_content p-0">
+          <p>
+            <%= link_to public_items_path, class:'text-dark font-weight-bold' do %>
+              <%= category.name %>
+            <% end %>
+          </p>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+
+
+
+
