@@ -1,31 +1,49 @@
-<div class="container">
-  <h2>会員情報編集</h2>
-  <%= form_with model:@public, url:"/admin/customers/#{@public.id}", local:true do |f| %>
-
-
-    <%= f.text_field :last_name %>
-
-
-    <%= f.text_field :first_name %>
-
-
-    <%= f.text_field :last_kana_name %>
-
-
-    <%= f.text_field :first_kana_name %>
-
-    <%= f.email_field :email %>
-
-
-    <%= f.text_field :postalcode %>
-
-    <%= f.text_field :address %>
-
-    <%= f.text_field :telephone %>
-
-    <%= f.submit '変更を保存',class: "btn btn-success" %>
-
-
-  <% end %>
-
+<div class="container mt-5">
+  <div class="row">
+    <div class="col-8 mx-auto">
+      <h2 class="table-active text-center">会員情報編集</h2>
+      <table class="table">
+        <%= form_with model:@public, url:"/admin/customers/#{@public.id}", local:true do |f| %>
+          <tr>
+            <th><%= f.label "名前" %></th>
+            <td class="form-group"><%= f.text_field :last_name %><%= f.text_field :first_name %></td>
+          </tr>
+          
+          <tr>
+            <th><%= f.label "フリガナ" %></th>
+            <td class="form-group"><%= f.text_field :last_kana_name %><%= f.text_field :first_kana_name %></td>
+          </tr>
+          
+          <tr>
+            <th><%= f.label "メールアドレス" %></th>
+            <td class="form-group"><%= f.email_field :email %></td>
+          </tr>
+          
+          <tr>
+            <th><%= f.label "郵便番号" %></th>
+            <td class="form-group"><%= f.text_field :postalcode %></td>
+          </tr>
+          
+          <tr>
+            <th><%= f.label "住所" %></th>
+            <td class="form-group"><%= f.text_field :address %></td>
+          </tr>
+          
+          <tr>
+            <th><%= f.label "電話番号" %></th>
+            <td class="form-group"><%= f.text_field :telephone %></td>
+          </tr>
+          
+          <tr>
+            <th><%= f.label :"会員ステータス" %></th>
+            <td class="form-group"><%= f.select :user_status, [['退会済み', true], ['有効', false]], prompt: "-- 選択してください --" %></td>
+          </tr>
+          
+          <tr>
+            <td class="form-group"><%= f.submit '変更を保存',class: "btn btn-primary" %></td>
+          </tr>
+        <% end %>
+      </table>
+    </div>
+  </div>
 </div>

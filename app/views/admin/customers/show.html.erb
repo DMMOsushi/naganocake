@@ -1,8 +1,8 @@
-<div class="container">
+<div class="container my-5">
   <div class="row">
     <div class="mx-auto">
-      <h2><%= @public.last_name %><%= @public.first_name %>さんの会員詳細</h2>
-      <table>
+      <h2 class="table-active text-center"><%= @public.last_name %><%= @public.first_name %>さんの会員詳細</h2>
+      <table class="table table-hover table-inverse table-bordered">
         <tr>
           <th>会員ID</th>
           <td><%= @public.id %></td>
@@ -35,20 +35,19 @@
           <th>会員ステータス</th>
           <td>
             <% if @public.user_status == true %>
-              <p>有効</p>
+              <p>退会済み</p>
             <% else @public.user_status == false %>
-              <p>退会済</p>
+              <p>有効</p>
             <% end %>
           </td>
         </tr>
       </table>
-      <div class="btn-toolbar">
-        <diV class="btn-group">
-          <button><%= link_to '編集する', edit_admin_customer_path(@public) %></button>
-          <button><%= link_to '注文履歴一覧を見る', admin_order_path(@public) %></button>
-        </diV>
-
-      </div>
+      <table>
+        <tr>
+          <td><%= link_to '編集する', edit_admin_customer_path(@public), class: "btn btn-primary" %></td>
+          <td><%= link_to '注文履歴一覧を見る', admin_order_path(@public), class: "btn btn-dark" %></td>
+        </tr>
+      </table>
     </div>
   </div>
 </div>
