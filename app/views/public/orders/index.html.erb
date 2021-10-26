@@ -23,7 +23,7 @@
           <% end %>
         </td>
         <td class="col-1 border-left-0 border-top-0 border-dark"><%= order.bill.to_s(:delimited) %></td>
-        <td class="col-1 border-left-0 border-top-0 border-dark"><%= order.order_status %></td>
+        <td class="col-1 border-left-0 border-top-0 border-dark"><%= order.order_status_i18n %></td>
         <td class="col-2 text-center border-left-0 border-top-0 border-dark"><%= link_to "表示する", public_order_path(order), class: "btn btn-primary" %></td>
       </tr>
       <% end %>
