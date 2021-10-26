@@ -18,7 +18,7 @@
             <% if public_signed_in? %>
               <% unless @item.sale_status == false %>
                 <%= form_with url: public_cart_items_path, model: @cart_item, method: :post, local: true do |f| %>
-                  <%= f.select :quantity, [*1..10], selected: 1 %>
+                  <%= f.select :cart_quantity, [*1..10], selected: 1 %>
                   <%= f.hidden_field :item_id, value: @item.id %>
                   <%= f.hidden_field :public_id, value: current_public.id %>
                   <%= f.button :type => 'submit', class:"btn btn btn-success px-4 ml-3" do %>
@@ -34,4 +34,3 @@
       </div>
     </div>
   </div>
-</div>
