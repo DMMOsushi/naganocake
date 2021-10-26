@@ -6,6 +6,7 @@ class Admin::ItemsController < ApplicationController
   def create
     @item = Item.new(item_params)
     @item.save
+    flash[:success] = "商品を新規登録しました"
     redirect_to admin_items_path
   end
 
@@ -16,6 +17,7 @@ class Admin::ItemsController < ApplicationController
 
   def show
     @item = Item.find(params[:id])
+    
   end
 
   def edit
@@ -25,6 +27,7 @@ class Admin::ItemsController < ApplicationController
   def update
     @item = Item.find(params[:id])
     @item.update(item_params)
+    flash[:success] = "商品を更新しました"
     redirect_to admin_item_path(@item.id)
   end
 
