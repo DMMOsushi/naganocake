@@ -4,7 +4,7 @@ class Public::ItemsController < ApplicationController
     @categories = Category.all
     @items = Item.all
     @items = Item.page(params[:page]).per(8)
-    @public = current_public
+    @public =current_public
   end
 
   def show

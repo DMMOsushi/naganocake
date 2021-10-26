@@ -1,3 +1,72 @@
+<<<<<<< HEAD
+<div class="container flex-column">
+　<div class="row my-3">
+  <h3 class="col-3 table-active text-center">会員情報編集</h3>
+  </div>
+  <%= form_with model:@public, url:"/public/customers/#{@public.id}", local:true do |f| %>
+    <div class="form-group">
+    <div class="col-sm-9 form-inline">
+    <label class="col-sm-3">氏名</label>
+    <%= f.text_field :last_name %>
+    <label class="col-sm-2"></label>
+    <%= f.text_field :first_name%>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-9 form-inline">
+    <label class="col-sm-3">フリガナ</label>
+    <%= f.text_field :last_kana_name %>
+    <label class="col-sm-2"></label>
+    <%= f.text_field :first_kana_name %>
+    </div>
+  </div>
+
+  <div class="form-group ">
+    <div class="col-sm-9 form-inline mb-3">
+    <label class="col-sm-3">メールアドレス</label>
+    <%= f.email_field :email %>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-9 form-inline mb-3">
+    <label class="col-sm-3">郵便番号 </label>
+     <%= f.text_field :postalcode %>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-9 form-inline mb-3">
+    <label class="col-sm-3">住所 </label>
+    <%= f.text_field :address %>
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-9 form-inline mb-3">
+    <label class="col-sm-3">電話番号 </label>
+    <%= f.text_field :telephone %>
+    </div>
+  </div>
+
+  <div class="actions">
+    <div class="col-sm-5 form-inline mb-3">
+    <div class="col-sm-7 text-center">
+    <%= f.submit '編集内容を保存',class: "btn btn-sm btn-success" %>
+    </div>
+    </div>
+  </div>
+  <div class="actions">
+    <div class="col-sm-5 form-inline mb-3">
+    <div class="col-sm-7 text-center">
+  <%= link_to '退会する', public_confirm_unsubscribe_path(@public.id), class: "btn btn-sm btn-danger" %>
+    </div>
+    </div>
+  <% end %>
+  </div>
+</div>
+=======
 <div class="container">
     <div class="row py-5">
       <div class="col-12" style="height: 500px">
@@ -44,3 +113,4 @@
       </div>
     </div>
   </div>
+>>>>>>> de0c4e93677eb496b9bbaf148163495df4d9d622

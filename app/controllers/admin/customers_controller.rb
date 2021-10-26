@@ -19,12 +19,6 @@ class Admin::CustomersController < ApplicationController
     else
       render 'edit'
     end
-  end
-
-  private
-
-  def public_params
-    params.require(:public).permit(:first_name, :last_name, :first_kana_name, :last_kana_name, :address, :postalcode, :telephone, :email, :sale_status)
 
   end
 
