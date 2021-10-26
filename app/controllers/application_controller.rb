@@ -17,7 +17,7 @@ class ApplicationController < ActionController::Base
     if resource_or_scope.is_a?(Public)
         root_path
     elsif resource_or_scope.is_a?(Admin)
-        admin_items_path
+        admin_orders_path
     end
   end
 
@@ -28,7 +28,7 @@ class ApplicationController < ActionController::Base
     when Admin
       admin_items_path
     when Public
-      root_path
+      public_customer_path
     end
   end
 

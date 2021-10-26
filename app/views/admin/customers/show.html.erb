@@ -35,9 +35,9 @@
           <th>会員ステータス</th>
           <td>
             <% if @public.user_status == true %>
-              <p>有効</p>
+              <p>退会済み</p>
             <% else @public.user_status == false %>
-              <p>退会済</p>
+              <p>有効</p>
             <% end %>
           </td>
         </tr>

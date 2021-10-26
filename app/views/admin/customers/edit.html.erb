@@ -36,7 +36,7 @@
           
           <tr>
             <th><%= f.label :"会員ステータス" %></th>
-            <td class="form-group"><%= f.select :user_status, [['有効', true], ['退会済み', false]], prompt: "-- 選択してください --" %></td>
+            <td class="form-group"><%= f.select :user_status, [['退会済み', true], ['有効', false]], prompt: "-- 選択してください --" %></td>
           </tr>
           
           <tr>
