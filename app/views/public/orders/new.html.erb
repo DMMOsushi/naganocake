@@ -1,2 +1,81 @@
-<h1>Public::Orders#new</h1>
-<p>Find me in app/views/public/orders/new.html.erb</p>
+<div class="order-bg">
+  <div class="order-new-img">
+    <div role="content">
+      <div class="widget-body">
+        <div class="row justify-content-center">
+          <form id="wizard-1" novalidate="novalidate">
+            <div id="bootstrap-wizard-1" class="col-sm-12">
+              <div class="form-bootstrapWizard">
+                <ul class="bootstrapWizard form-wizard">
+                  <li data-target="#step1" class=""> <span class="step">1</span> <span class="title">カートに入れる</span></li>
+                  <li class="active" data-target="#step2"><span class="fas fa-birthday-cake fa-2x cupcolor"></span> <span class="title">注文情報入力</span></li>
+                  <li data-target="#step3" class="">  <span class="step">3</span> <span class="title">注文内容を確認</span></li>
+                  <li data-target="#step4" class=""> <span class="step">4</span> <span class="title">完了</span></li>
+                </ul>
+                <div class="clearfix"></div>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  <div class="container mt-5">
+
+    <div class="row my-3">
+      <h2 class="col-3 table-active text-center">注文情報入力</h2>
+    </div>
+    <div class="row">
+      <%= form_with model: @order, url: public_orders_confirm_path, method: :post, local: true, class: "col-12" do |f| %>
+        <div class="row">
+          <h3 class="col-12"><strong>支払い方法</strong></h3>
+          <div class="col-12">
+            <%= f.radio_button :pay, "クレジットカード", class: "ml-3" %>
+            <%= f.label :pay, "クレジットカード", value: "クレジットカード" %>
+          </div>
+          <div class="col-12">
+            <%= f.radio_button :pay, "銀行振り込み", class: "ml-3" %>
+            <%= f.label :pay, "銀行振り込み", value: "銀行振り込み" %>
+          </div>
+        </div>
+        <div class="row">
+          <h3 class="col-12"><strong>配送先</strong></h3>
+          <div class="col-12 my-2">
+            <%= f.radio_button :address_number, 1, checked: true, class: "ml-3" %>
+            <%= f.label :address_number_1 do %>
+            <%= "ご自身の住所" %>
+            <%= "〒#{current_public.postalcode} #{current_public.address} #{current_public.last_name} #{current_public.first_name}" %>
+            <% end %>
+          </div>
+          <div class="col-12 my-2">
+            <%= f.radio_button :address_number, 2, class: "ml-3" %>
+            <%= f.label :address_number_2, "登録先の住所" %>
+            <div class="row">
+              <div class="col-12 ml-5">
+              <%= f.collection_select(:registered, current_public.addresses.all, :id, :full_deliveries, placeholder: "-- 選択してください --") %>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 my-2">
+            <%= f.radio_button :address_number, 3, class: "ml-3" %>
+            <%= f.label :address_number_3, "新しいお届け先" %>
+            <div class="row my-2">
+            <%= f.label :postalcode, "郵便番号(ハイフンなし)", class: "col-3 ml-5 form-inline" %>
+            <%= f.text_field :postalcode, placeholder: "0000000", class: "col-3 form-control" %>
+            </div>
+            <div class="row my-2">
+            <%= f.label :address, "住所", class: "col-3 ml-5 form-inline" %>
+            <%= f.text_field :address, size: 50, placeholder: "東京都渋谷区代々木神園町0-0", class: "col-6 form-control" %>
+            </div>
+            <div class="row my-2">
+            <%= f.label :destination, "宛名", class: "col-3 ml-5 form-inline" %>
+            <%= f.text_field :destination, placeholder: "令和道子", class: "col-3 form-control" %>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 text-center my-2">
+          <%= f.submit "確認画面へ進む", class: "btn btn-primary" %>
+        </div>
+      <% end %>
+    </div>
+  </div>
+</div>

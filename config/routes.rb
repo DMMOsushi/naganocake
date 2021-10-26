@@ -5,15 +5,23 @@ Rails.application.routes.draw do
     sessions: 'public/sessions'
   }
 
-  root 'public/homes#top'
+  devise_for :admin, skip: [:passwords] ,controllers: {
+    registrations: "admin/registrations",
+    sessions: "admin/sessions"
+  }
+
+ #変更
+  #test
+  root to: 'public/homes#top'
+  get 'about' => 'public/homes#about'
+
 
   namespace :public do
 
-    get 'public/homes/about',to: "homes#about"
-
     resources :customers, only: [:show, :edit, :update]
-    get 'customers/unsubscribe'
-    get 'customers/withdraw'
+    get 'customers/unsubscribe/:id' => 'customers#unsubscribe', as: 'confirm_unsubscribe'
+    patch 'customers/:id/withdraw/' => 'customers#withdraw', as: 'withdraw_user'
+    put 'withdraw/:id' => 'customers#withdraw'
 
     resources :addresses, only: [:index, :edit, :update, :create, :destroy]
 
@@ -22,20 +30,16 @@ Rails.application.routes.draw do
     resources :cart_items, only: [:index, :update, :destroy, :create]
     put :cart_items, to: 'cart_items#destroy_all'
 
+    get 'orders/thanks' => 'orders#thanks'
+
     resources :orders, only: [:new, :create, :index, :show]
     get 'orders/confirm'
-    get 'orders/thanks'
-
+    post '/orders/confirm' => 'orders#confirm'
   end
 
 #admin
-  devise_for :admin, skip: [:passwords] ,controllers: {
-    registrations: "admin/registrations",
-    sessions: "admin/sessions"
-  }
 
   namespace :admin do
-    get 'top' => 'homes#top'
 
     resources :customers, only: [:index, :show, :edit, :update]
 
@@ -43,9 +47,10 @@ Rails.application.routes.draw do
 
     resources :categories, only: [:create, :index, :edit, :update]
 
-    resources :orders, only: [:show, :update]
+    resources :orders, only: [:index, :show, :update]
 
     resources :order_items, only: [:update]
+
 
   end
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html

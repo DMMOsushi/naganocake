@@ -1,2 +1,46 @@
-<h1>Public::Customers#edit</h1>
-<p>Find me in app/views/public/customers/edit.html.erb</p>
+<div class="container">
+    <div class="row py-5">
+      <div class="col-12" style="height: 500px">
+        <h4 class="customer_edit_heading">会員情報編集</h4>
+
+        <%= form_with model: @public, url:"/public/customers/#{@public.id}", local: true do |f| %>
+          <div class="form-group mt-4">
+            <%= f.label :'氏名', class:"col-2 label_text" %>
+            <%= f.text_field :last_name, class:"mr-3" %>
+            <%= f.text_field :first_name %>
+          </div>
+          <div class="form-group">
+            <%= f.label :'フリガナ', class:"col-2 label_text" %>
+            <%= f.text_field :last_kana_name, class:"mr-3" %>
+            <%= f.text_field :first_kana_name %>
+          </div>
+          <div class="form-group">
+            <%= f.label :'郵便番号', class:"col-2 label_text" %>
+            <%= f.text_field :postalcode %>
+          </div>
+          <div class="form-group">
+            <%= f.label :'住所', class:"col-2 label_text" %>
+            <%= f.text_field :address, class:"col-7" %>
+          </div>
+          <div class="form-group">
+            <%= f.label :'電話番号', class:"col-2 label_text" %>
+            <%= f.text_field :telephone %>
+          </div>
+          <div class="form-group">
+            <%= f.label :'メールアドレス', class:"col-2 label_text" %>
+            <%= f.text_field :email %>
+          </div>
+          <div class="d-flex pt-3">
+            <div class="col-3 offset-2 p-0">
+              <%= f.button :type => 'submit', class:"btn btn-sm btn-success shadow col-8" do %>
+                <i class="fas fa-user-edit mr-2"></i>編集内容を保存
+              <% end %>
+            </div>
+            <div class="col-2 p-0">
+              <%= link_to '退会する', public_confirm_unsubscribe_path(@public.id), class: "btn btn-sm btn-danger" %>
+            </div>
+          </div>
+        <% end %>
+      </div>
+    </div>
+  </div>
