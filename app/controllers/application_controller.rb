@@ -28,7 +28,7 @@ class ApplicationController < ActionController::Base
     when Admin
       admin_items_path
     when Public
-      public_customer_path
+      public_customer_path(@public)
     end
   end
 

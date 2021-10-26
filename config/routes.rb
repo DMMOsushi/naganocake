@@ -14,7 +14,6 @@ Rails.application.routes.draw do
   #test
   root to: 'public/homes#top'
   get 'about' => 'public/homes#about'
-  get 'top' => 'admin/homes#top'
 
 
   namespace :public do
