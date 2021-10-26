@@ -10,7 +10,7 @@ class Public::ItemsController < ApplicationController
   def show
     @public = current_public
     @item = Item.find(params[:id])
-    @categories = Category
+    @categories = Category.all
     @cart_item = current_public.cart_items.new if public_signed_in?
   end
 end

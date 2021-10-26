@@ -1,4 +1,4 @@
-<div class="cart-item-img">
+<div class="order-bg">
   <div role="content">
       <div class="widget-body">
         <div class="row justify-content-center">
@@ -7,7 +7,7 @@
               <div class="form-bootstrapWizard">
                 <ul class="bootstrapWizard form-wizard">
 
-                  <li class="active" data-target="#step1"><span class="fas fa-birthday-cake fa-2x cupcolor"></span> <span class="title">注文情報入力</span></li>
+                  <li class="active" data-target="#step1"><span class="fas fa-birthday-cake fa-2x cupcolor"></span> <span class="title">カートに入れる</span></li>
                   <li data-target="#step2" class=""> <span class="step">2</span> <span class="title">注文情報入力</span></li>
                   <li data-target="#step3" class="">  <span class="step">3</span> <span class="title">注文内容を確認</span></li>
                   <li data-target="#step3" class=""> <span class="step">4</span> <span class="title">完了</span></li>
@@ -35,7 +35,7 @@
     <div class="table-responsive">
      <table class="table table-bordered text-nowrap">
       <thead>
-       <tr class="cart-thead">
+       <tr class="cart-thead text-area">
         <th class="cart-name">商品名</th>
         <th class="cart-price">単価(税込)</th>
         <th class="cart-count">数量</th>
@@ -44,7 +44,7 @@
        </tr>
       </thead>
          <% @cart_items.each do |cart_item| %>
-          <tbody>
+          <tbody class="text-area">
            <td class="align-middle">
             <%= attachment_image_tag cart_item.item, :image, size: "100x100" %>
             <%= cart_item.item.name %>
@@ -75,10 +75,10 @@
     </div>
       <div class="row mx-auto">
        <div class="">
-        <%= link_to "買い物を続ける", public_items_path, class: "btn btn-primary" %>
+        <%= link_to "買い物を続ける", root_path, class: "btn btn-primary" %>
       </div>
        <div class="ml-auto">
-        <table class="table table-bordered">
+        <table class="table table-bordered text-area">
          <tr>
           <th>合計金額</th>
           <th><%= @sum.to_s(:delimited) %><span class="yen">円</span></th>

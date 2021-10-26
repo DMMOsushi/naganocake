@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <div class="container">
   <div class="row mt-5">
     <%= render 'layouts/category', categories: @categories %>
@@ -26,3 +27,36 @@
 
 	</div>
 </div>
+=======
+<div class="item_body">
+  <div class="container">
+    <div class="row mt-5">
+      <div class="col-2">
+       <%= render 'layouts/category', categories: @categories %>
+      </div>
+      <div class="col-9">
+        <h3>商品一覧(全<%= @items.count %>件)</h3>
+          <div class="row row-cols-4">
+  	        <% @items.each do |item| %>
+  	          <div class="col">
+                <%= link_to public_item_path(item) do %>
+  	              <div class="card mb-4">
+  	  	            <%= attachment_image_tag item, :image, size: "183x170" %>
+  		                <div class="item_card_text text-center">
+  		                  <p class="card-title item-namek"><%= link_to item.name, public_item_path(item) %></p>
+                        <p>￥<%= ((item.tax_excluded_price * 1.08).round).to_s(:delimited) %></p>
+                      </div>
+                    <% end %>
+                  </div>
+  	  		    </div>
+  	    	  <% end %>
+          </div>
+        <div class='p-top__paginate'>
+          <%= paginate @items %>
+        </div>
+      </div>
+  	</div>
+  </div>
+  </div>
+</div>
+>>>>>>> de0c4e93677eb496b9bbaf148163495df4d9d622

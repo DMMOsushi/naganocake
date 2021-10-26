@@ -64,7 +64,157 @@ footer {
     justify-content:space-around;
 }
 
-/*Start Wizard*/
+
+
+.bg-header {
+  background-image: image_url('banner2.jpg');
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+  background-color:rgba(216,150,98,0.6);
+  background-blend-mode:lighten;
+}
+
+
+#form2{
+position:relative;
+max-width:300px;
+margin-bottom:20px;
+}
+#sbox2{
+height:30px;
+padding:0 10px;
+position:absolute;
+left:0;
+top:0;
+border-radius:2px;
+outline:0;
+background:#eee;
+}
+#sbtn2{
+height:30px;
+position:absolute;
+left:200px;/*アイコン左右の位置調整*/
+top:0;
+background:none;
+color:#000000;
+border:none;
+font-size:20px;/*アイコンサイズ*/
+}
+#sbtn5:hover{
+color:#7fbfff;
+}
+
+.main-visual {
+  width: 100%;
+  height: 400px;
+  background-image: url(gaikan.jpeg);
+  background-size: cover;
+  background-position: center;
+}
+
+.main-visual-content {
+  width: 60%;
+  height: 200px;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  padding: 30;
+}
+
+.item_body{
+  background: url("item_bg.jpg");
+  background-size:cover;
+  backdrop-filter: blur(2px);
+}
+
+.item_title h4 {
+  position: relative;
+  background: #dfefff;
+  box-shadow: 0px 0px 0px 5px #dfefff;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+
+.item_title h4:after {
+  position: absolute;
+  content: '';
+  left: -7px;
+  top: -7px;
+  border-width: 0 0 15px 15px;
+  border-style: solid;
+  border-color: #fff #fff #a8d4ff;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+}
+
+
+.item_parent{
+  position: relative; /*基点の位置*/
+}
+
+.order-bg {
+  background: linear-gradient( 130deg, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("order_bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: bottom;
+}
+
+.ty-bg {
+  background: linear-gradient( 130deg, rgba(255,255,255,0.5), rgba(255,255,255,0.5)), url("ty.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: bottom;
+}
+
+.genre_content p {
+  position: relative;/*相対位置*/
+  padding: 0.5em 0.5em 0.5em 1.5em;/*アイコン分のスペース*/
+  line-height: 1.4;/*行高*/
+  color: #ff6a6a;/*文字色*/
+  border-top: dotted 1px gray;
+  border-bottom: dotted 1px gray;
+  background: #fffff4;
+  width: 135px;
+  left: 12px;
+}
+
+.genre_content p:before {
+  font-family: "Font Awesome 5 Free";/*忘れずに*/
+  content: "\f138";/*アイコンのユニコード*/
+  font-weight: 900;
+  position: absolute;/*絶対位置*/
+  font-size: 1em;/*サイズ*/
+  left: 0.25em;/*アイコンの位置*/
+  top: 0.5em;/*アイコンの位置*/
+  color: #ff6a6a; /*アイコン色*/
+}
+
+.customer_body h5{
+  padding: 0.4em 0.5em;
+  color: #494949;/*文字色*/
+  background: #f4f4f4;/*背景色*/
+  border-left: solid 5px #7db4e6;
+  border-bottom: solid 3px #d7d7d7;
+}
+
+.customer_body{
+  background: url(my_bg2.jpg);
+  background-size: cover;
+  background-position: top;
+  height: auto;
+  font-family: serif;
+}
+
+.widget-body{
+  margin-bottom:50px;
+
+}
+
+.content_complete{
+  padding-top:20px;
+}
 
 .bootstrapWizard {
     display: block;
@@ -186,14 +336,10 @@ footer {
     display: inline;
 }
 
-.bg-header {
-  background-image: image_url('banner2.jpg');
-  height: 140px;
-  background-size: cover;
-  background-position: center;
-  background-color:rgba(216,150,98,0.6);
-  background-blend-mode:lighten;
+.tab-content.transparent {
+    background-color: transparent;
 }
+<<<<<<< HEAD
 
 
 #form2{
@@ -241,3 +387,11 @@ color:#7fbfff;
   padding: 30;
 }
 
+<<<<<<< HEAD
+=======
+.flash-message {
+  color: green;
+}
+=======
+>>>>>>> 893b8de522d4f7035facefa2185f57fe804be5d0
+>>>>>>> de0c4e93677eb496b9bbaf148163495df4d9d622
